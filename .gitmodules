@@ -1,0 +1,3 @@
+[submodule "src/frontend/style/design-guidelines"]
+	path = src/frontend/style/design-guidelines
+	url = https://github.com/bekk/design-guidelines.git
