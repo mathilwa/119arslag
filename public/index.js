@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-require( './../style/main.less' );
+require('./style/main.less');
 
 import App from './../app/App.jsx';
 
