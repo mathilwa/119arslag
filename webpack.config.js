@@ -5,11 +5,11 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: [
-    './public/index.js',
-    './public/style/main.less',
+    './app/public/index.js',
+    './app/public/style/main.less',
   ],
   output: {
-    path: './public/dist',
+    path: './app/public/dist',
     filename: 'app.bundle.js',
   },
   module: {
@@ -35,13 +35,13 @@ module.exports = {
   plugins: [
     new WebpackNotifierPlugin(),
     new HtmlWebpackPlugin({
-      template: 'public/index.html',
+      template: 'app/public/index.html',
       inject: 'body',
       filename: 'index.html'
     }),
     new CopyWebpackPlugin([
       {
-        from: 'public/img/',
+        from: 'app/public/img/',
         to: 'img/'
       },
     ]),
