@@ -1,11 +1,11 @@
 {
-  "name": "elm-webpack-starter",
+  "name": "torunn-og-trond",
   "description": "119årslag for Torunn og Trond",
   "version": "0.0.1",
   "author": "Mathilde Wærstad",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moarwick/elm-webpack-starter"
+    "url": "https://github.com/mathilwa/119arslag"
   },
   "scripts": {
     "start": "node server.js",
