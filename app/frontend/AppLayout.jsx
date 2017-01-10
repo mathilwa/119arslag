@@ -1,5 +1,6 @@
 import React from 'react';
 import Meny from './Meny.jsx';
+import Banner from './Banner.jsx';
 
 const AppLayout = React.createClass({
   propTypes: {
@@ -9,8 +10,9 @@ const AppLayout = React.createClass({
     return (
       <div>
         <Meny/>
-        <div>
+        <div className="container">
           <main>
+            <Banner/>
             {this.props.children}
           </main>
         </div>
