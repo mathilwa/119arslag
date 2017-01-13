@@ -16,6 +16,41 @@ p {
   line-height: 1.6em;
 }
 
+.legg-til-folge {
+  background: #519251;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
+
+.legg-til-folge:hover {
+  opacity: 1;
+}
+
+.meld-pa {
+  background: #519251;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-xsmall {
+  font-size: 70%;
+}
+
+.button-small {
+  font-size: 85%;
+}
+
+.button-large {
+  font-size: 110%;
+}
+
+.button-xlarge {
+  font-size: 125%;
+  width: 200px;
+}
 
 /*
  * -- Layout Styles --
@@ -66,8 +101,6 @@ p {
   font-family: sans-serif;
 }
 
-
-
 /*
  * -- PRICING TABLE WRAPPER --
  * This element wraps up all the pricing table elements
@@ -89,14 +122,20 @@ p {
 .pricing-table {
   border: 1px solid #ddd;
   margin: 0 0.5em 2em;
-  padding: 0 0 3em;
+  padding: 0 0 2em;
+  background-color: #519251;
+  border-radius: 4px;
+}
+
+.pricing-table:hover {
+  background-color: green;
 }
 
 /*
  * -- PRICING TABLE HEADER COLORS --
  * Choose a different color based on the type of pricing table.
  */
-.pricing-table-free .pricing-table-header {
+.pricing-table-free {
   background: #519251;
 }
 
@@ -109,7 +148,6 @@ p {
  * By default, a header is black/white, and has some styles for its <h2> name.
  */
 .pricing-table-header {
-  background: #111;
   color: #fff;
 }
 .pricing-table-header h2 {
@@ -183,6 +221,10 @@ p {
 .information-head {
   color: black;
   font-weight: 500;
+}
+
+.ga-til-pamelding {
+  width: 100%;
 }
 
 .footer {
