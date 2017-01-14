@@ -6,14 +6,14 @@ const AppLayout = React.createClass({
   propTypes: {
     children: React.PropTypes.object.isRequired,
   },
-  render: function() {
+  render () {
     return (
       <div>
         <Meny/>
+
         <div className="l-content">
           <main>
             <Banner/>
-            {this.props.children}
           </main>
         </div>
       </div>
