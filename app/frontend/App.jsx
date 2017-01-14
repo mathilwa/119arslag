@@ -4,6 +4,9 @@ import AppLayout from './AppLayout.jsx';
 import Hovedside from './Hovedside.jsx';
 import Pamelding from './Pamelding.jsx';
 import Overnatting from './Overnatting.jsx';
+import 'babel-polyfill';
+import { polyfill } from 'es6-promise';
+polyfill();
 
 const App = () => {
   return (
