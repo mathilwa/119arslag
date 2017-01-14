@@ -1,4 +1,5 @@
 import React from 'react';
+import { isEmpty } from 'lodash';
 import Folge from './Folge.jsx';
 import DuErPameldt from './DuErPameldt.jsx';
 import VisibleIf from './VisibleIf.jsx';
@@ -12,13 +13,14 @@ const Pamelding = React.createClass({
       folge: [],
       ekstraInformasjon: '',
       pameldt: false,
+      feilmelding: '',
     };
   },
   oppdaterNavn (event) {
-    this.setState({navn: event.target.value});
+    this.setState({navn: event.target.value, feilmelding: ''});
   },
   oppdaterEpost (event) {
-    this.setState({epost: event.target.value});
+    this.setState({epost: event.target.value, feilmelding: ''});
   },
   oppdaterAntallFolge () {
     this.setState({antallFolge: this.state.antallFolge + 1});
@@ -31,29 +33,35 @@ const Pamelding = React.createClass({
   oppdaterEkstraInformasjon (event) {
     this.setState({ekstraInformasjon: event.target.value});
   },
+  navnOgEpostErUtfylt () {
+    return !isEmpty(this.state.navn) && !isEmpty(this.state.epost);
+  },
   meldPa (event) {
     event.preventDefault();
+    if (this.navnOgEpostErUtfylt()) {
+      const headers = new Headers();
+      headers.append('Content-Type', 'application/json');
 
-    const headers = new Headers();
-    headers.append('Content-Type', 'application/json');
-
-    fetch('https://torunnogtrond.firebaseio.com/pameldte.json', {
-      method: 'post',
-      headers: headers,
-      body: JSON.stringify({
-        navn: this.state.navn,
-        epost: this.state.epost,
-        folge: this.state.folge,
-        ekstraInformasjon: this.state.ekstraInformasjon,
-      }),
-    });
-    this.setState({
-      navn: '',
-      epost: '',
-      folge: [],
-      ekstraInformasjon: '',
-      pameldt: true,
-    });
+      fetch('https://torunnogtrond.firebaseio.com/pameldte.json', {
+        method: 'post',
+        headers: headers,
+        body: JSON.stringify({
+          navn: this.state.navn,
+          epost: this.state.epost,
+          folge: this.state.folge,
+          ekstraInformasjon: this.state.ekstraInformasjon,
+        }),
+      });
+      this.setState({
+        navn: '',
+        epost: '',
+        folge: [],
+        ekstraInformasjon: '',
+        pameldt: true,
+      });
+    } else {
+      this.setState({feilmelding: 'Navn og epostadresse må fylles ut *'});
+    }
   },
   meldPaFlere () {
     this.setState({
@@ -73,10 +81,13 @@ const Pamelding = React.createClass({
               <div>
               <fieldset>
                 <legend>MELD DEG PÅ HER!</legend>
+                <VisibleIf isVisible={!isEmpty(this.state.feilmelding)}>
+                  <div className="feilmelding">{this.state.feilmelding}</div>
+                </VisibleIf>
                 <label htmlFor="navn">Navn *</label>
-                <input className="tekstinput" type="text" id="navn" placeholder="Navn" value={this.state.navn} onChange={this.oppdaterNavn}/>
+                <input className="tekstinput" type="text" id="navn" placeholder="Navn" value={this.state.navn} onChange={this.oppdaterNavn} required/>
                 <label htmlFor="epost">Epostadresse *</label>
-                <input className="tekstinput" type="email" id="epost" placeholder="Epostadresse" value={this.state.epost} onChange={this.oppdaterEpost}/>
+                <input className="tekstinput" type="email" id="epost" placeholder="Epostadresse" value={this.state.epost} onChange={this.oppdaterEpost} required/>
                 <label htmlFor="ekstra-informasjon">Noe ekstra vi trenger å vite, som allergier eller andre ting vi bør ta hensyn til ?</label>
                 <textarea id="ekstra-informasjon" placeholder="Skriv inn.." onChange={this.oppdaterEkstraInformasjon} value={this.state.ekstraInformasjon}/>
               </fieldset>
