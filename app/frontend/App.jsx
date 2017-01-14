@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
-import AppLayout from './AppLayout.jsx'
+import AppLayout from './AppLayout.jsx';
 import Hovedside from './Hovedside.jsx';
 import Pamelding from './Pamelding.jsx';
 

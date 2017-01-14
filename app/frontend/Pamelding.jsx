@@ -1,5 +1,7 @@
 import React from 'react';
 import Folge from './Folge.jsx';
+import DuErPameldt from './DuErPameldt.jsx';
+import VisibleIf from './VisibleIf.jsx';
 
 const Pamelding = React.createClass({
   getInitialState () {
@@ -8,6 +10,8 @@ const Pamelding = React.createClass({
       epost: '',
       antallFolge: 0,
       folge: [],
+      ekstraInformasjon: '',
+      pameldt: false,
     };
   },
   oppdaterNavn (event) {
@@ -24,6 +28,9 @@ const Pamelding = React.createClass({
     folger[key] = event.target.value;
     this.setState({folge: folger});
   },
+  oppdaterEkstraInformasjon (event) {
+    this.setState({ekstraInformasjon: event.target.value});
+  },
   meldPa (event) {
     event.preventDefault();
 
@@ -33,29 +40,54 @@ const Pamelding = React.createClass({
     fetch('https://torunnogtrond.firebaseio.com/pameldte.json', {
       method: 'post',
       headers: headers,
-      body: JSON.stringify({navn: this.state.navn, epost: this.state.epost, folge: this.state.folge}),
+      body: JSON.stringify({
+        navn: this.state.navn,
+        epost: this.state.epost,
+        folge: this.state.folge,
+        ekstraInformasjon: this.state.ekstraInformasjon,
+      }),
     });
-    this.setState(this.getInitialState);
+    this.setState({
+      navn: '',
+      epost: '',
+      folge: [],
+      ekstraInformasjon: '',
+      pameldt: true,
+    });
+  },
+  meldPaFlere () {
+    this.setState({
+      pameldt: false,
+      antallFolge: 0,
+    });
   },
   render () {
     return (
       <div className="information">
         <div className="l-box">
-          <div className="pure-form pure-form-stacked">
+          <div className="pure-form pure-form-stacked pamelding-form">
             <h3 className="information-head">Påmelding</h3>
             <p>For å vite hvor mange vi skal stelle i stand festligheter for er det fint at du melder deg på! Stedet vi skal være på ønsker en viss oversikt over hvor mange som kommer er vi nødt til å sette en frist relativt snart.</p>
             <p><strong>Påmelding ønskes derfor innen 14. februar.</strong></p>
-            <fieldset>
-              <legend>MELD DEG PÅ HER!</legend>
-              <label htmlFor="navn">Navn</label>
-              <input className="tekstinput" type="text" id="navn" placeholder="Navn" value={this.state.navn} onChange={this.oppdaterNavn}/>
-              <label htmlFor="epost">Epostadresse</label>
-              <input className="tekstinput" type="email" id="epost" placeholder="Epostadresse" value={this.state.epost} onChange={this.oppdaterEpost}/>
-            </fieldset>
-            <fieldset>
-              <Folge antallFolge={this.state.antallFolge} oppdaterFolge={this.oppdaterFolge} oppdaterAntallFolge={this.oppdaterAntallFolge}/>
-            </fieldset>
-            <button className="pure-button button-xlarge meld-pa" type="submit" onClick={this.meldPa}>Meld på!</button>
+            <VisibleIf isVisible={!this.state.pameldt}>
+              <div>
+              <fieldset>
+                <legend>MELD DEG PÅ HER!</legend>
+                <label htmlFor="navn">Navn *</label>
+                <input className="tekstinput" type="text" id="navn" placeholder="Navn" value={this.state.navn} onChange={this.oppdaterNavn}/>
+                <label htmlFor="epost">Epostadresse *</label>
+                <input className="tekstinput" type="email" id="epost" placeholder="Epostadresse" value={this.state.epost} onChange={this.oppdaterEpost}/>
+                <label htmlFor="ekstra-informasjon">Noe ekstra vi trenger å vite, som allergier eller andre ting vi bør ta hensyn til ?</label>
+                <textarea id="ekstra-informasjon" placeholder="Skriv inn.." onChange={this.oppdaterEkstraInformasjon} value={this.state.ekstraInformasjon}/>
+              </fieldset>
+              <fieldset>
+                <Folge antallFolge={this.state.antallFolge} oppdaterFolge={this.oppdaterFolge} oppdaterAntallFolge={this.oppdaterAntallFolge}/>
+              </fieldset>
+
+              <button className="pure-button button-xlarge meld-pa" type="submit" onClick={this.meldPa}>Meld på!</button>
+                </div>
+            </VisibleIf>
+            <DuErPameldt pameldt={this.state.pameldt} antallFolge={this.state.antallFolge} meldPaFlere={this.meldPaFlere}/>
           </div>
         </div>
       </div>
