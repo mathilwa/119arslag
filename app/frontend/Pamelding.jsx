@@ -1,4 +1,5 @@
 import React from 'react';
+import 'whatwg-fetch';
 import { isEmpty } from 'lodash';
 import Folge from './Folge.jsx';
 import DuErPameldt from './DuErPameldt.jsx';
