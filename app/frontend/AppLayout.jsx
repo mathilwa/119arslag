@@ -16,6 +16,9 @@ const AppLayout = React.createClass({
             {this.props.children}
           </main>
         </div>
+        <div className="footer l-box">
+          <p>Laget av Mathilde i forbindelse med Torunn og Trond sitt 119-årslag</p>
+        </div>
       </div>
     );
   },

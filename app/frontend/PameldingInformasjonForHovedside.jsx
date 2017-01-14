@@ -1,7 +1,7 @@
 import React from 'react';
 import { browserHistory } from 'react-router';
 
-const Invitasjon = () => {
+const PameldingInformasjonForHovedside = () => {
   return (
       <div className="information pricing-tables pure-g">
         <div className="pure-u-1">
@@ -16,4 +16,4 @@ const Invitasjon = () => {
   );
 };
 
-export default Invitasjon;
+export default PameldingInformasjonForHovedside;

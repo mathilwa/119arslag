@@ -3,6 +3,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import AppLayout from './AppLayout.jsx';
 import Hovedside from './Hovedside.jsx';
 import Pamelding from './Pamelding.jsx';
+import Overnatting from './Overnatting.jsx';
 
 const App = () => {
   return (
@@ -10,8 +11,7 @@ const App = () => {
       <Route path="/" component={AppLayout}>
         <IndexRoute component={Hovedside}/>
         <Route path="/pamelding" component={Pamelding}/>
-        <Route path="/informasjon" component={Hovedside}/>
-        <Route path="/kontakt" component={Hovedside}/>
+        <Route path="/overnatting" component={Overnatting}/>
       </Route>
     </Router>
   );

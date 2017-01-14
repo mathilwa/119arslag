@@ -12,10 +12,7 @@ const Meny = () => {
             <a className="pure-menu-link" onClick={() => browserHistory.push('/pamelding')}>Påmelding</a>
           </li>
           <li className="pure-menu-item">
-            <a className="pure-menu-link" onClick={() => browserHistory.push('/informasjon')}>Informasjon</a>
-          </li>
-          <li className="pure-menu-item">
-            <a className="pure-menu-link" onClick={() => browserHistory.push('/kontakt')}>Kontakt</a>
+            <a className="pure-menu-link" onClick={() => browserHistory.push('/overnatting')}>Overnatting</a>
           </li>
         </ul>
       </div>

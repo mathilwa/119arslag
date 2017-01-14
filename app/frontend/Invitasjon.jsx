@@ -1,4 +1,5 @@
 import React from 'react';
+import OvernattingInformasjonForHovedside from './OvernattingInformasjonForHovedside.jsx';
 
 const Invitasjon = () => {
   return (
@@ -16,6 +17,7 @@ const Invitasjon = () => {
               Festlighetene vil fortsette utover kvelden med god mat og drikke. Lokalet vi skal være i er <a href="http://www.gamlehortengard.no/">Gamlehorten Gjestegård</a>,
               et koselig sted på <a href="https://goo.gl/maps/9HrfUVYQ1xC2">Karljohansvern i Horten</a>.
             </p>
+            <OvernattingInformasjonForHovedside />
           </div>
         </div>
       </div>

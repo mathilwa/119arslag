@@ -71,7 +71,7 @@ const Pamelding = React.createClass({
   },
   render () {
     return (
-      <div className="information">
+      <div className="information pamelding-container">
         <div className="l-box">
           <div className="pure-form pure-form-stacked pamelding-form">
             <h3 className="information-head">Påmelding</h3>
