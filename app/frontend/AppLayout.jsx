@@ -10,10 +10,10 @@ const AppLayout = React.createClass({
     return (
       <div>
         <Meny/>
-
         <div className="l-content">
           <main>
             <Banner/>
+            {this.props.children}
           </main>
         </div>
       </div>
