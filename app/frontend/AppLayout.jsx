@@ -6,6 +6,7 @@ import Banner from './Banner.jsx';
 const AppLayout = React.createClass({
   propTypes: {
     children: React.PropTypes.object.isRequired,
+    location: React.PropTypes.object.isRequired,
   },
   getInitialState () {
     return {
@@ -34,7 +35,7 @@ const AppLayout = React.createClass({
   render () {
     return (
       <div>
-        <Meny antallPameldte={this.state.antallPameldte}/>
+        <Meny antallPameldte={this.state.antallPameldte} valgtMenyelement={this.props.location.pathname}/>
         <div className="l-content">
           <main>
             <Banner/>
