@@ -15,7 +15,7 @@ const Invitasjon = () => {
             <p>
               Tanken er å begynne festligheten tidlig på dagen, med litt lek og moro for å kose oss og bli kjent med de man ikke kjenner så godt.
               Festlighetene vil fortsette utover kvelden med god mat og drikke. Lokalet vi skal være i er <a href="http://www.gamlehortengard.no/">Gamlehorten Gjestegård</a>,
-              et koselig sted på <a href="https://goo.gl/maps/9HrfUVYQ1xC2">Karljohansvern i Horten</a>.
+              et koselig sted på <a href="https://goo.gl/maps/9HrfUVYQ1xC2" target="_blank">Karljohansvern i Horten</a>.
             </p>
             <OvernattingInformasjonForHovedside />
           </div>
