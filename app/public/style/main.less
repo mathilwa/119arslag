@@ -18,6 +18,11 @@ p {
 
 .antall-pameldte {
   float: right;
+  display: none;
+}
+
+.antall-pameldte .pure-menu-link {
+  display: none;
 }
 
 .antall-pameldte .pure-menu-link:hover {
@@ -265,10 +270,6 @@ p {
   font-weight: 500;
 }
 
-.ga-til- {
-  width: 100%;
-}
-
 .footer {
   background: #111;
   color: #888;
@@ -277,8 +278,6 @@ p {
 .footer a {
   color: #ddd;
 }
-
-
 
 /*
  * -- TABLET MEDIA QUERIES --
@@ -294,12 +293,17 @@ p {
   }
 }
 
-@media(max-width: 535px) {
-  .ga-til- {
-    font-size: 3.5em;
+@media(min-width: 535px) {
+  .antall-pameldte .pure-menu-link {
+    display: inline-block;
   }
 }
 
+@media(max-width: 535px) {
+  .ga-til-pamelding {
+    font-size: 3.5em;
+  }
+}
 
 /*
  * -- PHONE MEDIA QUERIES --
