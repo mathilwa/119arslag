@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, browserHistory } from 'react-router';
 
-const Meny = () => {
+const Meny = ({antallPameldte}) => {
   return (
       <div className="pure-menu pure-menu-horizontal">
         <ul className="pure-menu-list">
@@ -15,8 +15,13 @@ const Meny = () => {
             <a className="pure-menu-link" onClick={() => browserHistory.push('/overnatting')}>Overnatting</a>
           </li>
         </ul>
+        <div className=" pure-menu-list antall-pameldte"><span className="pure-menu-link">Antall påmeldte: {antallPameldte}</span></div>
       </div>
   );
+};
+
+Meny.propTypes = {
+  antallPameldte: React.PropTypes.number.isRequired,
 };
 
 export default Meny;
