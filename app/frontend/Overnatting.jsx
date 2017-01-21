@@ -38,7 +38,7 @@ const Overnatting = () => {
                 </ul>
               </ul>
 
-              Send epost til <a href="mailto:post@gamlehorten.no." target="_top">post@gamlehorten.no</a> for å bestille rom eller om dere skulle ha noen spørsmål rundt dette.
+              Send epost til <a href="mailto:post@gamlehorten.no" target="_top">post@gamlehorten.no</a> for å bestille rom eller om dere skulle ha noen spørsmål rundt dette.
             </div>
             <p>
               Andre alternativer til overnatting om det ikke lenger skulle være plass hos Gamlehorten Gjestegård er <a href="http://www.smshotell.no/">Sjømilitære Samfund</a>, <a href="http://www.eikenpensjonat.no/">Eiken pensjonat</a> og <a href="https://goo.gl/VK373A">Best Western Horten</a>.
