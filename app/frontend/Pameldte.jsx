@@ -1,32 +1,46 @@
 import React from 'react';
 import 'whatwg-fetch';
 import { forIn } from 'lodash';
+import { Table } from 'reactable';
+
+const kolonner = [
+  {key: 'navn', label: 'Navn'},
+  {key: 'folge', label: 'Følge'},
+  {key: 'kommentar', label: 'Kommentar'},
+];
 
 const Pameldte = React.createClass({
   getInitialState () {
     return {
-      pameldte: [],
+      pameldte: {},
+      pameldteForVisning: [],
     };
   },
   componentDidMount () {
     fetch('https://torunnogtrond.firebaseio.com/pameldte.json').then(response => {
       if (response.ok) {
         response.json().then(pameldte => {
-          const allePameldte = [];
-          forIn(pameldte, pameldt => {
-            allePameldte.push(pameldt.navn);
-            if (pameldt.folge) {
-              pameldt.folge.forEach(folge => allePameldte.push(folge));
-            }
-          });
-          this.setState({
-            pameldte: allePameldte,
-          });
+          this.byggPameldteObjektForVisning(pameldte);
         });
       }
     }).catch(() => {
       console.log('Kunne ikke hente påmeldte');
     });
+  },
+  hentFolge (pameldt) {
+    return pameldt.folge ? pameldt.folge.map(folge => folge) : '';
+  },
+  byggPameldteObjektForVisning (pameldte) {
+    const pameldteForVisning = [];
+    forIn(pameldte, pameldt => {
+      const pameldtForVisning = {
+        navn: pameldt.navn,
+        folge: this.hentFolge(pameldt),
+        kommentar: pameldt.ekstraInformasjon,
+      };
+      pameldteForVisning.push(pameldtForVisning);
+    });
+    this.setState({pameldteForVisning: pameldteForVisning});
   },
   render () {
     return (
@@ -36,9 +50,7 @@ const Pameldte = React.createClass({
               <h3 className="information-head">
                 Alle påmeldte
               </h3>
-              <div>
-                {this.state.pameldte.map((pameldt, key) => <li key={key}>{pameldt}</li>)}
-              </div>
+              <Table className="pameldte" columns={kolonner} data={this.state.pameldteForVisning}/>
             </div>
           </div>
         </div>
