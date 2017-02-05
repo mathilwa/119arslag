@@ -112,6 +112,10 @@ p {
   margin-bottom: 3.125em;
 }
 
+.pameldte-stor-skjerm {
+  display: none;
+}
+
 .pameldte {
   width: 100%;
 }
@@ -129,6 +133,14 @@ p {
 .pameldte .reactable-column-header th {
   color: #fff;
   padding: 10px;
+}
+
+.pameldte th {
+  width: 30%;
+}
+
+.pameldte th:last-child {
+  width: auto;
 }
 
 .pameldte .reactable-data td {
@@ -247,7 +259,6 @@ p {
 
 }
 
-
 /*
  * -- PRICING TABLE PRICE --
  * Styles for the price and the corresponding <span>per month</span>
@@ -338,6 +349,24 @@ p {
 @media(min-width: 535px) {
   .antall-pameldte .pure-menu-link {
     display: inline-block;
+  }
+  .pameldte {
+    width: 80%;
+    align-content: center;
+  }
+}
+
+@media(min-width: 800px) {
+  .pameldte {
+    width: 100%;
+  }
+
+  .pameldte-stor-skjerm {
+    display: block;
+  }
+
+  .pameldte-mobil {
+    display: none;
   }
 }
 

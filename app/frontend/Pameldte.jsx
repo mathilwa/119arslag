@@ -9,11 +9,16 @@ const kolonner = [
   {key: 'kommentar', label: 'Kommentar'},
 ];
 
+const kolonnerMobilvisning = [
+  {key: 'navn', label: 'Navn'},
+];
+
 const Pameldte = React.createClass({
   getInitialState () {
     return {
       pameldte: {},
       pameldteForVisning: [],
+      pameldteMobilvisning: [],
     };
   },
   componentDidMount () {
@@ -21,6 +26,7 @@ const Pameldte = React.createClass({
       if (response.ok) {
         response.json().then(pameldte => {
           this.byggPameldteObjektForVisning(pameldte);
+          this.byggPameldtlisteForMobilvisning(pameldte);
         });
       }
     }).catch(() => {
@@ -42,6 +48,16 @@ const Pameldte = React.createClass({
     });
     this.setState({pameldteForVisning: pameldteForVisning});
   },
+  byggPameldtlisteForMobilvisning (pameldte) {
+    const pameldtliste = [];
+    forIn(pameldte, pameldt => {
+      pameldtliste.push({navn: pameldt.navn});
+      if (pameldt.folge) {
+        pameldtliste.push({navn: this.hentFolge(pameldt)});
+      }
+    });
+    this.setState({pameldteMobilvisning: pameldtliste});
+  },
   render () {
     return (
         <div className="information pameldte-container pure-g">
@@ -50,7 +66,8 @@ const Pameldte = React.createClass({
               <h3 className="information-head">
                 Alle påmeldte
               </h3>
-              <Table className="pameldte" columns={kolonner} data={this.state.pameldteForVisning}/>
+              <Table className="pameldte pameldte-stor-skjerm" columns={kolonner} data={this.state.pameldteForVisning}/>
+              <Table className="pameldte pameldte-mobil" columns={kolonnerMobilvisning} data={this.state.pameldteMobilvisning}/>
             </div>
           </div>
         </div>
