@@ -5,6 +5,7 @@ import Hovedside from './Hovedside.jsx';
 import Pamelding from './Pamelding.jsx';
 import Overnatting from './Overnatting.jsx';
 import Pameldte from './Pameldte.jsx';
+import Jubilantene from './jubilantene/Jubilantene.jsx';
 import 'babel-polyfill';
 import { polyfill } from 'es6-promise';
 polyfill();
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/pamelding" component={Pamelding}/>
         <Route path="/overnatting" component={Overnatting}/>
         <Route path="/pameldte" component={Pameldte}/>
+        <Route path="/jubilantene" component={Jubilantene}/>
       </Route>
     </Router>
   );
