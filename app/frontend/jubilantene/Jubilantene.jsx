@@ -37,7 +37,7 @@ const Jubilantene = React.createClass({
                   <div className="cd-timeline-content">
                     <h2>Jente på gård</h2>
                     <p>Som liten jente vokste Torunn opp på en liten gård på Haugland utenfor Os, med mamma Dorotha og bror Tormod.</p>
-                    <img src="img/Torunn/born0016.jpg"/>
+                    <img src="img/Torunn/born0016.JPG"/>
                   </div>
                 </div>
                 <div className="cd-timeline-block">
@@ -54,7 +54,7 @@ const Jubilantene = React.createClass({
 
                   <div className="cd-timeline-content">
                     <h2>Torunn blir konfirmert i Os Kyrkje</h2>
-                    <img src="img/Torunn/Torunn0005.jpg"/>
+                    <img src="img/Torunn/Torunn0005.JPG"/>
                   </div>
                 </div>
                 <div className="cd-timeline-block">
