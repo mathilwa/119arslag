@@ -418,13 +418,13 @@ img {
 Modules - reusable parts of our design
 
 -------------------------------- */
-.cd-container {
+.tidslinje-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
 }
-.cd-container::after {
+.tidslinje-container::after {
   /* clearfix */
   content: '';
   display: table;
@@ -432,14 +432,14 @@ Modules - reusable parts of our design
 }
 
 
-#cd-timeline {
+#tidslinje {
   position: relative;
   padding: 0 0 2em 0;
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
-#cd-timeline::before {
+#tidslinje::before {
   /* this is the vertical line */
   content: '';
   position: absolute;
@@ -450,44 +450,44 @@ Modules - reusable parts of our design
   background: #d7e4ed;
 }
 @media only screen and (min-width: 1170px) {
-  #cd-timeline {
+  #tidslinje {
     margin-top: 3em;
     margin-bottom: 3em;
   }
-  #cd-timeline::before {
+  #tidslinje::before {
     left: 50%;
     margin-left: -2px;
   }
 }
 
-.cd-timeline-block {
+.tidslinje-blokk {
   position: relative;
   margin: 2em 0;
 }
-.cd-timeline-block::after {
+.tidslinje-blokk::after {
   clear: both;
   content: "";
   display: table;
 }
-.cd-timeline-block:first-child {
+.tidslinje-blokk:first-child {
   margin-top: 0;
 }
-.cd-timeline-block:last-child {
+.tidslinje-blokk:last-child {
   margin-bottom: 0;
 }
 @media only screen and (min-width: 1170px) {
-  .cd-timeline-block {
+  .tidslinje-blokk {
     margin: 4em 0;
   }
-  .cd-timeline-block:first-child {
+  .tidslinje-blokk:first-child {
     margin-top: 0;
   }
-  .cd-timeline-block:last-child {
+  .tidslinje-blokk:last-child {
     margin-bottom: 0;
   }
 }
 
-.cd-timeline-img {
+.tidslinje-aarstall {
   position: absolute;
   top: 0;
   left: 0;
@@ -498,7 +498,7 @@ Modules - reusable parts of our design
   background-color: #e9f0f5;
   text-align: center;
 }
-.cd-timeline-img img {
+.tidslinje-aarstall img {
   display: block;
   width: 24px;
   height: 24px;
@@ -509,24 +509,24 @@ Modules - reusable parts of our design
   margin-top: -12px;
 }
 
-.cd-timeline-img .aar {
+.tidslinje-aarstall .aar {
   padding-top: 20px;
 }
 
-.cd-timeline-img.cd-picture {
+.tidslinje-aarstall.cd-picture {
   background: #75ce66;
 }
 
-.cd-timeline-img.cd-movie {
+.tidslinje-aarstall.cd-movie {
   background: #c03b44;
 }
 
-.cd-timeline-img.cd-location {
+.tidslinje-aarstall.cd-location {
   background: #f0ca45;
 }
 
 @media only screen and (min-width: 1170px) {
-  .cd-timeline-img {
+  .tidslinje-aarstall {
     width: 60px;
     height: 60px;
     left: 50%;
@@ -535,10 +535,10 @@ Modules - reusable parts of our design
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
-  .cssanimations .cd-timeline-img.is-hidden {
+  .cssanimations .tidslinje-aarstall.is-hidden {
     visibility: hidden;
   }
-  .cssanimations .cd-timeline-img.bounce-in {
+  .cssanimations .tidslinje-aarstall.bounce-in {
     visibility: visible;
     -webkit-animation: cd-bounce-1 0.6s;
     -moz-animation: cd-bounce-1 0.6s;
@@ -598,7 +598,7 @@ Modules - reusable parts of our design
     transform: scale(1);
   }
 }
-.cd-timeline-content {
+.tidslinje-innhold {
   position: relative;
   margin-left: 60px;
   background: #516a88;
@@ -608,44 +608,24 @@ Modules - reusable parts of our design
   color: #e9f0f5;
 }
 
-.cd-timeline-content::after {
+.tidslinje-innhold::after {
   clear: both;
   content: "";
   display: table;
 }
-.cd-timeline-content h2 {
+.tidslinje-innhold h2 {
   color: #fff;
 }
-.cd-timeline-content p,
-.cd-timeline-content .cd-read-more,
-//.cd-timeline-content .cd-date {
-//  font-size: 13px;
-//  font-size: 0.8125rem;
-//}
-.cd-timeline-content .cd-read-more,
-.cd-timeline-content .cd-date {
+
+.tidslinje-innhold .cd-read-more {
   display: inline-block;
 }
-.cd-timeline-content p {
+.tidslinje-innhold p {
   margin: 1em 0;
   line-height: 1.6;
 }
-.cd-timeline-content .cd-read-more {
-  float: right;
-  padding: .8em 1em;
-  background: #acb7c0;
-  color: #ffffff;
-  border-radius: 0.25em;
-}
-.no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #bac4cb;
-}
-.cd-timeline-content .cd-date {
-  float: left;
-  padding: .8em 0;
-  opacity: .7;
-}
-.cd-timeline-content::before {
+
+.tidslinje-innhold::before {
   content: '';
   position: absolute;
   top: 16px;
@@ -656,65 +636,48 @@ Modules - reusable parts of our design
   border-right: 7px solid #ffffff;
 }
 @media only screen and (min-width: 768px) {
-  .cd-timeline-content h2 {
+  .tidslinje-innhold h2 {
     font-size: 20px;
     font-size: 1.25rem;
   }
-  .cd-timeline-content p {
+  .tidslinje-innhold p {
     font-size: 16px;
     font-size: 1rem;
   }
-  .cd-timeline-content .cd-read-more,
-  .cd-timeline-content .cd-date {
+  .tidslinje-innhold .cd-read-more,
+  .tidslinje-innhold .cd-date {
     font-size: 14px;
     font-size: 0.875rem;
   }
 }
 @media only screen and (min-width: 1170px) {
-  .cd-timeline-content {
+  .tidslinje-innhold {
     margin-left: 0;
     padding: 1.6em;
     width: 45%;
   }
-  .cd-timeline-content::before {
+  .tidslinje-innhold::before {
     top: 24px;
     left: 100%;
     border-color: transparent;
     border-left-color: #ffffff;
   }
-  .cd-timeline-content .cd-read-more {
-    float: left;
-  }
-  .cd-timeline-content .cd-date {
-    position: absolute;
-    width: 100%;
-    left: 122%;
-    top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content {
+
+  .tidslinje-blokk:nth-child(even) .tidslinje-innhold {
     float: right;
   }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+  .tidslinje-blokk:nth-child(even) .tidslinje-innhold::before {
     top: 24px;
     left: auto;
     right: 100%;
     border-color: transparent;
     border-right-color: #ffffff;
   }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
-    float: right;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
-    left: auto;
-    right: 122%;
-    text-align: right;
-  }
-  .cssanimations .cd-timeline-content.is-hidden {
+
+  .cssanimations .tidslinje-innhold.is-hidden {
     visibility: hidden;
   }
-  .cssanimations .cd-timeline-content.bounce-in {
+  .cssanimations .tidslinje-innhold.bounce-in {
     visibility: visible;
     -webkit-animation: cd-bounce-2 0.6s;
     -moz-animation: cd-bounce-2 0.6s;
@@ -724,7 +687,7 @@ Modules - reusable parts of our design
 
 @media only screen and (min-width: 1170px) {
   /* inverse bounce effect on even content blocks */
-  .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+  .cssanimations .tidslinje-blokk:nth-child(even) .tidslinje-innhold.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
     -moz-animation: cd-bounce-2-inverse 0.6s;
     animation: cd-bounce-2-inverse 0.6s;
