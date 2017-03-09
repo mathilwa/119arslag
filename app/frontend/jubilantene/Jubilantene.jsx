@@ -9,7 +9,7 @@ const Jubilantene = React.createClass({
           <div className="l-box">
             <h3 className="information-head">Bli kjent med jubilantene</h3>
               <section id="tidslinje" className="tidslinje-container">
-                <div className="tidslinje-blokk">
+                <div className="tidslinje-blokk torunn">
                   <Aarstall aarstall="1957"/>
 
                   <div className="tidslinje-innhold">
@@ -20,7 +20,7 @@ const Jubilantene = React.createClass({
                   </div>
                 </div>
 
-                <div className="tidslinje-blokk">
+                <div className="tidslinje-blokk trond">
                   <Aarstall aarstall="1958"/>
 
                   <div className="tidslinje-innhold">
@@ -31,7 +31,7 @@ const Jubilantene = React.createClass({
                     <img src="img/Trond/nyfødt.jpg"/>
                   </div>
                 </div>
-                <div className="tidslinje-blokk">
+                <div className="tidslinje-blokk torunn">
                   <Aarstall aarstall="1962"/>
 
                   <div className="tidslinje-innhold">
@@ -40,7 +40,7 @@ const Jubilantene = React.createClass({
                     <img src="img/Torunn/born0016.JPG"/>
                   </div>
                 </div>
-                <div className="tidslinje-blokk">
+                <div className="tidslinje-blokk trond">
                   <Aarstall aarstall="1962"/>
 
                   <div className="tidslinje-innhold">
@@ -49,7 +49,7 @@ const Jubilantene = React.createClass({
                     <img src="img/Trond/pappa i kjole.jpg"/>
                   </div>
                 </div>
-                <div className="tidslinje-blokk">
+                <div className="tidslinje-blokk torunn">
                   <Aarstall aarstall="1972"/>
 
                   <div className="tidslinje-innhold">
@@ -57,7 +57,7 @@ const Jubilantene = React.createClass({
                     <img src="img/Torunn/Torunn0005.JPG"/>
                   </div>
                 </div>
-                <div className="tidslinje-blokk">
+                <div className="tidslinje-blokk trond">
                   <Aarstall aarstall="1973"/>
 
                   <div className="tidslinje-innhold">
@@ -66,7 +66,7 @@ const Jubilantene = React.createClass({
                     <img src="img/Trond/Konfirmasjon.jpg"/>
                   </div>
                 </div>
-                <div className="tidslinje-blokk">
+                <div className="tidslinje-blokk torunn">
                   <Aarstall aarstall="1976"/>
 
                   <div className="tidslinje-innhold">
