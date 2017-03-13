@@ -92,7 +92,7 @@ const JubilanteneHovedside = React.createClass({
   },
   render () {
     return (
-      <div className="information pure-g">
+      <div className="jubilantene-side information pure-g">
         <div className="pure-u-1">
           <div className="l-box">
             <h3 className="information-head">Bli kjent med jubilantene</h3>
