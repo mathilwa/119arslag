@@ -79,13 +79,13 @@ const jubilantene = [
     jubilant: JUBILANT_BEGGE,
     tittel: 'Torunn og Trond blir foreldre',
     tekst: 'Høsten 1987, kun ett år etter at Torunn og Trond flyttet til Horten, blir de foreldre til lille Mathilde.',
-    bildeUrl: 'img/begge/1988_0002.JPG',
+    bildeUrl: 'img/begge/1988_0002.jpg',
   }, {
     aar: '1990',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Thomas blir født',
     tekst: 'I februar 1990 blir Torunn og Trond foreldre igjen, denne gangen til en nydelige, liten gutt som skulle få navnet Thomas.',
-    bildeUrl: 'img/begge/Lille Thomas.JPG',
+    bildeUrl: 'img/begge/Lille Thomas.jpg',
   }, {
     aar: '2004',
     jubilant: JUBILANT_TORUNN,
