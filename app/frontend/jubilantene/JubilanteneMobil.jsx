@@ -1,5 +1,5 @@
 import React from 'react';
-import { JUBILANT_TORUNN, JUBILANT_TROND } from './JubilanteneHovedside.jsx';
+import { JUBILANT_TORUNN, JUBILANT_TROND, JUBILANT_BEGGE } from './JubilanteneHovedside.jsx';
 import Informasjonsblokk from './Informasjonsblokk.jsx';
 
 const JubilanteneMobil = React.createClass({
@@ -15,7 +15,7 @@ const JubilanteneMobil = React.createClass({
     this.setState({valgtJubilant: jubilant});
   },
   render () {
-    const informasjonOmValgtJubilant = this.props.informasjonOmJubilantene.filter(informasjon => informasjon.jubilant === this.state.valgtJubilant);
+    const informasjonOmValgtJubilant = this.props.informasjonOmJubilantene.filter(informasjon => informasjon.jubilant === this.state.valgtJubilant || informasjon.jubilant === JUBILANT_BEGGE);
     return (
       <div className="jubilantene-mobil">
         <div className="jubilant-valg">
