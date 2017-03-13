@@ -5,7 +5,7 @@ import Hovedside from './Hovedside.jsx';
 import Pamelding from './Pamelding.jsx';
 import Overnatting from './Overnatting.jsx';
 import Pameldte from './Pameldte.jsx';
-import Jubilantene from './jubilantene/Jubilantene.jsx';
+import Jubilantene from './jubilantene/JubilanteneHovedside.jsx';
 import 'babel-polyfill';
 import { polyfill } from 'es6-promise';
 polyfill();

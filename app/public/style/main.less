@@ -413,18 +413,39 @@ img {
   max-width: 100%;
 }
 
-/* --------------------------------
+/* Tidslinjestyling */
 
-Modules - reusable parts of our design
+.jubilant-valg {
+  padding-bottom: 2em;
+}
 
--------------------------------- */
+.jubilant-valg ul {
+  list-style: none;
+  padding: 0;
+}
+
+.jubilant-valg li {
+  float: left;
+  width: 50%;
+  height: 40px;
+  background-color: #516a88;
+  opacity: 0.6;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: #e9f0f5;
+}
+
+.jubilant-valg li.er-valgt {
+  opacity: 1;
+  font-weight: 800;
+}
+
 .tidslinje-container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   max-width: 1170px;
   margin: 0 auto;
 }
 .tidslinje-container::after {
-  /* clearfix */
   content: '';
   display: table;
   clear: both;
@@ -509,7 +530,7 @@ Modules - reusable parts of our design
 }
 
 .tidslinje-aarstall .aar {
-  padding-top: 20px;
+  padding-top: 22px;
 }
 
 .tidslinje-aarstall.cd-picture {
@@ -636,20 +657,36 @@ Modules - reusable parts of our design
 }
 @media only screen and (min-width: 768px) {
   .tidslinje-innhold h2 {
-    font-size: 20px;
     font-size: 1.25rem;
   }
   .tidslinje-innhold p {
-    font-size: 16px;
     font-size: 1rem;
   }
-  .tidslinje-innhold .cd-read-more,
-  .tidslinje-innhold .cd-date {
-    font-size: 14px;
+  .tidslinje-innhold .aar {
+    padding-top: 12px;
     font-size: 0.875rem;
   }
 }
+
+.jubilantene {
+  display: none;
+}
+
+@media only screen and (max-width: 1169px) {
+  .tidslinje-aarstall .aar {
+    padding-top: 13px;
+    font-size: 0.8rem;
+  }
+}
 @media only screen and (min-width: 1170px) {
+  .jubilantene {
+    display: block;
+  }
+
+  .jubilantene-mobil {
+    display: none;
+  }
+  
   .tidslinje-innhold {
     margin-left: 0;
     padding: 1.6em;
