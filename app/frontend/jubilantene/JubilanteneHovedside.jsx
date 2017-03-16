@@ -33,6 +33,12 @@ const jubilantene = [
     tekst: 'Som enn så lenge eneste gutt i søskenflokken prøvde lille Trond sitt beste for å passe inn, her nummer to fra venstre i kjole.',
     bildeUrl: 'img/Trond/pappa i kjole.jpg',
   }, {
+    aar: '1963',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Tvilling',
+    tekst: 'Trond har 4 søsken, 2 eldre søstre, en yngre bror og en tvillingsøster. Her er Trond avbildet med sin tvillingsøster, Elle. Ikke akkurat som to dråper vann.',
+    bildeUrl: 'img/Trond/Elle og pappa.jpg',
+  }, {
     aar: '1970',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Leikarring',
@@ -63,11 +69,29 @@ const jubilantene = [
     tekst: 'Etter året i militæret tok Torunn med seg kunnskapen fra Radioskolen ut på havet for å arbeide som telegrafist. Hun fikk i ett helt år reise verden rundt, og fikk oppleve en helt annen verden enn hun hadde sett til nå.',
     bildeUrl: 'img/Torunn/Telegrafist.JPG',
   }, {
+    aar: '1977',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Hobbymekaniker',
+    tekst: 'Trond har fra han var veldig ung har hatt en stor interesse for å mekke bil. Dette er en fascinasjon og glede som ikke akkurat har avtatt med åren, og listen over biler og tilhørende bildeler kjøpt og jobbet på er tilnærmet lik uendelig lang.',
+    bildeUrl: 'img/Trond/pappa mekker bil.jpg',
+  }, {
     aar: '1978',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Hurtigruta',
     tekst: 'I 4 - 5 år hadde Torunn sommer- og julejobb på Hurtigruta. Dette førte til mange fine turer opp og ned langs norskekysten.',
     bildeUrl: 'img/Torunn/Hurtigruta5.JPG',
+  }, {
+    aar: '1980',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'De møtes',
+    tekst: 'Etter å ha gått på samme skole ett helt år, og tilbrakt masse tid sammen på befalsmessa uten å legge merke til hverandre, ble de endelig kjent. Ett år til skulle gå fra dette tidspunktet til de ble kjærester. Her avbildet sammen på Olavsstafetten.',
+    bildeUrl: 'img/begge/Olavstafetten.JPG',
+  }, {
+    aar: '1980',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Bartenderen',
+    tekst: 'I 1980 begynte Trond som bartender i befalsmessa, og fikk her muligheten til å utfolde seg som den humoristen han kan være.',
+    bildeUrl: 'img/Trond/Scan10016.JPG',
   }, {
     aar: '1986',
     jubilant: JUBILANT_BEGGE,
@@ -86,6 +110,12 @@ const jubilantene = [
     tittel: 'Thomas blir født',
     tekst: 'I februar 1990 blir Torunn og Trond foreldre igjen, denne gangen til en nydelige, liten gutt som skulle få navnet Thomas.',
     bildeUrl: 'img/begge/Lille Thomas.jpg',
+  }, {
+    aar: '2003',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Handyman',
+    tekst: 'Om noen har noe som skal fikses så er Trond mannen å kontakte. Han stiller alltid opp, og har alltid en fiks løsning. Han er ekstremt kreativ, og liker å finne morsomme løsninger på problemer. Trond har blant annet laget en minityrversjon av huset hjemme i Horten, hvor familiens kaniner skulle bo. Huset hadde isolasjon, veranda, radiatorovn og varme til vannskåla.',
+    bildeUrl: 'img/Trond/antenna.jpg',
   }, {
     aar: '2004',
     jubilant: JUBILANT_TORUNN,
