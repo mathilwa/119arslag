@@ -1,1 +1,628 @@
-body{color:#526066}h2,h3{letter-spacing:.25em;text-transform:uppercase;font-weight:600}p{line-height:1.6em}.pure-menu-link{cursor:pointer}.antall-pameldte{float:right;display:none}.antall-pameldte .pure-menu-link{display:none;cursor:none}.antall-pameldte .pure-menu-link:hover{background:#fff}#ekstra-informasjon,#epost,#navn{margin-bottom:.5em}.information.overnatting-container,.information.pamelding-container,.information.pameldte-container{margin-bottom:3.125em}.ga-til-pamelding-table{cursor:pointer}.folge-container{margin-bottom:1.5em}.folge-informasjon{margin-bottom:1em}.overnatting-info{margin-bottom:2em}.gamlehorten-overnatting-info{line-height:1.6em}.legg-til-folge{background:#6eb986;color:#fff;border-radius:4px;text-shadow:0 1px 1px rgba(0,0,0,.2);opacity:.8;margin-bottom:.5em}.legg-til-folge:hover{opacity:1;background-color:#378d67}.feilmelding{color:red;margin-bottom:1em}.meld-pa{background:#6eb986;color:#fff;border-radius:4px;text-shadow:0 1px 1px rgba(0,0,0,.2)}.meld-pa:hover{background-color:#378d67}.du-er-pameldt{margin-bottom:2em}.button-xsmall{font-size:70%}.button-small{font-size:85%}.button-large{font-size:110%}.button-xlarge{font-size:125%;width:200px}.pameldte-container .information-head{margin-bottom:3.125em}.pameldte-stor-skjerm{display:none}.pameldte{width:100%}.pameldte thead{text-align:left}.pameldte .reactable-column-header{height:40px;background:#378d67;opacity:.9}.pameldte .reactable-column-header th{color:#fff;padding:10px}.pameldte th{width:30%}.pameldte th:last-child{width:auto}.pameldte .reactable-data td{padding:10px}.pameldte .reactable-data tr:nth-child(2n){background:#6eb986;opacity:.6;color:#fff}.l-content{margin:0 auto}.l-box{padding:.5em 2em}.pure-menu{box-shadow:0 1px 1px rgba(0,0,0,.1)}.banner{background:transparent url("../img/fjelltur.jpg") 0 0 no-repeat fixed;text-align:center;background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg",sizingMethod="scale");height:200px;width:100%;margin-bottom:3em;display:table}.banner-head{display:table-cell;vertical-align:middle;margin-bottom:0;font-size:2em;color:#fff;font-weight:500;text-shadow:0 1px 1px #000;font-family:sans-serif}.information,.pricing-tables{max-width:980px;margin:0 auto}.pricing-tables{margin-bottom:3.125em;text-align:center}.pricing-table{border:1px solid #ddd;margin:0 .5em 2em;padding:0 0 2em;background-color:#6eb986;border-radius:4px}.pricing-table:hover{background-color:#378d67}.pricing-table-free{background:#6eb986}.pricing-table-biz .pricing-table-header{background:#2c4985}.pricing-table-header{color:#fff}.pricing-table-header h2{margin:0;padding-top:2em;font-size:1em;font-weight:400}.pricing-table-price{font-size:6em;margin:.2em 0 0;font-weight:100}.pricing-table-price span{display:block;text-transform:uppercase;font-size:.2em;padding-bottom:2em;font-weight:400;color:hsla(0,0%,100%,.5);*color:#fff}.pricing-table-list{list-style-type:none;margin:0;padding:0;text-align:center}.pricing-table-list li{padding:.8em 0;background:#f7f7f7;border-bottom:1px solid #e7e7e7}.button-choose{border:1px solid #ccc;background:#fff;color:#333;border-radius:2em;font-weight:700;position:relative;bottom:-1.5em}.information-head{color:#000;font-weight:500}.footer{background:#111;color:#888;text-align:center}.footer a{color:#ddd}@media (min-width:767px){.banner-head{font-size:4em}.pricing-table{margin-bottom:0}}@media (min-width:535px){.antall-pameldte .pure-menu-link{display:inline-block}.pameldte{width:80%;-ms-flex-line-pack:center;align-content:center}}@media (min-width:800px){.pameldte{width:100%}.pameldte-stor-skjerm{display:block}.pameldte-mobil{display:none}}@media (max-width:535px){.ga-til-pamelding{font-size:3.5em}}@media (min-width:480px){.banner{height:400px}.banner-head{font-size:3em}}html *{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*,:after,:before{box-sizing:border-box}img{max-width:100%}.jubilantene-side .l-box{padding:.5em 1em}.jubilant-valg{padding-bottom:2em}.jubilant-valg ul{list-style:none;padding:0}.jubilant-valg li{float:left;width:50%;height:40px;background-color:#516a88;opacity:.6;text-align:center;text-transform:uppercase;padding-top:10px;color:#e9f0f5}.jubilant-valg li.er-valgt{opacity:1;font-weight:800;color:#fff}.tidslinje-container{max-width:1170px;margin:0 auto}.tidslinje-container:after{content:"";display:table;clear:both}#tidslinje{position:relative;padding:0 0 2em;margin-top:2em;margin-bottom:2em}#tidslinje:before{content:"";position:absolute;top:0;left:18px;height:100%;width:4px;background:#d7e4ed}@media only screen and (min-width:1170px){#tidslinje{margin-top:3em;margin-bottom:3em}#tidslinje:before{left:50%;margin-left:-2px}}.tidslinje-blokk{position:relative;margin:2em 0}.tidslinje-blokk:after{clear:both;content:"";display:table}.tidslinje-blokk:first-child{margin-top:0}.tidslinje-blokk:last-child{margin-bottom:0}@media only screen and (min-width:1170px){.tidslinje-blokk{margin:4em 0}.tidslinje-blokk:first-child{margin-top:0}.tidslinje-blokk:last-child{margin-bottom:0}}.tidslinje-aarstall{position:absolute;top:0;left:0;width:40px;height:40px;border-radius:50%;box-shadow:0 0 0 4px #fff,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05);background-color:#e9f0f5;text-align:center}.tidslinje-aarstall img{display:block;width:24px;height:24px;position:relative;left:50%;top:50%;margin-left:-12px;margin-top:-12px}.tidslinje-aarstall .aar{padding-top:22px}.tidslinje-aarstall.cd-picture{background:#75ce66}.tidslinje-aarstall.cd-movie{background:#c03b44}.tidslinje-aarstall.cd-location{background:#f0ca45}@media only screen and (min-width:1170px){.tidslinje-aarstall{width:60px;height:60px;left:50%;margin-left:-30px;-webkit-transform:translateZ(0);-webkit-backface-visibility:hidden}.tidslinje-aarstall.is-hidden{visibility:hidden}.tidslinje-aarstall.bounce-in{visibility:visible;animation:cd-bounce-1 .6s}}@keyframes cd-bounce-1{0%{opacity:0;transform:scale(.5)}60%{opacity:1;transform:scale(1.2)}to{transform:scale(1)}}.tidslinje-innhold{position:relative;margin-left:60px;background:#516a88;border-radius:.25em;padding:1em;box-shadow:0 3px 0 #d7e4ed;color:#e9f0f5}.tidslinje-innhold:after{clear:both;content:"";display:table}.tidslinje-innhold h2{color:#fff}.tidslinje-innhold .cd-read-more{display:inline-block}.tidslinje-innhold p{margin:1em 0;line-height:1.6}.tidslinje-innhold:before{content:"";position:absolute;top:16px;right:100%;height:0;width:0;border:7px solid transparent;border-right:7px solid #fff}@media only screen and (min-width:768px){.tidslinje-innhold h2{font-size:1.25rem}.tidslinje-innhold p{font-size:1rem}.tidslinje-innhold .aar{padding-top:12px;font-size:.875rem}}.jubilantene{display:none}@media only screen and (max-width:1169px){.tidslinje-aarstall .aar{padding-top:13px;font-size:.8rem}}@media only screen and (min-width:1170px){.jubilantene{display:block}.jubilantene-mobil{display:none}.tidslinje-innhold{margin-left:0;padding:1.6em;width:45%}.tidslinje-innhold:before{top:24px;left:100%;border-color:transparent;border-left-color:#fff}.tidslinje-blokk.trond .tidslinje-innhold{float:right}.tidslinje-blokk.trond .tidslinje-innhold:before{top:24px;left:auto;right:100%;border-color:transparent;border-right-color:#fff}.tidslinje-innhold.is-hidden{visibility:hidden}.tidslinje-innhold.bounce-in{visibility:visible;animation:cd-bounce-2 .6s}}@media only screen and (min-width:1170px){.tidslinje-blokk .tidslinje-innhold.bounce-in{animation:cd-bounce-2-inverse .6s}}@keyframes cd-bounce-2{0%{opacity:0;transform:translateX(-100px)}60%{opacity:1;transform:translateX(20px)}to{transform:translateX(0)}}@keyframes cd-bounce-2-inverse{0%{opacity:0;transform:translateX(100px)}60%{opacity:1;transform:translateX(-20px)}to{transform:translateX(0)}}
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+body {
+  color: #526066;
+}
+h2,
+h3 {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+p {
+  line-height: 1.6em;
+}
+.pure-menu-link {
+  cursor: pointer;
+}
+.antall-pameldte {
+  float: right;
+  display: none;
+}
+.antall-pameldte .pure-menu-link {
+  display: none;
+  cursor: none;
+}
+.antall-pameldte .pure-menu-link:hover {
+  background: #fff;
+}
+#navn,
+#epost,
+#ekstra-informasjon {
+  margin-bottom: 0.5em;
+}
+.information.pamelding-container,
+.information.overnatting-container,
+.information.pameldte-container {
+  margin-bottom: 3.125em;
+}
+.ga-til-pamelding-table {
+  cursor: pointer;
+}
+.folge-container {
+  margin-bottom: 1.5em;
+}
+.folge-informasjon {
+  margin-bottom: 1em;
+}
+.overnatting-info {
+  margin-bottom: 2em;
+}
+.gamlehorten-overnatting-info {
+  line-height: 1.6em;
+}
+.legg-til-folge {
+  background: #6eb986;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+  margin-bottom: 0.5em;
+}
+.legg-til-folge:hover {
+  opacity: 1;
+  background-color: #378d67;
+}
+.feilmelding {
+  color: red;
+  margin-bottom: 1em;
+}
+.meld-pa {
+  background: #6eb986;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.meld-pa:hover {
+  background-color: #378d67;
+}
+.du-er-pameldt {
+  margin-bottom: 2em;
+}
+.button-xsmall {
+  font-size: 70%;
+}
+.button-small {
+  font-size: 85%;
+}
+.button-large {
+  font-size: 110%;
+}
+.button-xlarge {
+  font-size: 125%;
+  width: 200px;
+}
+.pameldte-container .information-head {
+  margin-bottom: 3.125em;
+}
+.pameldte-stor-skjerm {
+  display: none;
+}
+.pameldte {
+  width: 100%;
+}
+.pameldte thead {
+  text-align: left;
+}
+.pameldte .reactable-column-header {
+  height: 40px;
+  background: #378d67;
+  opacity: 0.9;
+}
+.pameldte .reactable-column-header th {
+  color: #fff;
+  padding: 10px;
+}
+.pameldte th {
+  width: 30%;
+}
+.pameldte th:last-child {
+  width: auto;
+}
+.pameldte .reactable-data td {
+  padding: 10px;
+}
+.pameldte .reactable-data tr:nth-child(even) {
+  background: #6eb986;
+  opacity: 0.6;
+  color: #fff;
+}
+/*
+ * -- Layout Styles --
+ */
+.l-content {
+  margin: 0 auto;
+}
+.l-box {
+  padding: 0.5em 2em;
+}
+/*
+ * -- MENU STYLES --
+ * Make the menu have a very faint box-shadow.
+ */
+.pure-menu {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+/*
+ * -- BANNER --
+ * The top banner with the headings. By using a combination
+ * of `display: table;` and `display: table-cell;`, we can
+ * vertically center the text.
+ */
+.banner {
+  background: transparent url('../img/fjelltur.jpg') 0 0 no-repeat fixed;
+  text-align: center;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
+  height: 200px;
+  width: 100%;
+  margin-bottom: 3em;
+  display: table;
+}
+.banner-head {
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-size: 2em;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 1px 1px black;
+  font-family: sans-serif;
+}
+/*
+ * -- PRICING TABLE WRAPPER --
+ * This element wraps up all the pricing table elements
+ */
+.pricing-tables,
+.information {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.pricing-tables {
+  margin-bottom: 3.125em;
+  text-align: center;
+}
+/*
+ * -- PRICING TABLE  --
+ * Every pricing table has the .pricing-table class
+ */
+.pricing-table {
+  border: 1px solid #ddd;
+  margin: 0 0.5em 2em;
+  padding: 0 0 2em;
+  background-color: #6eb986;
+  border-radius: 4px;
+}
+.pricing-table:hover {
+  background-color: #378d67;
+}
+/*
+ * -- PRICING TABLE HEADER COLORS --
+ * Choose a different color based on the type of pricing table.
+ */
+.pricing-table-free {
+  background: #6eb986;
+}
+.pricing-table-biz .pricing-table-header {
+  background: #2c4985;
+}
+/*
+ * -- PRICING TABLE HEADER --
+ * By default, a header is black/white, and has some styles for its <h2> name.
+ */
+.pricing-table-header {
+  color: #fff;
+}
+.pricing-table-header h2 {
+  margin: 0;
+  padding-top: 2em;
+  font-size: 1em;
+  font-weight: normal;
+}
+/*
+ * -- PRICING TABLE PRICE --
+ * Styles for the price and the corresponding <span>per month</span>
+ */
+.pricing-table-price {
+  font-size: 6em;
+  margin: 0.2em 0 0;
+  font-weight: 100;
+}
+.pricing-table-price span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.2em;
+  padding-bottom: 2em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  *color: #fff;
+}
+/*
+ * -- PRICING TABLE LIST --
+ * Each pricing table has a <ul> which is denoted by the .pricing-table-list class
+ */
+.pricing-table-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/*
+ * -- PRICING TABLE LIST ELEMENTS --
+ * Styles for the individual list elements within each pricing table
+ */
+.pricing-table-list li {
+  padding: 0.8em 0;
+  background: #f7f7f7;
+  border-bottom: 1px solid #e7e7e7;
+}
+/*
+ * -- PRICING TABLE BUTTON --
+ * Styles for the "Choose" button at the bottom of a pricing table.
+ * This inherits from Pure Button.
+ */
+.button-choose {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  border-radius: 2em;
+  font-weight: bold;
+  position: relative;
+  bottom: -1.5em;
+}
+.information-head {
+  color: black;
+  font-weight: 500;
+}
+.footer {
+  background: #111;
+  color: #888;
+  text-align: center;
+}
+.footer a {
+  color: #ddd;
+}
+/*
+ * -- TABLET MEDIA QUERIES --
+ * On tablets, we want to slightly adjust the size of the banner
+ * text and add some vertical space between the various pricing tables
+ */
+@media (min-width: 767px) {
+  .banner-head {
+    font-size: 4em;
+  }
+  .pricing-table {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 535px) {
+  .antall-pameldte .pure-menu-link {
+    display: inline-block;
+  }
+  .pameldte {
+    width: 80%;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+@media (min-width: 800px) {
+  .pameldte {
+    width: 100%;
+  }
+  .pameldte-stor-skjerm {
+    display: block;
+  }
+  .pameldte-mobil {
+    display: none;
+  }
+}
+@media (max-width: 535px) {
+  .ga-til-pamelding {
+    font-size: 3.5em;
+  }
+}
+/*
+ * -- PHONE MEDIA QUERIES --
+ * On phones, we want to reduce the height and font-size of the banner further
+ */
+@media (min-width: 480px) {
+  .banner {
+    height: 400px;
+  }
+  .banner-head {
+    font-size: 3em;
+  }
+}
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.jubilantene-side .l-box {
+  padding: 0.5em 1em;
+}
+/* Tidslinjestyling */
+.jubilant-valg {
+  padding-bottom: 2em;
+}
+.jubilant-valg ul {
+  list-style: none;
+  padding: 0;
+}
+.jubilant-valg li {
+  float: left;
+  width: 50%;
+  height: 40px;
+  background-color: #516a88;
+  opacity: 0.6;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: #e9f0f5;
+}
+.jubilant-valg li.er-valgt {
+  opacity: 1;
+  font-weight: 800;
+  color: #fff;
+}
+.tidslinje-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.tidslinje-container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#tidslinje {
+  position: relative;
+  padding: 0 0 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#tidslinje::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+@media only screen and (min-width: 1170px) {
+  #tidslinje {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  #tidslinje::before {
+    left: 50%;
+    margin-left: -2px;
+  }
+}
+.tidslinje-blokk {
+  position: relative;
+  margin: 2em 0;
+}
+.tidslinje-blokk::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.tidslinje-blokk:first-child {
+  margin-top: 0;
+}
+.tidslinje-blokk:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 1170px) {
+  .tidslinje-blokk {
+    margin: 4em 0;
+  }
+  .tidslinje-blokk:first-child {
+    margin-top: 0;
+  }
+  .tidslinje-blokk:last-child {
+    margin-bottom: 0;
+  }
+}
+.tidslinje-aarstall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  background-color: #e9f0f5;
+  text-align: center;
+}
+.tidslinje-aarstall img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+.tidslinje-aarstall .aar {
+  padding-top: 22px;
+}
+.tidslinje-aarstall.cd-picture {
+  background: #75ce66;
+}
+.tidslinje-aarstall.cd-movie {
+  background: #c03b44;
+}
+.tidslinje-aarstall.cd-location {
+  background: #f0ca45;
+}
+@media only screen and (min-width: 1170px) {
+  .tidslinje-aarstall {
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    margin-left: -30px;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+  .tidslinje-aarstall.is-hidden {
+    visibility: hidden;
+  }
+  .tidslinje-aarstall.bounce-in {
+    visibility: visible;
+    animation: cd-bounce-1 0.6s;
+  }
+}
+@keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.tidslinje-innhold {
+  position: relative;
+  margin-left: 60px;
+  background: #516a88;
+  border-radius: 0.25em;
+  padding: 1em;
+  box-shadow: 0 3px 0 #d7e4ed;
+  color: #e9f0f5;
+}
+.tidslinje-innhold::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.tidslinje-innhold h2 {
+  color: #fff;
+}
+.tidslinje-innhold .cd-read-more {
+  display: inline-block;
+}
+.tidslinje-innhold p {
+  margin: 1em 0;
+  line-height: 1.6;
+}
+.tidslinje-innhold::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right: 7px solid #ffffff;
+}
+@media only screen and (min-width: 768px) {
+  .tidslinje-innhold h2 {
+    font-size: 1.25rem;
+  }
+  .tidslinje-innhold p {
+    font-size: 1rem;
+  }
+  .tidslinje-innhold .aar {
+    padding-top: 12px;
+    font-size: 0.875rem;
+  }
+}
+.jubilantene {
+  display: none;
+}
+@media only screen and (max-width: 1169px) {
+  .tidslinje-aarstall .aar {
+    padding-top: 13px;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .jubilantene {
+    display: block;
+  }
+  .jubilantene-mobil {
+    display: none;
+  }
+  .tidslinje-innhold {
+    margin-left: 0;
+    padding: 1.6em;
+    width: 45%;
+  }
+  .tidslinje-innhold::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: #ffffff;
+  }
+  .tidslinje-blokk.trond .tidslinje-innhold,
+  .tidslinje-blokk.hoyre .tidslinje-innhold {
+    float: right;
+  }
+  .tidslinje-blokk.trond .tidslinje-innhold::before,
+  .tidslinje-blokk.hoyre .tidslinje-innhold::before {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: #ffffff;
+  }
+  .tidslinje-innhold.is-hidden {
+    visibility: hidden;
+  }
+  .tidslinje-innhold.bounce-in {
+    visibility: visible;
+    animation: cd-bounce-2 0.6s;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  /* inverse bounce effect on even content blocks */
+  .tidslinje-blokk .tidslinje-innhold.bounce-in {
+    animation: cd-bounce-2-inverse 0.6s;
+  }
+}
+@keyframes cd-bounce-2 {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes cd-bounce-2-inverse {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5idW5kbGUuY3NzIiwic291cmNlcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsiLCJzb3VyY2VSb290IjoiIn0=*/
