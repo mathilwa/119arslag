@@ -1,5 +1,5 @@
 import React from 'react';
-import { JUBILANT_TORUNN, JUBILANT_TROND, JUBILANT_BEGGE } from './JubilanteneHovedside.jsx';
+import { JUBILANT_TORUNN, JUBILANT_TROND, JUBILANT_BEGGE } from './informasjon.js';
 import Informasjonsblokk from './Informasjonsblokk.jsx';
 
 const JubilanteneMobil = React.createClass({
