@@ -34,6 +34,12 @@ export const jubilantene = [
     tekst: 'Trond har 4 søsken, 2 eldre søstre, en yngre bror og en tvillingsøster. Her er Trond avbildet med sin tvillingsøster, Elle. Ikke akkurat som to dråper vann.',
     bildeUrl: 'img/Trond/Elle og pappa.jpg',
   }, {
+    aar: '1964',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Guttene i familien',
+    tekst: 'Trond sammen med pappa Arnulf Odd og lillebror Nils Henrik på Nils sin dåpsdag.',
+    bildeUrl: 'img/Trond/Nils dåp 3.jpg',
+  },{
     aar: '1970',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Leikarring',
@@ -50,7 +56,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'Trond blir konfirmert',
     tekst: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    bildeUrl: 'img/Trond/Konfirmasjon.jpg',
+    bildeUrl: 'img/Trond/Dress og konfirmasjon.jpg',
   }, {
     aar: '1976',
     jubilant: JUBILANT_TORUNN,
