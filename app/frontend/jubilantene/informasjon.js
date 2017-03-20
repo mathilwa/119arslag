@@ -100,6 +100,12 @@ export const jubilantene = [
     tekst: 'Etter flere år i Trondheim flytter Torunn og Trond til Falkensten utenfor Horten.',
     bildeUrl: '',
   }, {
+    aar: '1986',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Ny jobb',
+    tekst: 'Torunn begynner å jobbe for Simrad, nå Kongsberg Maritime, i Horten. En fantastisk spennende jobb hvor hun har fått vært med å utvikle verdens beste ekkolodd.',
+    bildeUrl: 'img/begge/1988_0002.jpg',
+  }, {
     aar: '1987',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Torunn og Trond blir foreldre',
@@ -129,5 +135,11 @@ export const jubilantene = [
     tittel: 'Oselveren',
     tekst: 'Torunn hadde som ung mange fantastiske sommerferier hjemme på Os. Reisene ble ikke så lange, men en rotur i oselveren til Kalneset var reise stor nok. Denne gleden sitter fortsatt i - en rotur er noe Torunn har stor glede av den dag i dag! I voksen alder har hun eid sin egen oselver, og denne ble brukt flittig på somrene i Horten, både på ro- og seilturer. Vaffelrøre ble laget og primusen ble pakket, før Torunn og barna kursen ut på småøyene. Her ble det stekt vafler, til alle andres misunnelse.',
     bildeUrl: 'img/Torunn/Torunn i robåt.jpg',
+  }, {
+    aar: '2012',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Korssjel',
+    tekst: 'Siden Mathilde begynte i korps i 1998 har Torunn vært godt involvert i korpsmiljøet. Først som vanlig korpsmamma, så som økonomiansvarlig, og så også som fast fanebærer. Da Mathilde flyttet til Trondheim og begynte å spille der, tok Torunn liksågodt turen oppover på 17. mai og var fanebærer der også. Tiden i skolekorpset har gitt nye venner, givende oppgaver, flotte korpsturar, og muligheten til å bli kjent med ungene i området.',
+    bildeUrl: 'img/Torunn/Nidarholm1.jpg',
   },
 ];
