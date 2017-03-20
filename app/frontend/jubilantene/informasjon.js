@@ -39,7 +39,7 @@ export const jubilantene = [
     tittel: 'Guttene i familien',
     tekst: 'Trond sammen med pappa Arnulf Odd og lillebror Nils Henrik på Nils sin dåpsdag.',
     bildeUrl: 'img/Trond/Nils dåp 3.jpg',
-  },{
+  }, {
     aar: '1970',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Leikarring',
@@ -138,7 +138,7 @@ export const jubilantene = [
   }, {
     aar: '2012',
     jubilant: JUBILANT_TORUNN,
-    tittel: 'Korssjel',
+    tittel: 'Korpssjel',
     tekst: 'Siden Mathilde begynte i korps i 1998 har Torunn vært godt involvert i korpsmiljøet. Først som vanlig korpsmamma, så som økonomiansvarlig, og så også som fast fanebærer. Da Mathilde flyttet til Trondheim og begynte å spille der, tok Torunn liksågodt turen oppover på 17. mai og var fanebærer der også. Tiden i skolekorpset har gitt nye venner, givende oppgaver, flotte korpsturar, og muligheten til å bli kjent med ungene i området.',
     bildeUrl: 'img/Torunn/Nidarholm1.jpg',
   },

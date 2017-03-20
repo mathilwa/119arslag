@@ -31,7 +31,7 @@ const JubilanteneHovedside = React.createClass({
     window.addEventListener('scroll', () => this.settSynlighet(tidslinjeElementListe));
   },
   componentWillUnmount () {
-    window.removeEventListener('scroll');
+    window.removeEventListener('scroll', this.settSynlighet);
   },
   settSynlighet (tidslinjeElementListe) {
     tidslinjeElementListe.forEach(element => {
