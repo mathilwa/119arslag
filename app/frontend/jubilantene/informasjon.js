@@ -188,7 +188,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TORUNN,
     tittel: 'Ridetur i fjellet',
     tekst: 'Noen ting er bare så koselig at det må gjentas, og rideturen i 1995 med familien Torpe i Hallingdalsfjellene var et tilfelle av dette. Torunn dro på denne første turen med venninna Monika, og dro på gang nr 2 da Mathilde ble gammel nok i 1998. Etter dette har dette vært et (ca) årlig høydepunkt i sommerferiene til Torunn og Mathilde.',
-    bildeUrl: 'img/Torunn/ridetur.jpg',
+    bildeUrl: 'img/Torunn/ridetur.JPG',
   }, {
     aar: '1996',
     jubilant: JUBILANT_BEGGE,
