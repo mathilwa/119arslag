@@ -18,8 +18,8 @@ export const jubilantene = [
   }, {
     aar: '1962',
     jubilant: JUBILANT_TORUNN,
-    tittel: 'Jente på gård',
-    tekst: 'Som liten jente vokste Torunn opp på en liten gård på Haugland utenfor Os, med mamma Dorthea og bror Tormod.',
+    tittel: 'Familien',
+    tekst: 'Som liten jente vokste Torunn opp på Haugland utenfor Os, med mamma Dorthea og bror Tormod.',
     bildeUrl: 'img/Torunn/born0016.JPG',
   }, {
     aar: '1962',
@@ -27,6 +27,12 @@ export const jubilantene = [
     tittel: 'Gutt i søskenflokken',
     tekst: 'Som enn så lenge eneste gutt i søskenflokken prøvde lille Trond sitt beste for å passe inn, her nummer to fra venstre i kjole.',
     bildeUrl: 'img/Trond/pappa i kjole.jpg',
+  }, {
+    aar: '1962',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Oppvokst på gård',
+    tekst: 'Da Torunn var 4 år mistet hun faren sin, og mamma Dorthea måtte derfor drive den lille gården de bodde på alene.',
+    bildeUrl: 'img/Torunn/Oppvokst på gård.jpg',
   }, {
     aar: '1963',
     jubilant: JUBILANT_TROND,
@@ -40,6 +46,12 @@ export const jubilantene = [
     tekst: 'Trond sammen med pappa Arnulf Odd og lillebror Nils Henrik på Nils sin dåpsdag.',
     bildeUrl: 'img/Trond/Nils dåp 3.jpg',
   }, {
+    aar: '1969',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Håret',
+    tekst: 'Torunn hadde ekstremt langt hår som ung. Det var til tider så langt at hun kunne sitte på det. Uten balsam og ikke noe annet enn kam kunne det være en ganske vond affære for ei hårsår jente å få dette ordnet.',
+    bildeUrl: 'img/Torunn/langt hår.jpg',
+  }, {
     aar: '1970',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Leikarring',
@@ -48,8 +60,8 @@ export const jubilantene = [
   }, {
     aar: '1972',
     jubilant: JUBILANT_TORUNN,
-    tittel: 'Torunn blir konfirmert i Os Kyrkje',
-    tekst: 'Blabla.',
+    tittel: 'Konfirmant',
+    tekst: 'Torunn blir konfirmert i mai 1972 i Os Kyrkje. Her har hun på seg den fantasiske fine Hardangerbunaden sin, som hun har arvet av sin mor, som nå har gått videre i arv til Mathilde. Her ser man også at det lange håret kommer til nytte.',
     bildeUrl: 'img/Torunn/Torunn0005.JPG',
   }, {
     aar: '1973',
@@ -57,6 +69,18 @@ export const jubilantene = [
     tittel: 'Trond blir konfirmert',
     tekst: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
     bildeUrl: 'img/Trond/Dress og konfirmasjon.jpg',
+  }, {
+    aar: '1973',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Stil',
+    tekst: 'På ungdomskolen og gymnaset var Torunn aktiv i det kristne ungdomsmiljøet på Os. I ”skulelaget”, Norges Kristne Student- og Skuleungdomslag, hadde Torunn i flere år diverse verv, og det var ikke mange kveldar hun var hjemme. Ei trygg, men veldig fin og spennende ungdomstid, selv utan de utskeielsene som ungdom idag er er med på.',
+    bildeUrl: 'img/Torunn/påRommetCa16år.jpg',
+  }, {
+    aar: '1975',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Russetid',
+    tekst: '',
+    bildeUrl: 'img/Torunn/russ.jpg',
   }, {
     aar: '1976',
     jubilant: JUBILANT_TORUNN,
@@ -85,20 +109,26 @@ export const jubilantene = [
     aar: '1980',
     jubilant: JUBILANT_BEGGE,
     tittel: 'De møtes',
-    tekst: 'Etter å ha gått på samme skole ett helt år, og tilbrakt masse tid sammen på befalsmessa uten å legge merke til hverandre, ble de endelig kjent. Ett år til skulle gå fra dette tidspunktet til de ble kjærester. Her avbildet sammen på Olavsstafetten.',
+    tekst: 'Etter å ha vært i miilitret sammen, gått på samme skole ett helt år, og tilbrakt masse tid sammen på befalsmessa uten å legge merke til hverandre, ble de endelig kjent. Ett år til skulle gå fra dette tidspunktet til de ble kjærester. Her avbildet sammen på Olavsstafetten, da begge fortsatt var ganske så spreke.',
     bildeUrl: 'img/begge/Olavstafetten.JPG',
   }, {
     aar: '1980',
     jubilant: JUBILANT_TROND,
     tittel: 'Bartenderen',
-    tekst: 'I 1980 begynte Trond som bartender i befalsmessa, og fikk her muligheten til å utfolde seg som den humoristen han kan være.',
+    tekst: 'I 1980 begyner Trond å jobbe som bartender i befalsmessa, og får her muligheten til å utfolde seg som den humoristen han kan være. Han jobber med dette ett års tid før han blir beordret til Nord-Norge',
     bildeUrl: 'img/Trond/Scan10016.JPG',
+  }, {
+    aar: '1981',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Blir igjen i Trondheim',
+    tekst: 'Torunn blir igjen i Trondheim når Trond reiser nordover, og begynner å jobbe på Elab på NTH (dagens NTNU). .',
+    bildeUrl: 'img/Torunn/E_lab.jpg',
   }, {
     aar: '1986',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Horten',
     tekst: 'Etter flere år i Trondheim flytter Torunn og Trond til Falkensten utenfor Horten.',
-    bildeUrl: '',
+    bildeUrl: 'img/begge/Hjemme i Horten.JPG',
   }, {
     aar: '1986',
     jubilant: JUBILANT_TORUNN,
@@ -118,6 +148,30 @@ export const jubilantene = [
     tekst: 'I februar 1990 blir Torunn og Trond foreldre igjen, denne gangen til en nydelige, liten gutt som skulle få navnet Thomas.',
     bildeUrl: 'img/begge/Lille Thomas.jpg',
   }, {
+    aar: '1995',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Ridetur i fjellet',
+    tekst: 'Noen ting er bare så koselig at det må gjentas, og rideturen i 1995 med familien Torpe i Hallingdalsfjellene var et tilfelle av dette. Torunn dro på denne første turen med venninna Monika, og dro på gang nr 2 da Mathilde ble gammel nok i 1998. Etter dette har dette vært et (ca) årlig høydepunkt i sommerferiene til Torunn og Mathilde.',
+    bildeUrl: 'img/Torunn/ridetur.jpg',
+  }, {
+    aar: '1996',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'Tur til Korea',
+    tekst: 'Sommeren 1996 tok Torunn og Trond med seg barna på ferie til Korea. Reisen gikk til store byer som Seoul og Pusan, med fiskemarked, masse folk, god mat og karaoke, og til natuskjønne omgivelser med strender, vulkaner, fossefall og templer.',
+    bildeUrl: 'img/begge/KoreaFerie.jpg',
+  }, {
+    aar: '1996',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'Montreal',
+    tekst: 'Trond sin søster Kristin bor i Montreal i Canada med sin familie, og høsten 1996 tok Torunn og Trond turen over dammen for å besøke dem. Her er Torunn sammen med Kristin sin mann Jean-Pierre og deres sønn Sebastien.',
+    bildeUrl: 'img/begge/montreal96.jpg',
+  }, {
+    aar: '2000',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Trond ofrer seg',
+    tekst: 'Mathilde var fortsatt for ung til å dra alene på tur i fhellet, og da ingen andre hadde mulighet til å være med ofret Trond seg og valgte å bli med på turen. En ukes ridetur i fjellet med bare en liten tur på kamel som nærmeste erfaring. Turen ble en forferdelig vond affære for Trond, selv om han fikk turens snilleste hest, Bendik. Trond kommer nok aldri til å bli med igjen, men vil alltid være husket hos familien Torpe.',
+    bildeUrl: 'img/Trond/antenna.jpg',
+  }, {
     aar: '2003',
     jubilant: JUBILANT_TROND,
     tittel: 'Handyman',
@@ -130,6 +184,12 @@ export const jubilantene = [
     tekst: 'Sommeren 2004 tok Torunn med seg Mathilde og Thomas på den 50 mil lange sykkelturen fra Horten til Bergen. Turen gikk via Kongsberg, Geilo, Hardangervidda og Hardangerfjorden.',
     bildeUrl: 'img/Torunn/Sykkeltur.JPG',
   }, {
+    aar: '2008',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Ut i verden - igjen',
+    tekst: 'Etter 22 år hos Simrad, nå Kongsberg Maritime, får Torunn ny stilling i samme firma. Fra å forske på og utvikle ekkolodd, skal Torunn nå holde kurs i produktene Kongsberg Maritime lager. Mange av kursene holdes i Norge, men det er også kurs som holdes i utlandet - noe som fører til mange reiser til spennende steder. Her er Torunn på kursoppdrag i Oman.',
+    bildeUrl: 'img/Torunn/Ny jobb.JPG',
+  }, {
     aar: '2010',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Oselveren',
@@ -141,5 +201,11 @@ export const jubilantene = [
     tittel: 'Korpssjel',
     tekst: 'Siden Mathilde begynte i korps i 1998 har Torunn vært godt involvert i korpsmiljøet. Først som vanlig korpsmamma, så som økonomiansvarlig, og så også som fast fanebærer. Da Mathilde flyttet til Trondheim og begynte å spille der, tok Torunn liksågodt turen oppover på 17. mai og var fanebærer der også. Tiden i skolekorpset har gitt nye venner, givende oppgaver, flotte korpsturar, og muligheten til å bli kjent med ungene i området.',
     bildeUrl: 'img/Torunn/Nidarholm1.jpg',
+  }, {
+    aar: '2015',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Kusinetur',
+    tekst: 'Torunns kusine Anita pleier å leie seg leilighet nede på Gran Canaria, noe som har gjort det lett for Torunn å ta turen. Dette har også blitt en av de turene som må gjentas, og som Torunn har hatt stor glede av.',
+    bildeUrl: 'img/Torunn/Kusineferie.jpg',
   },
 ];
