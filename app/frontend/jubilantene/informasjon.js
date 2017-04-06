@@ -18,14 +18,16 @@ export const jubilantene = [
   }, {
     aar: '1960',
     jubilant: JUBILANT_TORUNN,
-    tittel: 'Familien',
-    tekst: 'Som liten jente vokste Torunn opp på Haugland utenfor Os, med mamma, pappa, lillebror Tormod og mange forskjellige dyr.',
+    tittel: 'Oppvokst på gård',
+    tekst: 'Som liten jente vokste Torunn opp på en liten gård på Haugland utenfor Os. Her bodde hun med mamma, pappa, lillebror Tormod og mange forskjellige dyr.',
     bildeUrl: 'img/Torunn/born0016.JPG',
   }, {
     aar: '1961',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Lek med kalver',
-    tekst: 'Hver vår fikk Torunn ca 4 kalver til gården som de alte opp og solgte til slakt neste vår. På sommeren var kalvene ute på marka, og var veldig morsomme lekekamerater. De var tamme som hundevalper og likte veldig godt å bli børsta og kost med. Det gikk fint til høsten når de ble store med store horn, og ikke skjønte hvor sterke de var blitt.',
+    tekst: 'Hver vår fikk Torunn ca 4 kalver til gården som de alte opp og solgte til slakt neste vår. På sommeren var kalvene ute på marka, og ' +
+    'var veldig morsomme lekekamerater. De var tamme som hundevalper og likte veldig godt å bli børsta og kost med. Det gikk fint til høsten når de ble store med store horn, og ' +
+    'ikke skjønte hvor sterke de var blitt.',
     bildeUrl: 'img/Torunn/kalver og lek.jpg',
   }, {
     aar: '1962',
@@ -48,8 +50,12 @@ export const jubilantene = [
   }, {
     aar: '1963',
     jubilant: JUBILANT_TORUNN,
-    tittel: 'Oppvokst på gård',
-    tekst: 'Da Torunn var 6 år mistet hun faren sin, og mamma Dorthea måtte derfor drive den lille gården de bodde på alene.',
+    tittel: 'Det å bo på gård',
+    tekst: 'Da Torunn var 6 år mistet hun faren sin, og mamma Dorthea måtte derfor drive den lille gården de bodde på alene. Det var mye å gjøre, ' +
+    'men Torunn og Tormod prøvde så langt det lot seg gjøre å unngå arbeidsoppgaver. De var aldri med i fjøset, og Torunn husker med gru all ripsen som skulle plukkest til saft. Torunn prøvde ' +
+    'også å unngå klesvasken, da det var veldig tungt og kjedsommelig arbeid. Klesvasken foregikk i kjelleren, med koking av klær i diger kjele på den gamle vedovnen, og skovlemaskin med vriapparat. ' +
+    'Alt ble skylt i kaldt vann i store stamper og hengt ut på snora. Når klærne var ute var det viktig å følge med på været, og ta inn klærne før regnet kom. Torunn hadde som jobb å vaska ' +
+    'soverom og gang hver fredag, noe hun fikk 10 kr. Det som ble sett frem til av arbeidoppgaver var våronna, fordi det da var fullt av folk på gården.',
     bildeUrl: 'img/Torunn/Oppvokst på gård.jpg',
   }, {
     aar: '1964',
@@ -61,19 +67,22 @@ export const jubilantene = [
     aar: '1969',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Håret',
-    tekst: 'Torunn hadde ekstremt langt hår som ung. Det var til tider så langt at hun kunne sitte på det. Uten balsam og ikke noe annet enn kam kunne det være en ganske vond affære for ei hårsår jente å få dette ordnet.',
+    tekst: 'Torunn hadde ekstremt langt hår som ung. Det var til tider så langt at hun kunne sitte på det. Uten balsam og ikke noe annet enn kam kunne det være en ganske vond affære' +
+    ' for ei hårsår jente å få dette ordnet.',
     bildeUrl: 'img/Torunn/langt hår.jpg',
   }, {
     aar: '1970',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Leikarring',
-    tekst: 'Torunn likte godt å danse, og gikk på gammeldanskurs og leikraring. Torunn var ikke på mange bygdedanser, men dansa når det var mulighet. Bildet her er fra avslutninga i 6. klasse. Dans var også hovedhobbyen da Torunn bodde i Trondheim. Hun var da med i BUL og danset gammeldans, selv om det var swing som var det store.',
+    tekst: 'Torunn likte godt å danse, og gikk på gammeldanskurs og leikraring. Torunn var ikke på mange bygdedanser, men dansa når det var mulighet. ' +
+    'Bildet her er fra avslutninga i 6. klasse. Dans var også hovedhobbyen da Torunn bodde i Trondheim. Hun var da med i BUL og danset gammeldans, selv om det var swing som var det store.',
     bildeUrl: 'img/Torunn/Leikarring.jpg',
   }, {
     aar: '1972',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Konfirmant',
-    tekst: 'Torunn blir konfirmert i mai 1972 i Os Kyrkje. Her har hun på seg den fantasisk fine Hardangerbunaden sin, som hun har arvet av sin mor, som nå har gått videre i arv til Mathilde. Her ser man også at det lange håret kommer til nytte.',
+    tekst: 'Torunn blir konfirmert i mai 1972 i Os Kyrkje. Her har hun på seg den fantasisk fine Hardangerbunaden sin, som hun fikk sydd til konfirmasjonen. ' +
+    'Den største søljen har hun arvet av sin tante, og er i år over 100 år gammel. Både søljer og bunaden har nå gått i arv til Mathilde. Her ser man også at det lange håret kom til nytte.',
     bildeUrl: 'img/Torunn/Torunn0005.JPG',
   }, {
     aar: '1973',
@@ -85,7 +94,8 @@ export const jubilantene = [
     aar: '1973',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Aktiv ungdom',
-    tekst: 'På ungdomskolen og gymnaset var Torunn aktiv i det kristne ungdomsmiljøet på Os. I ”skulelaget”, Norges Kristne Student- og Skuleungdomslag, hadde Torunn i flere år diverse verv, og det var ikke mange kveldar hun var hjemme. Ei trygg, men veldig fin og spennende ungdomstid, selv utan de utskeielsene som ungdom idag er er med på.',
+    tekst: 'På ungdomskolen og gymnaset var Torunn aktiv i det kristne ungdomsmiljøet på Os. I ”skulelaget”, Norges Kristne Student- og Skuleungdomslag, ' +
+    'hadde Torunn i flere år diverse verv, og det var ikke mange kveldar hun var hjemme. Ei trygg, men veldig fin og spennende ungdomstid, selv utan de utskeielsene som ungdom idag er er med på.',
     bildeUrl: 'img/Torunn/påRommetCa16år.jpg',
   }, {
     aar: '1974',
@@ -109,31 +119,39 @@ export const jubilantene = [
     aar: '1977',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Til sjøs',
-    tekst: 'Etter året i militæret tok Torunn med seg kunnskapen fra Radioskolen ut på havet for å arbeide som telegrafist. Hun fikk i ett helt år reise verden rundt, og fikk oppleve en helt annen verden enn hun hadde sett til nå.',
+    tekst: 'Etter året i militæret tok Torunn med seg kunnskapen fra Radioskolen ut på havet for å arbeide som telegrafist. Hun fikk i ett helt år reise verden rundt, ' +
+    'og fikk oppleve en helt annen verden enn hun hadde sett til nå.',
     bildeUrl: 'img/Torunn/Telegrafist.JPG',
   }, {
     aar: '1977',
     jubilant: JUBILANT_TROND,
     tittel: 'Hobbymekaniker',
-    tekst: 'Trond har fra han var veldig ung hatt en stor interesse for å mekke bil. Dette er en fascinasjon og glede som ikke akkurat har avtatt med åren, og listen over biler og tilhørende bildeler kjøpt og jobbet på er tilnærmet lik uendelig lang.',
+    tekst: 'Trond har fra han var veldig ung hatt en stor interesse for å mekke bil. Dette er en fascinasjon og glede som ikke akkurat har avtatt med åren, ' +
+    'og listen over biler og tilhørende bildeler kjøpt og jobbet på er tilnærmet lik uendelig lang.',
     bildeUrl: 'img/Trond/pappa mekker bil.jpg',
   }, {
     aar: '1978',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Hurtigruta',
-    tekst: 'I 4 - 5 år hadde Torunn sommer- og julejobb på Hurtigruta, noe som førte til mange fine turer opp og ned langs norskekysten. På Hurtigruta jobbet Torunn som telegrafist, i tillegg til at hun hadde vakt på landgangen, satt på billettkontoret og hadde ansvar for alle lønningene. Lønningene ble delt ut kontant, og Torunn kunne håndtere så mye som flere hundre tusen kroner på en ettermiddag, noe som var veldig mange penger den gangen. Torunn regna ut hvor mye hver enkelt skulle ha utbetalt. Med opptil 70 ansatte hver måned, med forskjellige avtaler og lønninger for los, offiserer, dekk- og maskinansatte, bysseansatte og lugarpiker, var dette en kjempejobb for ei uten opplæring. Om Torunn regna noe feil måtte dette betales fra egen lomme. ',
+    tekst: 'I 4 - 5 år hadde Torunn sommer- og julejobb på Hurtigruta, noe som førte til mange fine turer opp og ned langs norskekysten. ' +
+    'På Hurtigruta jobbet Torunn som telegrafist, i tillegg til at hun hadde vakt på landgangen, satt på billettkontoret og hadde ansvar for alle lønningene. ' +
+    'Lønningene ble delt ut kontant, og Torunn kunne håndtere så mye som flere hundre tusen kroner på en ettermiddag, noe som var veldig mange penger den gangen. ' +
+    'Torunn regna ut hvor mye hver enkelt skulle ha utbetalt. Med opptil 70 ansatte hver måned, med forskjellige avtaler og lønninger for los, offiserer, dekk- og ' +
+    'maskinansatte, bysseansatte og lugarpiker, var dette en kjempejobb for ei uten opplæring. Om Torunn regna noe feil måtte dette betales fra egen lomme. ',
     bildeUrl: 'img/Torunn/Hurtigruta5.JPG',
   }, {
     aar: '1980',
     jubilant: JUBILANT_BEGGE,
     tittel: 'De møtes',
-    tekst: 'Etter å ha vært i miilitret sammen, gått på samme skole ett helt år, og tilbrakt masse tid sammen på befalsmessa uten å legge merke til hverandre, ble de endelig kjent. Ett år til skulle gå fra dette tidspunktet til de ble kjærester. Her avbildet sammen på Olavsstafetten, da begge fortsatt var ganske så spreke.',
+    tekst: 'Etter å ha vært i miilitret sammen, gått på samme skole ett helt år, og tilbrakt masse tid sammen på befalsmessa uten å legge merke til hverandre, ' +
+    'ble de endelig kjent. Ett år til skulle gå fra dette tidspunktet til de ble kjærester. Her avbildet sammen på Olavsstafetten, da begge fortsatt var ganske så spreke.',
     bildeUrl: 'img/begge/Olavstafetten.JPG',
   }, {
     aar: '1980',
     jubilant: JUBILANT_TROND,
     tittel: 'Bartenderen',
-    tekst: 'I 1980 begyner Trond å jobbe som bartender i befalsmessa, og får her muligheten til å utfolde seg som den humoristen han kan være. Han jobber med dette ett års tid før han blir beordret til Nord-Norge',
+    tekst: 'I 1980 begyner Trond å jobbe som bartender i befalsmessa, og får her muligheten til å utfolde seg som den humoristen han kan være. Han jobber med ' +
+    'dette ett års tid før han blir beordret til Nord-Norge',
     bildeUrl: 'img/Trond/Scan10016.JPG',
   }, {
     aar: '1981',
