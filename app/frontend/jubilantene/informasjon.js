@@ -7,7 +7,7 @@ export const jubilantene = [
     aar: '1957',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Torunn kommer til verden',
-    tekst: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hicplaceat iure tempora laudantium ipsa ad debitis unde?',
+    tekst: '9. april 1957 får lille Torunn se dagens lys for første gang, til mamma Dorthea og pappa Thomas sin store glede!',
     bildeUrl: 'img/Torunn/Torunn_1år.jpg',
   }, {
     aar: '1958',
@@ -16,11 +16,17 @@ export const jubilantene = [
     tekst: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hicquasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis quiut.',
     bildeUrl: 'img/Trond/nyfødt.jpg',
   }, {
-    aar: '1962',
+    aar: '1960',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Familien',
-    tekst: 'Som liten jente vokste Torunn opp på Haugland utenfor Os, med mamma Dorthea og bror Tormod.',
+    tekst: 'Som liten jente vokste Torunn opp på Haugland utenfor Os, med mamma, pappa, lillebror Tormod og mange forskjellige dyr.',
     bildeUrl: 'img/Torunn/born0016.JPG',
+  }, {
+    aar: '1961',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Lek med kalver',
+    tekst: 'Hver vår fikk Torunn ca 4 kalver til gården som de alte opp og solgte til slakt neste vår. På sommeren var kalvene ute på marka, og var veldig morsomme lekekamerater. De var tamme som hundevalper og likte veldig godt å bli børsta og kost med. Det gikk fint til høsten når de ble store med store horn, og ikke skjønte hvor sterke de var blitt.',
+    bildeUrl: 'img/Torunn/kalver og lek.jpg',
   }, {
     aar: '1962',
     jubilant: JUBILANT_TROND,
@@ -30,15 +36,21 @@ export const jubilantene = [
   }, {
     aar: '1962',
     jubilant: JUBILANT_TORUNN,
-    tittel: 'Oppvokst på gård',
-    tekst: 'Da Torunn var 4 år mistet hun faren sin, og mamma Dorthea måtte derfor drive den lille gården de bodde på alene.',
-    bildeUrl: 'img/Torunn/Oppvokst på gård.jpg',
+    tittel: 'Bestevenner',
+    tekst: 'Torunn med sin kusine Anita. Torunn og Anita var bestevenner fra de var små til de reiste hvert til sitt etter ungdomskolen.',
+    bildeUrl: 'img/Torunn/torunn og anita.jpg',
   }, {
     aar: '1963',
     jubilant: JUBILANT_TROND,
     tittel: 'Tvilling',
     tekst: 'Trond har 4 søsken, 2 eldre søstre, en yngre bror og en tvillingsøster. Her er Trond avbildet med sin tvillingsøster, Elle. Ikke akkurat som to dråper vann.',
     bildeUrl: 'img/Trond/Elle og pappa.jpg',
+  }, {
+    aar: '1963',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Oppvokst på gård',
+    tekst: 'Da Torunn var 6 år mistet hun faren sin, og mamma Dorthea måtte derfor drive den lille gården de bodde på alene.',
+    bildeUrl: 'img/Torunn/Oppvokst på gård.jpg',
   }, {
     aar: '1964',
     jubilant: JUBILANT_TROND,
@@ -61,7 +73,7 @@ export const jubilantene = [
     aar: '1972',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Konfirmant',
-    tekst: 'Torunn blir konfirmert i mai 1972 i Os Kyrkje. Her har hun på seg den fantasiske fine Hardangerbunaden sin, som hun har arvet av sin mor, som nå har gått videre i arv til Mathilde. Her ser man også at det lange håret kommer til nytte.',
+    tekst: 'Torunn blir konfirmert i mai 1972 i Os Kyrkje. Her har hun på seg den fantasisk fine Hardangerbunaden sin, som hun har arvet av sin mor, som nå har gått videre i arv til Mathilde. Her ser man også at det lange håret kommer til nytte.',
     bildeUrl: 'img/Torunn/Torunn0005.JPG',
   }, {
     aar: '1973',
@@ -72,9 +84,15 @@ export const jubilantene = [
   }, {
     aar: '1973',
     jubilant: JUBILANT_TORUNN,
-    tittel: 'Stil',
+    tittel: 'Aktiv ungdom',
     tekst: 'På ungdomskolen og gymnaset var Torunn aktiv i det kristne ungdomsmiljøet på Os. I ”skulelaget”, Norges Kristne Student- og Skuleungdomslag, hadde Torunn i flere år diverse verv, og det var ikke mange kveldar hun var hjemme. Ei trygg, men veldig fin og spennende ungdomstid, selv utan de utskeielsene som ungdom idag er er med på.',
     bildeUrl: 'img/Torunn/påRommetCa16år.jpg',
+  }, {
+    aar: '1974',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Stil',
+    tekst: 'Trond mener selv at han ikke var spesielt opptatt av stil og utseende som ung, men med denne outfiten her kunne han lett sklidd inn på de hippeste utestedene i Oslo sentrum.',
+    bildeUrl: 'img/Trond/Blomsterskjorta.jpg',
   }, {
     aar: '1975',
     jubilant: JUBILANT_TORUNN,
@@ -103,7 +121,7 @@ export const jubilantene = [
     aar: '1978',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Hurtigruta',
-    tekst: 'I 4 - 5 år hadde Torunn sommer- og julejobb på Hurtigruta. Dette førte til mange fine turer opp og ned langs norskekysten.',
+    tekst: 'I 4 - 5 år hadde Torunn sommer- og julejobb på Hurtigruta, noe som førte til mange fine turer opp og ned langs norskekysten. På Hurtigruta jobbet Torunn som telegrafist, i tillegg til at hun hadde vakt på landgangen, satt på billettkontoret og hadde ansvar for alle lønningene. Lønningene ble delt ut kontant, og Torunn kunne håndtere så mye som flere hundre tusen kroner på en ettermiddag, noe som var veldig mange penger den gangen. Torunn regna ut hvor mye hver enkelt skulle ha utbetalt. Med opptil 70 ansatte hver måned, med forskjellige avtaler og lønninger for los, offiserer, dekk- og maskinansatte, bysseansatte og lugarpiker, var dette en kjempejobb for ei uten opplæring. Om Torunn regna noe feil måtte dette betales fra egen lomme. ',
     bildeUrl: 'img/Torunn/Hurtigruta5.JPG',
   }, {
     aar: '1980',
@@ -170,7 +188,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'Trond ofrer seg',
     tekst: 'Mathilde var fortsatt for ung til å dra alene på tur i fhellet, og da ingen andre hadde mulighet til å være med ofret Trond seg og valgte å bli med på turen. En ukes ridetur i fjellet med bare en liten tur på kamel som nærmeste erfaring. Turen ble en forferdelig vond affære for Trond, selv om han fikk turens snilleste hest, Bendik. Trond kommer nok aldri til å bli med igjen, men vil alltid være husket hos familien Torpe.',
-    bildeUrl: 'img/Trond/antenna.jpg',
+    bildeUrl: 'img/Trond/pappa og bendik.png',
   }, {
     aar: '2003',
     jubilant: JUBILANT_TROND,
@@ -201,6 +219,18 @@ export const jubilantene = [
     tittel: 'Korpssjel',
     tekst: 'Siden Mathilde begynte i korps i 1998 har Torunn vært godt involvert i korpsmiljøet. Først som vanlig korpsmamma, så som økonomiansvarlig, og så også som fast fanebærer. Da Mathilde flyttet til Trondheim og begynte å spille der, tok Torunn liksågodt turen oppover på 17. mai og var fanebærer der også. Tiden i skolekorpset har gitt nye venner, givende oppgaver, flotte korpsturar, og muligheten til å bli kjent med ungene i området.',
     bildeUrl: 'img/Torunn/Nidarholm1.jpg',
+  }, {
+    aar: '2013',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Gjøre det selv',
+    tekst: 'Som datter av en mor som har drevet en gård og oppdratt to barn alene, er Torunn vant til å ta tak og gjøre ting selv. Da det var på tide å male huset var det derfor en selvfølge at maleoutfien skulle på, og at dette også skulle gjøres selv (med god hjelp fra venner som f.eks Karin).',
+    bildeUrl: 'img/Torunn/Gjøre det selv.jpg',
+  }, {
+    aar: '2014',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Ekte svigersvin',
+    tekst: 'Som en årlig greier med Wærstad-familien har vi pleid å delta på Ringeriksmaraton som "Svigersvina". I etterkant av løpet har det vært stor familiefest, noe som har vært tradisjon i nå over 20 år. Det har blitt en greie at vi gjør mye ut av oss, og her har Trond vært en stor bidragsyter. Først med egen van med papp-gris på taket, så med rosa minibuss med nese og ører. Denne bussen har, i tillegg til å lage show, blitt brukt til å frakte folk frem og tilbake for å heie på de som løper. Men kanskje aller viktist så Trond og bussen pleid å frakte ca 20 "barn" til godtebutikken på kvelden. Kveldens absolutte høydepunkt for mange av de minste, denne turen med onkel Trond og godtebussen. I 2014 fikk Trond, vel fortjent, utdelt prisen for årets Hederssvin!',
+    bildeUrl: 'img/Trond/pappa og grisebussen.jpg',
   }, {
     aar: '2015',
     jubilant: JUBILANT_TORUNN,
