@@ -136,8 +136,8 @@ export const jubilantene = [
     tekst: 'I 4 - 5 år hadde Torunn sommer- og julejobb på Hurtigruta, noe som førte til mange fine turer opp og ned langs norskekysten. ' +
     'På Hurtigruta jobbet Torunn som telegrafist, i tillegg til at hun hadde vakt på landgangen, satt på billettkontoret og hadde ansvar for alle lønningene. ' +
     'Lønningene ble delt ut kontant, og Torunn kunne håndtere så mye som flere hundre tusen kroner på en ettermiddag, noe som var veldig mange penger den gangen. ' +
-    'Torunn regna ut hvor mye hver enkelt skulle ha utbetalt. Med opptil 70 ansatte hver måned, med forskjellige avtaler og lønninger for los, offiserer, dekk- og ' +
-    'maskinansatte, bysseansatte og lugarpiker, var dette en kjempejobb for ei uten opplæring. Om Torunn regna noe feil måtte dette betales fra egen lomme. ',
+    'Torunn regnet ut hvor mye hver enkelt skulle ha utbetalt. Med opptil 70 ansatte hver måned, med forskjellige avtaler og lønninger for los, offiserer, dekk- og ' +
+    'maskinansatte, bysseansatte og lugarpiker, var dette en kjempejobb for ei uten opplæring. Om Torunn regnet noe feil måtte dette betales fra egen lomme. ',
     bildeUrl: 'img/Torunn/Hurtigruta5.JPG',
   }, {
     aar: '1980',
@@ -187,31 +187,39 @@ export const jubilantene = [
     aar: '1995',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Ridetur i fjellet',
-    tekst: 'Noen ting er bare så koselig at det må gjentas, og rideturen i 1995 med familien Torpe i Hallingdalsfjellene var et tilfelle av dette. Torunn dro på denne første turen med venninna Monika, og dro på gang nr 2 da Mathilde ble gammel nok i 1998. Etter dette har dette vært et (ca) årlig høydepunkt i sommerferiene til Torunn og Mathilde.',
+    tekst: 'Noen ting er bare så koselig at det må gjentas, og rideturen i 1995 med familien Torpe i Hallingdalsfjellene var et tilfelle av dette. ' +
+    'Torunn dro på denne første turen med venninna Monika, og dro på gang nr 2 da Mathilde ble gammel nok i 1998. Etter dette har dette vært et (ca) ' +
+    'årlig høydepunkt i sommerferiene til Torunn og Mathilde.',
     bildeUrl: 'img/Torunn/ridetur.JPG',
   }, {
     aar: '1996',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Tur til Korea',
-    tekst: 'Sommeren 1996 tok Torunn og Trond med seg barna på ferie til Korea. Reisen gikk til store byer som Seoul og Pusan, med fiskemarked, masse folk, god mat og karaoke, og til natuskjønne omgivelser med strender, vulkaner, fossefall og templer.',
+    tekst: 'Sommeren 1996 tok Torunn og Trond med seg barna på ferie til Korea. Reisen gikk til store byer som Seoul og Pusan, med fiskemarked, masse folk, ' +
+    'god mat og karaoke, og til naturskjønne omgivelser med strender, vulkaner, fossefall og templer.',
     bildeUrl: 'img/begge/KoreaFerie.jpg',
   }, {
     aar: '1996',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Montreal',
-    tekst: 'Trond sin søster Kristin bor i Montreal i Canada med sin familie, og høsten 1996 tok Torunn og Trond turen over dammen for å besøke dem. Her er Torunn sammen med Kristin sin mann Jean-Pierre og deres sønn Sebastien.',
+    tekst: 'Trond sin søster Kristin bor i Montreal i Canada med sin familie, og høsten 1996 tok Torunn og Trond turen over dammen for å besøke dem. Her er ' +
+    'Torunn sammen med Kristin sin mann Jean-Pierre og deres sønn Sebastien.',
     bildeUrl: 'img/begge/montreal96.jpg',
   }, {
     aar: '2000',
     jubilant: JUBILANT_TROND,
     tittel: 'Trond ofrer seg',
-    tekst: 'Mathilde var fortsatt for ung til å dra alene på tur i fhellet, og da ingen andre hadde mulighet til å være med ofret Trond seg og valgte å bli med på turen. En ukes ridetur i fjellet med bare en liten tur på kamel som nærmeste erfaring. Turen ble en forferdelig vond affære for Trond, selv om han fikk turens snilleste hest, Bendik. Trond kommer nok aldri til å bli med igjen, men vil alltid være husket hos familien Torpe.',
+    tekst: 'Mathilde var fortsatt for ung til å dra alene på tur i fjellet, og da ingen andre hadde mulighet til å være med ofret Trond seg og valgte å ' +
+    'bli med på turen. En ukes ridetur i fjellet med bare en liten tur på kamel som nærmeste erfaring. Turen ble en forferdelig vond affære for Trond, ' +
+    'selv om han fikk turens snilleste hest, Bendik. Trond kommer nok aldri til å bli med igjen, men vil alltid være husket hos familien Torpe.',
     bildeUrl: 'img/Trond/pappa og bendik.png',
   }, {
     aar: '2003',
     jubilant: JUBILANT_TROND,
     tittel: 'Handyman',
-    tekst: 'Om noen har noe som skal fikses så er Trond mannen å kontakte. Han stiller alltid opp, og har alltid en fiks løsning. Han er ekstremt kreativ, og liker å finne morsomme løsninger på problemer. Trond har blant annet laget en minityrversjon av huset hjemme i Horten, hvor familiens kaniner skulle bo. Huset hadde isolasjon, veranda, radiatorovn og varme til vannskåla.',
+    tekst: 'Om noen har noe som skal fikses så er Trond mannen å kontakte. Han stiller alltid opp, og har alltid en fiks løsning. Han er ekstremt kreativ, ' +
+    'og liker å finne morsomme løsninger på problemer. Trond har blant annet laget en miniatyrversjon av huset hjemme i Horten, hvor familiens kaniner skulle bo.' +
+    ' Huset hadde isolasjon, veranda, radiatorovn og varme til vannskåla.',
     bildeUrl: 'img/Trond/antenna.jpg',
   }, {
     aar: '2004',
@@ -223,37 +231,49 @@ export const jubilantene = [
     aar: '2008',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Ut i verden - igjen',
-    tekst: 'Etter 22 år hos Simrad, nå Kongsberg Maritime, får Torunn ny stilling i samme firma. Fra å forske på og utvikle ekkolodd, skal Torunn nå holde kurs i produktene Kongsberg Maritime lager. Mange av kursene holdes i Norge, men det er også kurs som holdes i utlandet - noe som fører til mange reiser til spennende steder. Her er Torunn på kursoppdrag i Oman.',
+    tekst: 'Etter 22 år hos Simrad, nå Kongsberg Maritime, får Torunn ny stilling i samme firma. Fra å forske på og utvikle ekkolodd, skal Torunn nå holde kurs i ' +
+    'produktene Kongsberg Maritime lager. Mange av kursene holdes i Norge, men det er også kurs som holdes i utlandet - noe som fører til mange reiser til ' +
+    'spennende steder. Her er Torunn på kursoppdrag i Oman.',
     bildeUrl: 'img/Torunn/Ny jobb.jpg',
   }, {
     aar: '2010',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Oselveren',
-    tekst: 'Torunn hadde som ung mange fantastiske sommerferier hjemme på Os. Reisene ble ikke så lange, men en rotur i oselveren til Kalneset var reise stor nok. Denne gleden sitter fortsatt i - en rotur er noe Torunn har stor glede av den dag i dag! I voksen alder har hun eid sin egen oselver, og denne ble brukt flittig på somrene i Horten, både på ro- og seilturer. Vaffelrøre ble laget og primusen ble pakket, før Torunn og barna kursen ut på småøyene. Her ble det stekt vafler, til alle andres misunnelse.',
+    tekst: 'Torunn hadde som ung mange fantastiske sommerferier hjemme på Os. Reisene ble ikke så lange, men en rotur i oselveren til Kalneset var reise stor nok. ' +
+    'Denne gleden sitter fortsatt i - en rotur er noe Torunn har stor glede av den dag i dag! I voksen alder har hun eid sin egen oselver, og denne ble brukt flittig på ' +
+    'somrene i Horten, både på ro- og seilturer. Vaffelrøre ble laget og primusen ble pakket, før Torunn og barna kursen ut på småøyene. Her ble det stekt vafler, til alle andres misunnelse.',
     bildeUrl: 'img/Torunn/Torunn i robåt.jpg',
   }, {
     aar: '2012',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Korpssjel',
-    tekst: 'Siden Mathilde begynte i korps i 1998 har Torunn vært godt involvert i korpsmiljøet. Først som vanlig korpsmamma, så som økonomiansvarlig, og så også som fast fanebærer. Da Mathilde flyttet til Trondheim og begynte å spille der, tok Torunn liksågodt turen oppover på 17. mai og var fanebærer der også. Tiden i skolekorpset har gitt nye venner, givende oppgaver, flotte korpsturar, og muligheten til å bli kjent med ungene i området.',
+    tekst: 'Siden Mathilde begynte i korps i 1998 har Torunn vært godt involvert i korpsmiljøet. Først som vanlig korpsmamma, så som økonomiansvarlig, ' +
+    'og så også som fast fanebærer. Da Mathilde flyttet til Trondheim og begynte å spille der, tok Torunn liksågodt turen oppover på 17. mai og var fanebærer der også. ' +
+    'Tiden i skolekorpset har gitt nye venner, givende oppgaver, flotte korpsturer, og muligheten til å bli kjent med ungene i området.',
     bildeUrl: 'img/Torunn/Nidarholm1.jpg',
   }, {
     aar: '2013',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Gjøre det selv',
-    tekst: 'Som datter av en mor som har drevet en gård og oppdratt to barn alene, er Torunn vant til å ta tak og gjøre ting selv. Da det var på tide å male huset var det derfor en selvfølge at maleoutfien skulle på, og at dette også skulle gjøres selv (med god hjelp fra venner som f.eks Karin).',
+    tekst: 'Som datter av en mor som har drevet en gård og oppdratt to barn alene, er Torunn vant til å ta tak og gjøre ting selv. ' +
+    'Da det var på tide å male huset var det derfor en selvfølge at maleoutfien skulle på, og at dette også skulle gjøres selv (med god hjelp fra venner som f.eks Karin).',
     bildeUrl: 'img/Torunn/gjøre det selv.jpg',
   }, {
     aar: '2014',
     jubilant: JUBILANT_TROND,
     tittel: 'Ekte svigersvin',
-    tekst: 'Som en årlig greier med Wærstad-familien har vi pleid å delta på Ringeriksmaraton som "Svigersvina". I etterkant av løpet har det vært stor familiefest, noe som har vært tradisjon i nå over 20 år. Det har blitt en greie at vi gjør mye ut av oss, og her har Trond vært en stor bidragsyter. Først med egen van med papp-gris på taket, så med rosa minibuss med nese og ører. Denne bussen har, i tillegg til å lage show, blitt brukt til å frakte folk frem og tilbake for å heie på de som løper. Men kanskje aller viktist så Trond og bussen pleid å frakte ca 20 "barn" til godtebutikken på kvelden. Kveldens absolutte høydepunkt for mange av de minste, denne turen med onkel Trond og godtebussen. I 2014 fikk Trond, vel fortjent, utdelt prisen for årets Hederssvin!',
+    tekst: 'Som en årlig greie har Wærstad-familien pleid å delta på Ringeriksmaraton under lagnavnet "Svigersvina". I etterkant av løpet har det ' +
+    'vært stor familiefest, noe som har vært tradisjon i nå over 20 år. Det har blitt en greie at vi gjør mye ut av oss, og her har Trond vært en stor bidragsyter. ' +
+    'Først med egen van med papp-gris på taket, så med rosa minibuss med nese og ører. Denne bussen har, i tillegg til å lage show, blitt brukt til å frakte folk ' +
+    'frem og tilbake for å heie på de som løper. Men kanskje aller viktist så Trond og bussen pleid å frakte ca 20 "barn" til godtebutikken på kvelden. Kveldens absolutte ' +
+    'høydepunkt for mange av de minste, denne turen med onkel Trond og godtebussen. I 2014 fikk Trond, vel fortjent, utdelt prisen for årets Hederssvin!',
     bildeUrl: 'img/Trond/pappa og grisebussen.jpg',
   }, {
     aar: '2015',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Kusinetur',
-    tekst: 'Torunns kusine Anita pleier å leie seg leilighet nede på Gran Canaria, noe som har gjort det lett for Torunn å ta turen. Dette har også blitt en av de turene som må gjentas, og som Torunn har hatt stor glede av.',
+    tekst: 'Torunns kusine Anita pleier å leie seg leilighet nede på Gran Canaria, noe som har gjort det lett for Torunn å ta turen. ' +
+    'Dette har også blitt en av de turene som må gjentas, og som Torunn har hatt stor glede av.',
     bildeUrl: 'img/Torunn/Kusineferie.jpg',
   },
 ];
