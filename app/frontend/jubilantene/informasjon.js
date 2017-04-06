@@ -206,7 +206,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TORUNN,
     tittel: 'Ut i verden - igjen',
     tekst: 'Etter 22 år hos Simrad, nå Kongsberg Maritime, får Torunn ny stilling i samme firma. Fra å forske på og utvikle ekkolodd, skal Torunn nå holde kurs i produktene Kongsberg Maritime lager. Mange av kursene holdes i Norge, men det er også kurs som holdes i utlandet - noe som fører til mange reiser til spennende steder. Her er Torunn på kursoppdrag i Oman.',
-    bildeUrl: 'img/Torunn/Ny jobb.JPG',
+    bildeUrl: 'img/Torunn/Ny jobb.jpg',
   }, {
     aar: '2010',
     jubilant: JUBILANT_TORUNN,
@@ -224,7 +224,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TORUNN,
     tittel: 'Gjøre det selv',
     tekst: 'Som datter av en mor som har drevet en gård og oppdratt to barn alene, er Torunn vant til å ta tak og gjøre ting selv. Da det var på tide å male huset var det derfor en selvfølge at maleoutfien skulle på, og at dette også skulle gjøres selv (med god hjelp fra venner som f.eks Karin).',
-    bildeUrl: 'img/Torunn/Gjøre det selv.jpg',
+    bildeUrl: 'img/Torunn/gjøre det selv.jpg',
   }, {
     aar: '2014',
     jubilant: JUBILANT_TROND,
