@@ -76,8 +76,7 @@ const Pamelding = React.createClass({
         <div className="l-box">
           <div className="pure-form pure-form-stacked pamelding-form">
             <h3 className="information-head">Påmelding</h3>
-            <p>For å vite hvor mange vi skal stelle i stand festligheter for er det fint at du melder deg på! Stedet vi skal være på ønsker en viss oversikt over hvor mange som kommer er vi nødt til å sette en frist relativt snart.</p>
-            <p><strong>Påmelding ønskes derfor innen 14. februar.</strong></p>
+            <p>Vi vil veldig gjerne at så mange som mulig skal være med å feire, og for å vite hvor mange vi skal stelle i stand festligheter for er det fint om du melder deg på!</p>
             <VisibleIf isVisible={!this.state.pameldt}>
               <div>
               <fieldset>
