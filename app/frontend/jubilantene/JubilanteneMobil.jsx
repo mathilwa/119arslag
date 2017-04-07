@@ -19,6 +19,7 @@ const JubilanteneMobil = React.createClass({
     return (
       <div className="jubilantene-mobil">
         <div className="jubilant-valg">
+          <p className="jubilant-valg-info">Velg den jubilanten du vil bli bedre kjent med!</p>
           <ul>
             <li className={this.state.valgtJubilant === JUBILANT_TORUNN ? 'er-valgt' : ''} onClick={() => this.settValgtJubilant(JUBILANT_TORUNN)}>Torunn</li>
             <li className={this.state.valgtJubilant === JUBILANT_TROND ? 'er-valgt' : ''} onClick={() => this.settValgtJubilant(JUBILANT_TROND)}>Trond</li>

@@ -185,13 +185,12 @@ p {
  */
 
 .banner {
-  background: transparent url('../img/fjelltur.jpg') 0 0 no-repeat fixed;
+  background: transparent url('../img/fjelltur.jpg') 0 0 no-repeat;
   text-align: center;
   background-size: cover;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
-  height: 200px;
   width: 100%;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   display: table;
 }
 
@@ -336,65 +335,8 @@ p {
   color: #ddd;
 }
 
-/*
- * -- TABLET MEDIA QUERIES --
- * On tablets, we want to slightly adjust the size of the banner
- * text and add some vertical space between the various pricing tables
- */
-@media (min-width: 767px) {
-  .banner-head {
-    font-size: 4em;
-  }
 
-  .pricing-table {
-    margin-bottom: 0;
-  }
-}
 
-@media (min-width: 535px) {
-  .antall-pameldte .pure-menu-link {
-    display: inline-block;
-  }
-
-  .pameldte {
-    width: 80%;
-    align-content: center;
-  }
-}
-
-@media (min-width: 800px) {
-  .pameldte {
-    width: 100%;
-  }
-
-  .pameldte-stor-skjerm {
-    display: block;
-  }
-
-  .pameldte-mobil {
-    display: none;
-  }
-}
-
-@media (max-width: 535px) {
-  .ga-til-pamelding {
-    font-size: 3.5em;
-  }
-}
-
-/*
- * -- PHONE MEDIA QUERIES --
- * On phones, we want to reduce the height and font-size of the banner further
- */
-@media (min-width: 480px) {
-  .banner {
-    height: 400px;
-  }
-
-  .banner-head {
-    font-size: 3em;
-  }
-}
 
 html * {
   -webkit-font-smoothing: antialiased;
@@ -415,6 +357,10 @@ img {
 
 .jubilantene-side .l-box {
   padding: 0.5em 1em;
+}
+
+.jubilantene-side h3 {
+  margin-bottom: 2em;
 }
 
 /* Tidslinjestyling */
@@ -456,7 +402,6 @@ img {
   clear: both;
 }
 
-
 #tidslinje {
   position: relative;
   padding: 0 0 2em 0;
@@ -474,16 +419,6 @@ img {
   width: 4px;
   background: #d7e4ed;
 }
-@media only screen and (min-width: 1170px) {
-  #tidslinje {
-    margin-top: 3em;
-    margin-bottom: 3em;
-  }
-  #tidslinje::before {
-    left: 50%;
-    margin-left: -2px;
-  }
-}
 
 .tidslinje-blokk {
   position: relative;
@@ -499,17 +434,6 @@ img {
 }
 .tidslinje-blokk:last-child {
   margin-bottom: 0;
-}
-@media only screen and (min-width: 1170px) {
-  .tidslinje-blokk {
-    margin: 4em 0;
-  }
-  .tidslinje-blokk:first-child {
-    margin-top: 0;
-  }
-  .tidslinje-blokk:last-child {
-    margin-bottom: 0;
-  }
 }
 
 .tidslinje-aarstall {
@@ -550,25 +474,11 @@ img {
   background: #f0ca45;
 }
 
-@media only screen and (min-width: 1170px) {
-  .tidslinje-aarstall {
-    width: 60px;
-    height: 60px;
-    left: 50%;
-    margin-left: -30px;
-    /* Force Hardware Acceleration in WebKit */
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-  }
-  .tidslinje-aarstall.is-hidden {
-    visibility: hidden;
-  }
-  .tidslinje-aarstall.bounce-in {
-    visibility: visible;
-    -webkit-animation: cd-bounce-1 0.6s;
-    -moz-animation: cd-bounce-1 0.6s;
-    animation: cd-bounce-1 0.6s;
-  }
+.jubilantene-mobil h2 {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 @-webkit-keyframes cd-bounce-1 {
@@ -660,80 +570,11 @@ img {
   border: 7px solid transparent;
   border-right: 7px solid #ffffff;
 }
-@media only screen and (min-width: 768px) {
-  .tidslinje-innhold h2 {
-    font-size: 1.25rem;
-  }
-  .tidslinje-innhold p {
-    font-size: 1rem;
-  }
-  .tidslinje-innhold .aar {
-    padding-top: 12px;
-    font-size: 0.875rem;
-  }
-}
 
 .jubilantene {
   display: none;
 }
 
-@media only screen and (max-width: 1169px) {
-  .tidslinje-aarstall .aar {
-    padding-top: 13px;
-    font-size: 0.8rem;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .jubilantene {
-    display: block;
-  }
-
-  .jubilantene-mobil {
-    display: none;
-  }
-  
-  .tidslinje-innhold {
-    margin-left: 0;
-    padding: 1.6em;
-    width: 45%;
-  }
-  .tidslinje-innhold::before {
-    top: 24px;
-    left: 100%;
-    border-color: transparent;
-    border-left-color: #ffffff;
-  }
-
-  .tidslinje-blokk.trond .tidslinje-innhold, .tidslinje-blokk.hoyre .tidslinje-innhold {
-    float: right;
-  }
-  .tidslinje-blokk.trond .tidslinje-innhold::before, .tidslinje-blokk.hoyre .tidslinje-innhold::before {
-    top: 24px;
-    left: auto;
-    right: 100%;
-    border-color: transparent;
-    border-right-color: #ffffff;
-  }
-
-  .tidslinje-innhold.is-hidden {
-    visibility: hidden;
-  }
-  .tidslinje-innhold.bounce-in {
-    visibility: visible;
-    -webkit-animation: cd-bounce-2 0.6s;
-    -moz-animation: cd-bounce-2 0.6s;
-    animation: cd-bounce-2 0.6s;
-  }
-}
-
-@media only screen and (min-width: 1170px) {
-  /* inverse bounce effect on even content blocks */
-  .tidslinje-blokk .tidslinje-innhold.bounce-in {
-    -webkit-animation: cd-bounce-2-inverse 0.6s;
-    -moz-animation: cd-bounce-2-inverse 0.6s;
-    animation: cd-bounce-2-inverse 0.6s;
-  }
-}
 @-webkit-keyframes cd-bounce-2 {
   0% {
     opacity: 0;
@@ -836,4 +677,221 @@ img {
     transform: translateX(0);
   }
 }
+
+
+/*
+ * -- TABLET MEDIA QUERIES --
+ * On tablets, we want to slightly adjust the size of the banner
+ * text and add some vertical space between the various pricing tables
+ */
+@media (min-width: 767px) {
+  .pricing-table {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 535px) {
+  .antall-pameldte .pure-menu-link {
+    display: inline-block;
+  }
+
+  .pameldte {
+    width: 80%;
+    align-content: center;
+  }
+}
+
+@media (min-width: 800px) {
+  .pameldte {
+    width: 100%;
+  }
+
+  .pameldte-stor-skjerm {
+    display: block;
+  }
+
+  .pameldte-mobil {
+    display: none;
+  }
+}
+
+@media (max-width: 535px) {
+  .ga-til-pamelding {
+    font-size: 3.5em;
+  }
+}
+
+/*
+ * -- PHONE MEDIA QUERIES --
+ * On phones, we want to reduce the height and font-size of the banner further
+ */
+@media only screen and (max-width: 649px) {
+  .banner {
+    height: 200px;
+  }
+
+  .banner-head {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .banner {
+    height: 250px;
+  }
+
+  .banner-head {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .banner {
+    height: 300px;
+  }
+
+  .banner-head {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .banner {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .banner {
+    background: transparent url('../img/fjelltur.jpg') 0 0 no-repeat fixed;
+    background-size: 100%;
+    height: 400px;
+    margin-bottom: 3em;
+  }
+
+  #tidslinje {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  #tidslinje::before {
+    left: 50%;
+    margin-left: -2px;
+  }
+
+  .tidslinje-blokk {
+    margin: 4em 0;
+  }
+  .tidslinje-blokk:first-child {
+    margin-top: 0;
+  }
+  .tidslinje-blokk:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .jubilantene-side .l-box {
+    padding: 0.5em 5em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .jubilantene-side .l-box {
+    padding: 0.5em 1em;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .tidslinje-aarstall {
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    margin-left: -30px;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+  .tidslinje-aarstall.is-hidden {
+    visibility: hidden;
+  }
+  .tidslinje-aarstall.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-1 0.6s;
+    -moz-animation: cd-bounce-1 0.6s;
+    animation: cd-bounce-1 0.6s;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tidslinje-innhold h2 {
+    font-size: 1.25rem;
+  }
+  .tidslinje-innhold p {
+    font-size: 1rem;
+  }
+  .tidslinje-innhold .aar {
+    padding-top: 12px;
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (max-width: 1169px) {
+  .tidslinje-aarstall .aar {
+    padding-top: 13px;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .jubilantene {
+    display: block;
+  }
+
+  .jubilantene-mobil {
+    display: none;
+  }
+
+  .tidslinje-innhold {
+    margin-left: 0;
+    padding: 1.6em;
+    width: 45%;
+  }
+  .tidslinje-innhold::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: #ffffff;
+  }
+
+  .tidslinje-blokk.trond .tidslinje-innhold, .tidslinje-blokk.hoyre .tidslinje-innhold {
+    float: right;
+  }
+  .tidslinje-blokk.trond .tidslinje-innhold::before, .tidslinje-blokk.hoyre .tidslinje-innhold::before {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: #ffffff;
+  }
+
+  .tidslinje-innhold.is-hidden {
+    visibility: hidden;
+  }
+
+  .tidslinje-innhold.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-2 0.6s;
+    -moz-animation: cd-bounce-2 0.6s;
+    animation: cd-bounce-2 0.6s;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  /* inverse bounce effect on even content blocks */
+  .tidslinje-blokk .tidslinje-innhold.bounce-in {
+    -webkit-animation: cd-bounce-2-inverse 0.6s;
+    -moz-animation: cd-bounce-2-inverse 0.6s;
+    animation: cd-bounce-2-inverse 0.6s;
+  }
+}
+
 
