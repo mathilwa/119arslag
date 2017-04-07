@@ -138,33 +138,50 @@ export const jubilantene = [
     'Lønningene ble delt ut kontant, og Torunn kunne håndtere så mye som flere hundre tusen kroner på en ettermiddag, noe som var veldig mange penger den gangen. ' +
     'Torunn regnet ut hvor mye hver enkelt skulle ha utbetalt. Med opptil 70 ansatte hver måned, med forskjellige avtaler og lønninger for los, offiserer, dekk- og ' +
     'maskinansatte, bysseansatte og lugarpiker, var dette en kjempejobb for ei uten opplæring. Om Torunn regnet noe feil måtte dette betales fra egen lomme. ',
-    bildeUrl: 'img/Torunn/Hurtigruta5.JPG',
-  }, {
-    aar: '1980',
-    jubilant: JUBILANT_BEGGE,
-    tittel: 'De møtes',
-    tekst: 'Etter å ha vært i miilitret sammen, gått på samme skole ett helt år, og tilbrakt masse tid sammen på befalsmessa uten å legge merke til hverandre, ' +
-    'ble de endelig kjent. Ett år til skulle gå fra dette tidspunktet til de ble kjærester. Her avbildet sammen på Olavsstafetten, da begge fortsatt var ganske så spreke.',
-    bildeUrl: 'img/begge/Olavstafetten.JPG',
+    bildeUrl: 'img/Torunn/hurtigruta.JPG',
   }, {
     aar: '1980',
     jubilant: JUBILANT_TROND,
     tittel: 'Bartenderen',
-    tekst: 'I 1980 begyner Trond å jobbe som bartender i befalsmessa, og får her muligheten til å utfolde seg som den humoristen han kan være. Han jobber med ' +
-    'dette ett års tid før han blir beordret til Nord-Norge',
+    tekst: 'I 1980 begynte Trond å jobbe som bartender i befalsmessa, og fikk her muligheten til å utfolde seg som den humoristen han kan være. Det var vel kanskje ' +
+    'her Torunn fikk øynene opp for storsjarmøren.',
     bildeUrl: 'img/Trond/Scan10016.JPG',
+  }, {
+    aar: '1980',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'De møtes',
+    tekst: 'Etter å ha vært i militæret sammen, gått på samme skole ett helt år, og tilbrakt masse tid sammen på befalsmessa uten å legge merke til hverandre, ' +
+    'ble de endelig kjent. Noen måneder til skulle det gå fra dette tidspunktet til de ble kjærester. De fikk dessverre ikke lange tiden sammen før Trond ' +
+    'ble beordret til Nord-Norge.',
+    bildeUrl: 'img/begge/de møtes.JPG',
   }, {
     aar: '1981',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Blir igjen i Trondheim',
-    tekst: 'Torunn blir igjen i Trondheim når Trond reiser nordover, og begynner å jobbe på Elab på NTH (dagens NTNU). .',
-    bildeUrl: 'img/Torunn/E_lab.jpg',
+    tekst: 'Torunn blir igjen i Trondheim når Trond reiser nordover, og begynner å jobbe på Elab på NTH (dagens NTNU), hvor hun ble værende i 5 år.  ' +
+    'Torunn ble i løpet av Ingeniørhøgskolen utdannet elektroingeniør, men flytta seg i denne jobben over mot det digitale, som var mye mer spennende. ' +
+    'Hun ble hekta på programmering, og et morsomt, men veldig spennende prosjekt var å få være med å bygge Norges første GPS-mottakar.',
+    bildeUrl: 'img/Torunn/ELab.jpg',
+  }, {
+    aar: '1983',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'Olavstafetten',
+    tekst: 'Selv om man kanskje ikke ser Torunn og Trond løpe så mye i disse dager, så var de ganske aktive og spreke som unge. ' +
+    'Sammen med venner deltok de begge i 1983 på Olavstafetten i Trondheim, under lagnavnet SSL (Spøt- og Småetarlaget) Gladlaks.',
+    bildeUrl: 'img/begge/Olavstafetten.JPG',
   }, {
     aar: '1986',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Horten',
     tekst: 'Etter flere år i Trondheim flytter Torunn og Trond til Falkensten utenfor Horten.',
     bildeUrl: 'img/begge/Hjemme i Horten.JPG',
+  }, {
+    aar: '1986',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'Oppussing',
+    tekst: 'Noe av det første som må gjøres i huset er å få ordnet et ordentlig bad, så de går i gang med å pusse opp. ' +
+    'Dette innebar et påbygg som resulterte i et mye større bad, vaskerom og spisestue.',
+    bildeUrl: 'img/begge/Oppussing.jpg',
   }, {
     aar: '1986',
     jubilant: JUBILANT_TORUNN,
@@ -200,11 +217,20 @@ export const jubilantene = [
     bildeUrl: 'img/begge/KoreaFerie.jpg',
   }, {
     aar: '1996',
-    jubilant: JUBILANT_BEGGE,
+    jubilant: JUBILANT_TORUNN,
     tittel: 'Montreal',
-    tekst: 'Trond sin søster Kristin bor i Montreal i Canada med sin familie, og høsten 1996 tok Torunn og Trond turen over dammen for å besøke dem. Her er ' +
-    'Torunn sammen med Kristin sin mann Jean-Pierre og deres sønn Sebastien.',
+    tekst: 'Trond sin søster Kristin bor i Montreal i Canada med sin familie, og høsten 1996 var Torunn på jobb i Canada, og tok derfor turen innom for å besøke dem. ' +
+    'Her er Torunn sammen med Kristin sin mann Jean-Pierre og deres sønn Sebastien.',
     bildeUrl: 'img/begge/montreal96.jpg',
+  }, {
+    aar: '1995',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Ribbemannen',
+    tekst: 'I timene før julen ringes inn er Trond å finne inne på kjøkkenet, iført forkle, hvor han står foran ovnen og strengt vokter ribba. Ribba skal være saftig og god, ' +
+    'men viktigst av alt er svoren. Dette er et suksessfullt prosjekt hver eneste år - knasende sprø ender den alltid opp med å være! Torunn, ' +
+    'med sine vestlandsrøtter, har flere ganger prøvd å få gjennom både pinnekjøtt og lutefisk, men her har Trond (heldigvis) stått på kravene. ' +
+    'Det blir ikke jul uten ribbe. Da vi i 1998 feiret jul på Haugland hos Torunn sin familie, ble det derfor servert både pinnekjøtt og ribbe. ',
+    bildeUrl: 'img/Trond/ribbemannen.jpg',
   }, {
     aar: '2000',
     jubilant: JUBILANT_TROND,

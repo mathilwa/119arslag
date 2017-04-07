@@ -2,6 +2,7 @@ import React from 'react';
 import Jubilantene from './Jubilantene.jsx';
 import JubilanteneMobil from './JubilanteneMobil.jsx';
 import { jubilantene } from './informasjon.js';
+import { sortBy } from 'lodash';
 
 const byggBarn = (element) => {
   const barn = [];
@@ -43,13 +44,14 @@ const JubilanteneHovedside = React.createClass({
     });
   },
   render () {
+    const jubilanterSortertPaAar = sortBy(jubilantene, 'aar');
     return (
       <div className="jubilantene-side information pure-g">
         <div className="pure-u-1">
           <div className="l-box">
             <h3 className="information-head">Bli kjent med jubilantene</h3>
-              <Jubilantene informasjonOmJubilantene={jubilantene}/>
-              <JubilanteneMobil informasjonOmJubilantene={jubilantene}/>
+              <Jubilantene informasjonOmJubilantene={jubilanterSortertPaAar}/>
+              <JubilanteneMobil informasjonOmJubilantene={jubilanterSortertPaAar}/>
             </div>
           </div>
       </div>
