@@ -769,6 +769,18 @@ img {
     margin-bottom: 3em;
   }
 
+  .jubilantene-side .l-box {
+    padding: 0.5em 0;
+  }
+
+  .jubilantene {
+    display: block;
+  }
+
+  .jubilantene-mobil {
+    display: none;
+  }
+
   #tidslinje {
     margin-top: 3em;
     margin-bottom: 3em;
@@ -781,27 +793,51 @@ img {
   .tidslinje-blokk {
     margin: 4em 0;
   }
+
   .tidslinje-blokk:first-child {
     margin-top: 0;
   }
+
   .tidslinje-blokk:last-child {
     margin-bottom: 0;
   }
-}
 
-@media only screen and (max-width: 1170px) {
-  .jubilantene-side .l-box {
-    padding: 0.5em 5em;
+  .tidslinje-innhold {
+    margin-left: 0;
+    padding: 1.6em;
+    width: 45%;
   }
-}
 
-@media only screen and (max-width: 700px) {
-  .jubilantene-side .l-box {
-    padding: 0.5em 1em;
+  .tidslinje-innhold::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: #ffffff;
   }
-}
 
-@media only screen and (min-width: 1170px) {
+  .tidslinje-blokk.trond .tidslinje-innhold, .tidslinje-blokk.hoyre .tidslinje-innhold {
+    float: right;
+  }
+
+  .tidslinje-blokk.trond .tidslinje-innhold::before, .tidslinje-blokk.hoyre .tidslinje-innhold::before {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: #ffffff;
+  }
+
+  .tidslinje-innhold.is-hidden {
+    visibility: hidden;
+  }
+
+  .tidslinje-innhold.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-2 0.6s;
+    -moz-animation: cd-bounce-2 0.6s;
+    animation: cd-bounce-2 0.6s;
+  }
+
   .tidslinje-aarstall {
     width: 60px;
     height: 60px;
@@ -811,14 +847,28 @@ img {
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
+
   .tidslinje-aarstall.is-hidden {
     visibility: hidden;
   }
+
   .tidslinje-aarstall.bounce-in {
     visibility: visible;
     -webkit-animation: cd-bounce-1 0.6s;
     -moz-animation: cd-bounce-1 0.6s;
     animation: cd-bounce-1 0.6s;
+  }
+  /* inverse bounce effect on even content blocks */
+  .tidslinje-blokk .tidslinje-innhold.bounce-in {
+    -webkit-animation: cd-bounce-2-inverse 0.6s;
+    -moz-animation: cd-bounce-2-inverse 0.6s;
+    animation: cd-bounce-2-inverse 0.6s;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .jubilantene-side .l-box {
+    padding: 0.5em 1em;
   }
 }
 
@@ -841,57 +891,6 @@ img {
     font-size: 0.8rem;
   }
 }
-@media only screen and (min-width: 1170px) {
-  .jubilantene {
-    display: block;
-  }
 
-  .jubilantene-mobil {
-    display: none;
-  }
-
-  .tidslinje-innhold {
-    margin-left: 0;
-    padding: 1.6em;
-    width: 45%;
-  }
-  .tidslinje-innhold::before {
-    top: 24px;
-    left: 100%;
-    border-color: transparent;
-    border-left-color: #ffffff;
-  }
-
-  .tidslinje-blokk.trond .tidslinje-innhold, .tidslinje-blokk.hoyre .tidslinje-innhold {
-    float: right;
-  }
-  .tidslinje-blokk.trond .tidslinje-innhold::before, .tidslinje-blokk.hoyre .tidslinje-innhold::before {
-    top: 24px;
-    left: auto;
-    right: 100%;
-    border-color: transparent;
-    border-right-color: #ffffff;
-  }
-
-  .tidslinje-innhold.is-hidden {
-    visibility: hidden;
-  }
-
-  .tidslinje-innhold.bounce-in {
-    visibility: visible;
-    -webkit-animation: cd-bounce-2 0.6s;
-    -moz-animation: cd-bounce-2 0.6s;
-    animation: cd-bounce-2 0.6s;
-  }
-}
-
-@media only screen and (min-width: 1170px) {
-  /* inverse bounce effect on even content blocks */
-  .tidslinje-blokk .tidslinje-innhold.bounce-in {
-    -webkit-animation: cd-bounce-2-inverse 0.6s;
-    -moz-animation: cd-bounce-2-inverse 0.6s;
-    animation: cd-bounce-2-inverse 0.6s;
-  }
-}
 
 
