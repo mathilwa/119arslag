@@ -188,7 +188,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TORUNN,
     tittel: 'Ridetur i fjellet',
     tekst: 'Noen ting er bare så koselig at det må gjentas, og rideturen i 1995 med familien Torpe i Hallingdalsfjellene var et tilfelle av dette. ' +
-    'Torunn dro på denne første turen med venninna Monika, og dro på gang nr 2 da Mathilde ble gammel nok i 1998. Etter dette har dette vært et (ca) ' +
+    'Torunn dro på denne første turen med venninnen Monika, og dro på tur nr 2 da Mathilde ble gammel nok i 1998. Etter dette har dette vært et (ca) ' +
     'årlig høydepunkt i sommerferiene til Torunn og Mathilde.',
     bildeUrl: 'img/Torunn/ridetur.JPG',
   }, {
@@ -209,7 +209,7 @@ export const jubilantene = [
     aar: '2000',
     jubilant: JUBILANT_TROND,
     tittel: 'Trond ofrer seg',
-    tekst: 'Mathilde var fortsatt for ung til å dra alene på tur i fjellet, og da ingen andre hadde mulighet til å være med ofret Trond seg og valgte å ' +
+    tekst: 'Mathilde var fortsatt for ung til å dra alene på ridetur i fjellet, og da ingen andre hadde mulighet til å være med ofret Trond seg og valgte å ' +
     'bli med på turen. En ukes ridetur i fjellet med bare en liten tur på kamel som nærmeste erfaring. Turen ble en forferdelig vond affære for Trond, ' +
     'selv om han fikk turens snilleste hest, Bendik. Trond kommer nok aldri til å bli med igjen, men vil alltid være husket hos familien Torpe.',
     bildeUrl: 'img/Trond/pappa og bendik.png',
