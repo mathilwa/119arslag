@@ -4,9 +4,9 @@ import Aarstall from './Aarstall.jsx';
 const Informasjonsblokk = ({informasjonOmJubilantene}) => {
   return (
     <section id="tidslinje" className="tidslinje-container">
-      {informasjonOmJubilantene.map(informasjon => {
+      {informasjonOmJubilantene.map((informasjon, index) => {
         return (
-          <div className={`tidslinje-blokk ${informasjon.jubilant}`}>
+          <div className={`tidslinje-blokk ${informasjon.jubilant}`} key={index}>
             <Aarstall aarstall={informasjon.aar}/>
 
             <div className="tidslinje-innhold">

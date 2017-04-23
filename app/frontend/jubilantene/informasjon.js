@@ -30,7 +30,7 @@ export const jubilantene = [
     'Som søsken flest hadde de også sine krangler, kanskje spesielt over middagsoppvasken på søndagane hvor Torunn ALLTID måtte vaske, mens han ' +
     'slapp unna med å tørke. I perioder sov de på samme rom, hvor hobbyen var å telle lysstripet i taket når bilene kjørte forbi ' +
     '(noe som på den tida tok tid å få noe tall å skryte av).',
-    bildeUrl: 'img/Torunn/born0016.JPG',
+    bildeUrl: 'img/Torunn/torunn og tormod.jpg',
   }, {
     aar: '1961',
     jubilant: JUBILANT_TORUNN,
@@ -83,7 +83,7 @@ export const jubilantene = [
     'folkeskolen. Trond hadde fått seg en «puslering» i sølv da han var i Israel. Denne var låst med en liten bøyd ståltråd slik at den ikke skulle falle fra hverandre. ' +
     'Etter at han var kommet hjem fjernet Trond låsen og fikk store problemer med å sette den sammen igjen. Trond ble livredd for at moren eller faren skulle komme hjem før ' +
     'han fikk satt den sammen igjen. Selvfølgelig uten grunn, men han klarte å sette den sammen igjen etter utallige forsøk.',
-    bildeUrl: 'img/Trond/israel.jpg',
+    bildeUrl: 'img/Trond/Israel.jpg',
   }, {
     aar: '1967',
     jubilant: JUBILANT_TORUNN,
@@ -162,19 +162,19 @@ export const jubilantene = [
     bildeUrl: 'img/Torunn/Torunn_militæret.jpg',
   }, {
     aar: '1977',
-    jubilant: JUBILANT_TORUNN,
-    tittel: 'Til sjøs',
-    tekst: 'Etter året i militæret tok Torunn med seg kunnskapen fra Radioskolen ut på havet for å arbeide som telegrafist. Hun fikk i ett helt år reise verden rundt, ' +
-    'og fikk oppleve en helt annen verden enn hun hadde sett til nå.',
-    bildeUrl: 'img/Torunn/Telegrafist.JPG',
-  }, {
-    aar: '1977',
     jubilant: JUBILANT_TROND,
     tittel: 'Hobbymekaniker',
     tekst: 'Trond har fra han var veldig ung hatt en stor interesse for elektriske ting. Han leste alt han kom over av elektroniske blader, og brukte ofte fritiden sin som hobbymekaniker. ' +
     'Trond var en enstøing som i stedet for å dra på fest gjerne satt hjemme og demonterte radioer, koblet opp telefonlinjer, eller skrudde på bil eller mopedene til kameratene. ' +
     'Dette er en fascinasjon og glede som ikke akkurat har avtatt med åren, og listen over biler og tilhørende bildeler kjøpt og jobbet på er tilnærmet lik uendelig lang.',
     bildeUrl: 'img/Trond/pappa mekker bil.jpg',
+  }, {
+    aar: '1977',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Til sjøs',
+    tekst: 'Etter året i militæret tok Torunn med seg kunnskapen fra Radioskolen ut på havet for å arbeide som telegrafist. Hun fikk i ett helt år reise verden rundt, ' +
+    'og fikk oppleve en helt annen verden enn hun hadde sett til nå.',
+    bildeUrl: 'img/Torunn/Telegrafist.JPG',
   }, {
     aar: '1978',
     jubilant: JUBILANT_TROND,
@@ -215,7 +215,7 @@ export const jubilantene = [
     aar: '1981',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Blir igjen i Trondheim',
-    tekst: 'Torunn ble igjen i Trondheim da Trond reiser nordover, og begynte å jobbe på Elab på NTH (dagens NTNU), hvor hun ble værende i 5 år.  ' +
+    tekst: 'Torunn ble igjen i Trondheim da Trond reiste nordover, og begynte å jobbe på Elab på NTH (dagens NTNU), hvor hun ble værende i 5 år.  ' +
     'Torunn ble i løpet av Ingeniørhøgskolen utdannet elektroingeniør, men flyttet seg i denne jobben over mot det digitale, som var mye mer spennende. ' +
     'Hun ble hekta på programmering, og et morsomt, men veldig spennende prosjekt var å få være med å bygge Norges første GPS-mottakar.',
     bildeUrl: 'img/Torunn/ELab.jpg',
@@ -315,7 +315,7 @@ export const jubilantene = [
     'selv om han fikk turens snilleste hest, Bendik. Trond kommer nok aldri til å bli med igjen, men vil alltid være husket hos familien Torpe.',
     bildeUrl: 'img/Trond/pappa og bendik.png',
   }, {
-    aar: '2003',
+    aar: '2005',
     jubilant: JUBILANT_TROND,
     tittel: 'Handyman',
     tekst: 'Om noen har noe som skal fikses så er Trond mannen å kontakte. Han stiller alltid opp, og har alltid en fiks løsning. Han er ekstremt kreativ, ' +
