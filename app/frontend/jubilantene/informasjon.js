@@ -35,7 +35,7 @@ export const jubilantene = [
     aar: '1961',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Lek med kalver',
-    tekst: 'Hver vår fikk Torunn ca 4 kalver til gården som de alte opp og solgte til slakt neste vår. På sommeren var kalvene ute på marka, og ' +
+    tekst: 'Hver vår kom ca 4 kalver til gården som Torunn og familien alte opp og solgte til slakt neste vår. På sommeren var kalvene ute på marka, og ' +
     'var veldig morsomme lekekamerater. De var tamme som hundevalper og likte veldig godt å bli børsta og kost med. Det gikk fint til høsten når de ble store med store horn, og ' +
     'ikke skjønte hvor sterke de var blitt.',
     bildeUrl: 'img/Torunn/kalver og lek.jpg',
@@ -43,7 +43,8 @@ export const jubilantene = [
     aar: '1962',
     jubilant: JUBILANT_TROND,
     tittel: 'Gutt i søskenflokken',
-    tekst: 'Som enn så lenge eneste gutt i søskenflokken prøvde lille Trond sitt beste for å passe inn, her nummer to fra venstre i kjole.',
+    tekst: 'Som enn så lenge eneste gutt i søskenflokken prøvde lille Trond sitt beste for å passe inn, her nummer to fra venstre i kjole. Ikke så lett å få øye på blant jentene, ' +
+    'men med et leketøy som representerer noe som skal bli en ganske stor interesse senere i livet er han likevel mulig å finne.',
     bildeUrl: 'img/Trond/pappa i kjole.jpg',
   }, {
     aar: '1962',
@@ -76,14 +77,24 @@ export const jubilantene = [
   }, {
     aar: '1965',
     jubilant: JUBILANT_TROND,
-    tittel: 'Isreal',
+    tittel: 'De flytter til Israel',
     tekst: 'I 1965 tok Arnulf Odd med seg hele familien i en stasjonsvogn og dro til Jerusalem som FN-observatør. De bodde 6 måneder i Jerusalem og 6 måneder i Tiberias. ' +
     'En spennende tid hvor de fikk oppleve mange historiske steder. Trond fikk sin første ridetur, på kamel, 17. mai i 1966, noe som var ganske skummelt for en liten gutt. ' +
     'Dette var ikke bare ferie for Trond, da han måtte gjøre hjemmelekser siden han egentlig skulle gått på skolen i Norge. Da han kom tilbake til Norge begynte han rett i 2. klasse på ' +
     'folkeskolen. Trond hadde fått seg en «puslering» i sølv da han var i Israel. Denne var låst med en liten bøyd ståltråd slik at den ikke skulle falle fra hverandre. ' +
-    'Etter at han var kommet hjem fjernet Trond låsen og fikk store problemer med å sette den sammen igjen. Trond ble livredd for at moren eller faren skulle komme hjem før ' +
+    'Etter at han var kommet hjem til Norge fjernet Trond låsen og fikk store problemer med å sette den sammen igjen. Trond ble livredd for at moren eller faren skulle komme hjem før ' +
     'han fikk satt den sammen igjen. Selvfølgelig uten grunn, men han klarte å sette den sammen igjen etter utallige forsøk.',
     bildeUrl: 'img/Trond/Israel.jpg',
+  }, {
+    aar: '1965',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Mange farer',
+    tekst: 'Det var ikke bare kamel som var skummelt i Israel. Trond og søsknene pleide å leke ute bak huset, hvor det var masse giftige krypdyr, noe Trond mener han' +
+    'aldri kunne gjort i dag! Om morgenen kunne det være både saksedyr og firfisler på veggene på soverommet. Firfislene var helt OK, da de var forholdsvis små og ikke farlige, men ' +
+    'skorpionene var det litt verre med. Av og til var de nødt til å lempe ut noen skorpioner, og da brukte de klesklyper til å bære dem med for å unngå å bli stukket. ' +
+    'De fanget også tusenbein, kjempelange og giftigem, i Nescafe-glass som de hadde sprit på, i tillegg til giftige skorpioner som de hadde i fyrstikkesker. Arnulf Odd ' +
+    'kom hjem fra arbeid en dag med et stort, korsformet kutt i stortoa. Han hadde blitt stukket av en skorpion og kuttet seg selv i stortåa for å blø giften ut.',
+    bildeUrl: 'img/Trond/Israel5_1.jpg',
   }, {
     aar: '1967',
     jubilant: JUBILANT_TORUNN,
@@ -99,11 +110,16 @@ export const jubilantene = [
     'Han ble pålagt å gå med denne på skolen, noe som bare gjorde Trond til et fantastisk mobbeobjekt! Det ble (heldigvis) bare med den ene dagen.',
     bildeUrl: 'img/Trond/lederhosen.jpg',
   }, {
-    aar: '1969',
+    aar: '1973',
     jubilant: JUBILANT_TROND,
     tittel: 'Ustaoset',
-    tekst: 'Familien til Trond hadde hytte på Ustaoset, hvor de tilbrakt mange vintrer og påskeferier.',
-    bildeUrl: 'img/Trond/på snøtaket.jpg',
+    tekst: 'Trond har tilbrakt mange fine og spesielle ferier på Ustaoset, enten på besteforeldrenes hytte eller i farens 16-manns militærtelt. Her har de vært siden de var små til de var ' +
+    'ungdom, sommer som vinter. På vei hjem etter en påskeferie på Ustaoset ' +
+    'gikk bilen, og etter å senere ha fått henta bilen tilbake til Hønefoss, begynte Trond å sjekke hva som var feil ved å demontere deler av motoren. ' +
+    'Etter mye jobb fant han endelig ut at den ene stempelstanga hadde røket, noe han var veldig fornøyd med å ha funnet ut. Denne «suksessen» med å fikse bilen til faren' +
+    'kan nok ses på som starten på det å måtte reparere alt som ikke virket. Motoren ble fikset ved å kjøpe en ny og erstatte den gamle. Den gamle motoren var for stor til å legges i ' +
+    'søppelkasse, så Trond gravde den ned i garasjen. Det går rykter om at Anne og Tore fant den igjen da de renoverte garasjen i 2014.',
+    bildeUrl: 'img/Trond/Blåbærplukking.jpg',
   }, {
     aar: '1970',
     jubilant: JUBILANT_TORUNN,
@@ -119,7 +135,7 @@ export const jubilantene = [
     'Huset var fyrt med ved og kull, så om vinteren måtte Trond opp og hugge ved og fyre i ovnene slik at det ikke skulle være så kaldt. Det var likevel ikke mulig å få varmet opp hele huset, ' +
     'så det var bare vinduene på rommet man kunne se ut av på den årstiden. I resten av huset var det fullt av is - på innsiden! Det var ofte gjerne bare rett over 0 grader ' +
     'på rommet til Trond da han stod opp. Dette ble bedre da familien arvet Koleman’en fra bestemoren. Det var en parafinbrenner som klunket og gikk og holdt rommet nogenlunde varmt, og Trond ' +
-    'likte godt å stå å varme ryggen mot klebersteinsovnen i stua.',
+    'likte godt å stå å varme ryggen mot klebersteinsovnen i stua. Telegrafalléen er fortsatt i familien, hvor Anne og hennes mann Tore er de som bor der den dag i dag.',
     bildeUrl: 'img/Trond/familien.jpg',
   }, {
     aar: '1972',
@@ -143,17 +159,17 @@ export const jubilantene = [
     'hadde Torunn i flere år diverse verv, og det var ikke mange kveldar hun var hjemme. Ei trygg, men veldig fin og spennende ungdomstid, selv utan de utskeielsene som ungdom idag er er med på.',
     bildeUrl: 'img/Torunn/påRommetCa16år.jpg',
   }, {
-    aar: '1974',
-    jubilant: JUBILANT_TROND,
-    tittel: 'Stil',
-    tekst: 'Trond mener selv at han ikke var spesielt opptatt av stil og utseende som ung, men med denne outfiten her kunne han lett sklidd inn på de hippeste utestedene i Oslo sentrum.',
-    bildeUrl: 'img/Trond/Blomsterskjorta.jpg',
-  }, {
     aar: '1975',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Russetid',
     tekst: '',
     bildeUrl: 'img/Torunn/russ.jpg',
+  }, {
+    aar: '1975',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Stil',
+    tekst: 'Trond mener selv at han ikke var spesielt opptatt av stil og utseende som ung, men med denne outfiten her kunne han lett sklidd inn på de hippeste utestedene i Oslo sentrum.',
+    bildeUrl: 'img/Trond/Blomsterskjorta.jpg',
   }, {
     aar: '1976',
     jubilant: JUBILANT_TORUNN,
