@@ -79,22 +79,35 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'De flytter til Israel',
     tekst: 'I 1965 tok Arnulf Odd med seg hele familien i en stasjonsvogn og dro til Jerusalem som FN-observatør. De bodde 6 måneder i Jerusalem og 6 måneder i Tiberias. ' +
-    'En spennende tid hvor de fikk oppleve mange historiske steder. Trond fikk sin første ridetur, på kamel, 17. mai i 1966, noe som var ganske skummelt for en liten gutt. ' +
-    'Dette var ikke bare ferie for Trond, da han måtte gjøre hjemmelekser siden han egentlig skulle gått på skolen i Norge. Da han kom tilbake til Norge begynte han rett i 2. klasse på ' +
-    'folkeskolen. Trond hadde fått seg en «puslering» i sølv da han var i Israel. Denne var låst med en liten bøyd ståltråd slik at den ikke skulle falle fra hverandre. ' +
-    'Etter at han var kommet hjem til Norge fjernet Trond låsen og fikk store problemer med å sette den sammen igjen. Trond ble livredd for at moren eller faren skulle komme hjem før ' +
-    'han fikk satt den sammen igjen. Selvfølgelig uten grunn, men han klarte å sette den sammen igjen etter utallige forsøk.',
+    'En spennende tid hvor de fikk oppleve mange historiske steder. Dette var ikke bare ferie for Trond, da han måtte gjøre hjemmelekser siden han egentlig skulle gått på skolen i Norge. ' +
+    'Da han kom tilbake til Norge begynte han rett i 2. klasse på folkeskolen.',
+    bildeUrl: 'img/Trond/Israel2.jpg',
+  }, {
+    aar: '1966',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Mange opplevelser',
+    tekst: 'Trond fikk sin første ridetur, på kamel, 17. mai i 1966, noe som var ganske skummelt for en liten gutt. Men det var ikke bare kamel som var skummelt i Israel. ' +
+    'Trond og søsknene pleide å leke ute bak huset, hvor det var masse giftige krypdyr, noe Trond mener han aldri kunne gjort i dag! Om morgenen kunne det ' +
+    'være både saksedyr og firfisler på veggene på soverommet. Firfislene var helt OK, da de var forholdsvis små og ikke farlige, men ' +
+    'skorpionene var det litt verre med. Av og til var de nødt til å lempe ut noen skorpioner, og da brukte de klesklyper til å bære dem med for å unngå å bli stukket. ' +
+    'De fanget også tusenbein, kjempelange og giftige, i Nescafe-glass som de hadde sprit på, i tillegg til giftige skorpioner som de hadde i fyrstikkesker. Arnulf Odd ' +
+    'kom hjem fra arbeid en dag med et stort, korsformet kutt i stortoa. Han hadde blitt stukket av en skorpion og kuttet seg selv i stortåa for å blø giften ut.',
     bildeUrl: 'img/Trond/Israel.jpg',
   }, {
-    aar: '1965',
+    aar: '1966',
     jubilant: JUBILANT_TROND,
-    tittel: 'Mange farer',
-    tekst: 'Det var ikke bare kamel som var skummelt i Israel. Trond og søsknene pleide å leke ute bak huset, hvor det var masse giftige krypdyr, noe Trond mener han' +
-    'aldri kunne gjort i dag! Om morgenen kunne det være både saksedyr og firfisler på veggene på soverommet. Firfislene var helt OK, da de var forholdsvis små og ikke farlige, men ' +
-    'skorpionene var det litt verre med. Av og til var de nødt til å lempe ut noen skorpioner, og da brukte de klesklyper til å bære dem med for å unngå å bli stukket. ' +
-    'De fanget også tusenbein, kjempelange og giftigem, i Nescafe-glass som de hadde sprit på, i tillegg til giftige skorpioner som de hadde i fyrstikkesker. Arnulf Odd ' +
-    'kom hjem fra arbeid en dag med et stort, korsformet kutt i stortoa. Han hadde blitt stukket av en skorpion og kuttet seg selv i stortåa for å blø giften ut.',
+    tittel: 'Suvernir',
+    tekst: 'Trond hadde fått seg en «puslering» i sølv da han var i Israel. Denne var låst med en liten bøyd ståltråd slik at den ikke skulle falle fra hverandre. ' +
+    'En dag fjernet Trond låsen og fikk store problemer med å sette den sammen igjen. Trond ble livredd for at moren eller faren skulle komme hjem før ' +
+    'han fikk satt den sammen igjen. Selvfølgelig uten grunn, men han klarte å sette den sammen igjen etter utallige forsøk.',
     bildeUrl: 'img/Trond/Israel5_1.jpg',
+  }, {
+    aar: '1966',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Hjem til Norge',
+    tekst: 'Da Trond kom hjem igjen til Hønefoss i 1966, flyttet familien inn i en enebolig i Osloveien. Det var tre militærboliger der, 8A, 8B og 8C. 8A var for den høyest rankede' +
+    'familien, deretter kom 8B og 8C. De flyttet først inn i 8C, men etter noen år flyttet de videre til 8A.',
+    bildeUrl: 'img/Trond/Familiemiddag.jpg',
   }, {
     aar: '1967',
     jubilant: JUBILANT_TORUNN,
@@ -113,8 +126,8 @@ export const jubilantene = [
     aar: '1973',
     jubilant: JUBILANT_TROND,
     tittel: 'Ustaoset',
-    tekst: 'Trond har tilbrakt mange fine og spesielle ferier på Ustaoset, enten på besteforeldrenes hytte eller i farens 16-manns militærtelt. Her har de vært siden de var små til de var ' +
-    'ungdom, sommer som vinter. På vei hjem etter en påskeferie på Ustaoset ' +
+    tekst: 'Trond har tilbrakt mange fine og spesielle ferier på Ustaoset, enten på besteforeldrenes hytte eller i farens 16-manns militærtelt. Her har de vært siden de var små ' +
+    ', sommer som vinter. På vei hjem etter en påskeferie på Ustaoset ' +
     'gikk bilen, og etter å senere ha fått henta bilen tilbake til Hønefoss, begynte Trond å sjekke hva som var feil ved å demontere deler av motoren. ' +
     'Etter mye jobb fant han endelig ut at den ene stempelstanga hadde røket, noe han var veldig fornøyd med å ha funnet ut. Denne «suksessen» med å fikse bilen til faren' +
     'kan nok ses på som starten på det å måtte reparere alt som ikke virket. Motoren ble fikset ved å kjøpe en ny og erstatte den gamle. Den gamle motoren var for stor til å legges i ' +
@@ -145,18 +158,39 @@ export const jubilantene = [
     'Den største søljen har hun arvet av sin tante, og er i år over 100 år gammel. Både søljer og bunaden har nå gått i arv til Mathilde. Her ser man også at det lange håret kom til nytte.',
     bildeUrl: 'img/Torunn/Torunn0005.JPG',
   }, {
-    aar: '1973',
+    aar: '1966',
     jubilant: JUBILANT_TROND,
     tittel: 'På skolen',
-    tekst: 'Trond og Elle gikk i samme klasse på Eikeli Folkeskole i Hønefoss. Der sang han i kor og spilte baryton, men ingen av delen varte lenge da interessen for fotball var større. ' +
-    'Trond var veldig glad i matematikk og det ble en sport mellom ham og en medelev å gjøre mest mulig av oppgavene til dagen etter. De var ferdige med 7. klassepensum i 6. klasse.',
+    tekst: 'Trond og Elle begynte sammen i 2. klasse på Eikeli Folkeskole i Hønefoss da de kom hjem fra Israel. Det var litt andre tider da enn nå. De måtte hilse pent på læreren, ' +
+    'be fadervår, synge salmer og pugge alt som kunne pugges. Trond var veldig glad i matematikk og det ble en sport mellom ham og en medelev å gjøre mest mulig av ' +
+    'oppgavene til dagen etter. De var ferdige med 7. klassepensum i 6. klasse.',
     bildeUrl: 'img/Trond/Konfirmasjon.jpg',
+  }, {
+    aar: '1969',
+    jubilant: JUBILANT_TROND,
+    tittel: 'En aktiv gutt',
+    tekst: 'Trond var en aktiv gutt som liten, både med tanke på hvor mye forskjellig han drev med, og at han var mye fysisk aktiv. Trond spilte baryton i skolekorpset, sang i kor og gikk ' +
+    'på svømming. Hvorfor han begynte med svømming husker han ikke selv, men han stod i hvert fall tidlig opp for å trene i bassenget på Folkehøyskolen i Hønefoss. Han lærte bare bryst, ' +
+    'men ble såpass god at han fikk delta i ett mesterskap med masse deltakere. Stakars Trond var livredd, og husker ikke selv hvordan det gikk. Trond valgte etterhvert ' +
+    'å slutte med disse aktivitetene til fordel for den største interessen av dem alle - fotball. Barndomsvennen hans, Thor-Helge, spilte fotball i Tolpinrud Idrettslag,' +
+    'så da var det naturlig for Trond å begynne der. Puslete og uten selvtillit spilte han det han kunne, og fikk prøve nesten alle posisjoner untatt midtstopper, selv om han ikke fikk det helt til.',
+    bildeUrl: 'img/Trond/Isreal4_1.jpg',
+  }, {
+    aar: '1971',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Sykling og løping',
+    tekst: 'Trond var som nevnt en veldig aktiv gutt, og kom seg til og fra steder ved å sykle eller løpe. Skulle han for eksempel på kino var det løping frem og tilbake. ' +
+    'Trond likte heldigvis godt å løpe, så dette var ikke noe problem for ham. ' +
+    'På Folkeskolen hadde Trond en gymlærer som var glad i å løpe, så han tok klassen med på løpetur overalt. Elevene ble delt i to grupper, den sakteløpende og den fortløpende. ' +
+    'Trond ble først satt i den sakteløpende gruppen, men ble fort oppgradert til den fortløpende. Mye på grunn av at han var så aktiv, så var Trond tynn som en strek og ' +
+    'kunne spise hva som helst. Når han hadde penger kjøpte han seg fersk og god julekake til lunsj på hjørnebakeriet.',
+    bildeUrl: 'img/Trond/17maigråjakke.jpg',
   }, {
     aar: '1973',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Aktiv ungdom',
     tekst: 'På ungdomskolen og gymnaset var Torunn aktiv i det kristne ungdomsmiljøet på Os. I ”skulelaget”, Norges Kristne Student- og Skuleungdomslag, ' +
-    'hadde Torunn i flere år diverse verv, og det var ikke mange kveldar hun var hjemme. Ei trygg, men veldig fin og spennende ungdomstid, selv utan de utskeielsene som ungdom idag er er med på.',
+    'hadde Torunn i flere år diverse verv, og det var ikke mange kvelder hun var hjemme. Ei trygg, men veldig fin og spennende ungdomstid, selv utan de utskeielsene som ungdom idag er er med på.',
     bildeUrl: 'img/Torunn/påRommetCa16år.jpg',
   }, {
     aar: '1975',
