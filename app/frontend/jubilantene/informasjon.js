@@ -309,6 +309,15 @@ export const jubilantene = [
     bildeUrl: 'img/begge/Lille Thomas.jpg',
   }, {
     aar: '1990',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Hytta',
+    tekst: 'I nærheten av Ulefoss i Telemark finner man røttene til Wærstadfamilien, og like ved det som kalles Wærstad-gården hadde Trond og familie en hytte. Ikke store greiene, ' +
+    'med 2 soverom, 2 mindre stuer, et kjøkken og loft, spesielt ikke når man plutselig skulle samle hele familien (mor, far, søsken og alle ders barn). Trangt var det, men desto hyggeligere' +
+    ' (og høylytt) kunne det bli. Hytta hadde ikke innlagt vann, og den hadde også utedo i skogkanten. Heldigvis var det nok av uteområder, og et høydepunkt for hver samling var løypa i skogen hvor man' +
+    ' skulle prøve å finne gjemte ting som ikke hørte til der. En annen hyggelig tradisjon var å plukke blåbær, da skogenbunnen til tider var blå så langt øyet kunne se.',
+    bildeUrl: 'img/Trond/Hytta.jpg',
+  }, {
+    aar: '1990',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Fint sted å bo',
     tekst: 'Da Horten ble valgt som bosted, hadde ikke Torunn og Trond tenkt så mye på om det var en hyggelig by, om det var fine områder eller om det fantes kulturelle tilbud. ' +
@@ -317,14 +326,16 @@ export const jubilantene = [
     'Her ble det arrangert feiringer når det passet seg, for eksempel til jul og på 17. mai.',
     bildeUrl: 'img/begge/17mai pappa og barna.jpg',
   }, {
-    aar: '1990',
+    aar: '1994',
     jubilant: JUBILANT_TROND,
-    tittel: 'Hytta',
-    tekst: 'I nærheten av Ulefoss i Telemark finner man røttene til Wærstadfamilien, og like ved det som kalles Wærstad-gården hadde Trond og familie en hytte. Ikke store greiene, ' +
-    'med 2 soverom, 2 mindre stuer, et kjøkken og loft, spesielt ikke når man plutselig skulle samle hele familien (mor, far, søsken og alle ders barn). Trangt var det, men desto hyggeligere' +
-    ' (og høylytt) kunne det bli. Hytta hadde ikke innlagt vann, og den hadde også utedo i skogkanten. Heldigvis var det nok av uteområder, og et høydepunkt for hver samling var løypa i skogen hvor man' +
-    ' skulle prøve å finne gjemte ting som ikke hørte til der. En annen hyggelig tradisjon var å plukke blåbær, da skogenbunnen til tider var blå så langt øyet kunne se.',
-    bildeUrl: 'img/Trond/Hytta.jpg',
+    tittel: 'Typisk Trond',
+    tekst: 'Trond er person med mye humor, og med det følger det ganske mange dumme ord, utsagn og uttrykk som har festet seg. Typiske ord er pørsjgerøsj (=pølse), bodler (=boller) eller ' +
+    'pidnatjøt (=pinnekjøtt). Mange andre ord er preget av det Trond mener er vestlandsk, eller "Osisk", som er å legge til noen d-er i ordet, med en fast o på slutten. ' +
+    'Eksepmpler her er skjevo (=brødskive), judlaribbo (=juleribbe) og pudso (=kallenavn for pusen). Det går ikke an å spise riskrem på julaften uten at Trond entusiastisk later som han får mandelen (dette skjer typisk minst tre ganger), og det går ' +
+    'heller ikke an å åpne en liten pakke uten at Trond skal gjette at det er en fotball. En annen slager er å storme inn i et rom å alt for høyt si noe som "bllblalblulbulbulb!", hvor alle' +
+    'skvetter til, og han følger opp med "Ble du skremt nå?" Trond er glad i spille kort, og en superirriterende fakte er at han alltid sier "sorry" med et fårete smil når han vinner. ' +
+    'Og alle som kjenner Trond vet hva som kommer om man ser på TV2 eller om restauranten bare har Fanta. Til slutt tar vi med et uttrykk Trond har brukt mye, som kanskje beskrives best i bildet: "å purke"',
+    bildeUrl: 'img/Trond/Purking.JPG',
   }, {
     aar: '1995',
     jubilant: JUBILANT_TORUNN,
@@ -395,6 +406,15 @@ export const jubilantene = [
     'somrene i Horten, både på ro- og seilturer. Vaffelrøre ble laget og primusen ble pakket, før Torunn og barna kursen ut på småøyene. Her ble det stekt vafler, til alle andres misunnelse.',
     bildeUrl: 'img/Torunn/Torunn i robåt.jpg',
   }, {
+    aar: '2011',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Dagens stil',
+    tekst: 'Det ble jo tidligere nevnt at Trond egentlig hadde ganske hipp klesstil som ung, men hva med nå? Dette bildet representerer den mest vanlige versjonen man finner av Trond -  ' +
+    'lys (helst hvit) skjorte, bukse og kanskje en mørk jakke over. Fe fleste hvite skjortene tilhører jobben, og er fint merket med Høglund. Den andre, nesten like vanlige, versjonen ' +
+    'inneholder de samme klærne, bare med olje på. Da Trond en gang ble invitert til Mathilde i Oslo for å være med på middag fikk han beskjed om at det var strengt forbudt å stille ' +
+    'i den hvite Høglundskjorta. Da gikk Trond på Dressmann og kjøpte 3 fine, nye bukser, 3 fine, nye skjorter og 3 slips, hvor Mathilde fikk lov til å velge kombinasjonen.',
+    bildeUrl: 'img/Trond/pappa og grisebussen.jpg',
+  }, {
     aar: '2012',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Korpssjel',
@@ -402,6 +422,13 @@ export const jubilantene = [
     'og så også som fast fanebærer. Da Mathilde flyttet til Trondheim og begynte å spille der, tok Torunn liksågodt turen oppover på 17. mai og var fanebærer der også. ' +
     'Tiden i skolekorpset har gitt nye venner, givende oppgaver, flotte korpsturer, og muligheten til å bli kjent med ungene i området.',
     bildeUrl: 'img/Torunn/Nidarholm1.jpg',
+  }, {
+    aar: '2012',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Allmenkunnskap',
+    tekst: 'Trond er glad i å spille spill, og utenom kortspill, så er spørrespill og quiz noe av det som oftest blir valgt. Trond er en reser i allmenkunnskap, og om han ikke kan svaret så ' +
+    'har han en tendens til å klare å gjette seg frem til det. Favorittkategoriene er "natur og vitenskap", "tv og film" og "sport og spill".',
+    bildeUrl: 'img/Trond/spill.JPG',
   }, {
     aar: '2013',
     jubilant: JUBILANT_TORUNN,
@@ -428,7 +455,7 @@ export const jubilantene = [
     'Først med egen van med papp-gris på taket, så med rosa minibuss med nese og ører. Denne bussen har, i tillegg til å lage show, blitt brukt til å frakte folk ' +
     'frem og tilbake for å heie på de som løper. Men kanskje aller viktist så Trond og bussen pleid å frakte ca 20 "barn" til godtebutikken på kvelden. Kveldens absolutte ' +
     'høydepunkt for mange av de minste, denne turen med onkel Trond og godtebussen. I 2014 fikk Trond, vel fortjent, utdelt prisen for årets Hederssvin!',
-    bildeUrl: 'img/Trond/pappa og grisebussen.jpg',
+    bildeUrl: 'img/Trond/svigersvin.JPG',
   }, {
     aar: '2015',
     jubilant: JUBILANT_TORUNN,
