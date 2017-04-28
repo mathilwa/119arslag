@@ -1,6 +1,7 @@
 export const JUBILANT_TROND = 'trond';
 export const JUBILANT_TORUNN = 'torunn';
 export const JUBILANT_BEGGE = 'begge';
+export const JUBILANT_BEGGE_HOYRE = 'begge-hoyre';
 
 export const jubilantene = [
   {
@@ -212,6 +213,14 @@ export const jubilantene = [
     bildeUrl: 'img/Torunn/Torunn_militæret.jpg',
   }, {
     aar: '1977',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Plikttjenesteår',
+    tekst: 'Da Torunn var ferdig med året sitt på Jørstadmoen var det tid for et plinktjenesteår på Helgelandsmoen, på NATO sin radiostasjon. Her brukte Torunn fritiden ' +
+    'sin til å plukke epler i Norges største eplehage, som den gangen besto av ca 20 000 epletrær. Dette var i kort avstand fra Hønefoss, så Torunn var ofte ' +
+    'ute i byen, både på middag og dans, men traff aldri Trond her.',
+    bildeUrl: 'img/Torunn/nato.jpg',
+  }, {
+    aar: '1977',
     jubilant: JUBILANT_TROND,
     tittel: 'Hobbymekaniker',
     tekst: 'Trond har fra han var veldig ung hatt en stor interesse for elektriske ting. Han leste alt han kom over av elektroniske blader, og brukte ofte fritiden sin som hobbymekaniker. ' +
@@ -219,10 +228,10 @@ export const jubilantene = [
     'Dette er en fascinasjon og glede som ikke akkurat har avtatt med åren, og listen over biler og tilhørende bildeler kjøpt og jobbet på er tilnærmet lik uendelig lang.',
     bildeUrl: 'img/Trond/pappa mekker bil.jpg',
   }, {
-    aar: '1977',
+    aar: '1978',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Til sjøs',
-    tekst: 'Etter året i militæret tok Torunn med seg kunnskapen fra Radioskolen ut på havet for å arbeide som telegrafist. Hun fikk i ett helt år reise verden rundt, ' +
+    tekst: 'Etter pliktåret i militæret tok Torunn med seg kunnskapen fra Radioskolen ut på havet for å arbeide som telegrafist. Hun fikk i ett helt år reise verden rundt, ' +
     'og fikk oppleve en helt annen verden enn hun hadde sett til nå.',
     bildeUrl: 'img/Torunn/Telegrafist.JPG',
   }, {
@@ -236,6 +245,17 @@ export const jubilantene = [
     'for å sette på vannslangen. Innen han  kom tilbake var alt allerede på plass: brannbil, politi og tilskuere. De hadde sett røyken fra brannstasjonen og kom umiddelbart. Garasjen ' +
     'fikk heldigvis bare innvendige skader.',
     bildeUrl: 'img/Trond/møkkete.jpg',
+  }, {
+    aar: '1978',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Nr. 9 av 32',
+    tekst: 'Etter gymnaset var det helt vanlig (og obligatorisk) for gutter å møte opp til militærtjeneste. Pappa Arnulf Odd mente Trond burde gå på befalsskolen, så slik ble det. ' +
+    'Trond valgte da sambandet på Lillehammer, siden de drev med "elektroniske ting". Det var en kraftig overgang fra hjemme, selv om all vaskingen var velkjent. Trond gjorde vel ikke ' +
+    'så mye lekser, men ble likevel nr. 9 av 32 stykker! I løpet av militærtiden var på en vinterøvelse hvor det bare var to stykker klarte seg hele veien til ' +
+    'avslutningsplassen, hvor Trond var den ene. Etterpå ble han syk og lå på sykestua i leiren. Akkurat den helgen skulle alle velge hvor de ville dra da de var ferdige med ' +
+    'utdannelsen, så når Trond endelig fikk velge var det bare to steder igjen. Tydeligvis de to minst interessante. Porsangermoen ved Alta og Garnisonen i Sør-Varanger ved Kirkenes var ' +
+    'de som var igjen, så Trond endte opp i Kirkenes.',
+    bildeUrl: 'img/Trond/Scan10016.JPG',
   }, {
     aar: '1978',
     jubilant: JUBILANT_TORUNN,
@@ -252,7 +272,7 @@ export const jubilantene = [
     tittel: 'Bartenderen',
     tekst: 'I 1980 begynte Trond å jobbe som bartender i befalsmessa, og fikk her muligheten til å utfolde seg som den humoristen han kan være. Det var vel kanskje ' +
     'her Torunn fikk øynene opp for storsjarmøren.',
-    bildeUrl: 'img/Trond/Scan10016.JPG',
+    bildeUrl: 'img/Trond/militæret.jpg',
   }, {
     aar: '1980',
     jubilant: JUBILANT_BEGGE,
@@ -270,6 +290,14 @@ export const jubilantene = [
     'Hun ble hekta på programmering, og et morsomt, men veldig spennende prosjekt var å få være med å bygge Norges første GPS-mottakar.',
     bildeUrl: 'img/Torunn/ELab.jpg',
   }, {
+    aar: '1981',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Reiser til Nord-Norge',
+    tekst: 'Gjennom militøret ble Trond beordret til Nord-Norge, men han fortsatte å holde kontakten med Torunn, og besøkte henne mange ganger. Trond likte, da som nå, å kjøre bil, ' +
+    'så det ble mange, lange kjøreturer fra Bardufoss til Trondheim. Besøkene var til tider ganske kort, da det hendte han kjørte nedover natt til lørdag, ' +
+    'og måtte dra nordover igjen allerede søndag morgen.',
+    bildeUrl: 'img/Trond/Kjørte mye bil.jpg',
+  }, {
     aar: '1983',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Olavstafetten',
@@ -277,11 +305,26 @@ export const jubilantene = [
     'Sammen med venner deltok de begge i 1983 på Olavstafetten i Trondheim, under lagnavnet SSL (Spøt- og Småetarlaget) Gladlaks.',
     bildeUrl: 'img/begge/Olavstafetten.JPG',
   }, {
+    aar: '1984',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'De flytter sammen',
+    tekst: 'Etter tre år i Nord-Norge fikk Trond endelig overflytting til Trondheim, og flytter da inn til Torunn, i hennes leilighet på Flatåsen.',
+    bildeUrl: 'img/begge/flatåsen.jpg',
+  }, {
     aar: '1986',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Horten',
     tekst: 'Etter flere år i Trondheim flytter Torunn og Trond til Falkensten utenfor Horten.',
     bildeUrl: 'img/begge/Hjemme i Horten.JPG',
+  }, {
+    aar: '1986',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Norcontrol',
+    tekst: 'Trond begynte på Norcontrol den første uka i august 1986. En spesiell dag da både Kåre Høglund og Egil Gundersen (som viser seg å skulle være arbeidskolleger' +
+    'i mange år fremover) begynte denne dagen. Egil begynte på motorstyrings-avdelingen, mens Kåre og Trond begynte på "automasjons-avdelingen". Tronds første oppdrag på ' +
+    'båt var en sightseeing til Slagentangen. Båten var en shutteltanker fra Nordsjøen og het Polytrader. Trond fikk stoooore øyne da han fikk se en båtmotor for første gang. ' +
+    'Den var like stor som en toetasjes enebolig, og propellakslingen var så stor i diameter at han ikke rakk rundt den.',
+    bildeUrl: 'img/Trond/Trond3.JPG',
   }, {
     aar: '1986',
     jubilant: JUBILANT_BEGGE,
@@ -291,10 +334,17 @@ export const jubilantene = [
     bildeUrl: 'img/begge/Oppussing.jpg',
   }, {
     aar: '1986',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Første utenlandstur',
+    tekst: 'Tronds første utenlandstur gikk til Bilbao i Spania. Der var det "ferietilstander" på grunn av dårlige tider. De ble hentet klokken 9 og kjørt tilbake ' +
+    'allerede i 14-tiden. I tillegg til dette hadde de fri både lørdag og søndag. Det ble et par turer med denne båten før den ble ferdig.',
+    bildeUrl: 'img/Trond/trond_i_kjells_båt.jpg',
+  }, {
+    aar: '1986',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Ny jobb',
     tekst: 'I Horten begynte Torunn å jobbe for Simrad, nå Kongsberg Maritime. En fantastisk spennende jobb hvor hun har fått vært med å utvikle verdens beste ekkolodd.',
-    bildeUrl: 'img/begge/1988_0002.jpg',
+    bildeUrl: 'img/Torunn/TorunnOffisiell.jpg',
   }, {
     aar: '1987',
     jubilant: JUBILANT_BEGGE,
@@ -398,6 +448,16 @@ export const jubilantene = [
     'spennende steder. Her er Torunn på kursoppdrag i Oman.',
     bildeUrl: 'img/Torunn/Ny jobb.jpg',
   }, {
+    aar: '2008',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Lek i snøen',
+    tekst: 'Når det kommer store mengder god, kram snø, kan man faktisk finne Trond lekende ute. Ikke på akebrett, ei heller på ski, men gjerne i gang med snømannbygging. ' +
+    'Og her skal alt være størst mulig. Det skal være høyt og svært, med utskjæringer og former. Det skal være stor nese, ører, pupper og eventuelle andre effekter. Påsken 2008 ' +
+    'tok Torunn og Trond med seg Mathilde, Thomas, Ester, Daniel og utvekslingsstudenten Man på hyttetur. Det var ekstreme mengder snø det året, så Trond satte i gang med ' +
+    'å bygge en stor og romslig snøhule. Dette mens Torunn og Ester sto inne og bakte boller. Snøhula rommet alle mann, så de nybakte bollene, med varm kakao, ble nytt inne i ' +
+    'denne.',
+    bildeUrl: 'img/Trond/pappa og ester.jpg',
+  }, {
     aar: '2010',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Oselveren',
@@ -405,6 +465,23 @@ export const jubilantene = [
     'Denne gleden sitter fortsatt i - en rotur er noe Torunn har stor glede av den dag i dag! I voksen alder har hun eid sin egen oselver, og denne ble brukt flittig på ' +
     'somrene i Horten, både på ro- og seilturer. Vaffelrøre ble laget og primusen ble pakket, før Torunn og barna kursen ut på småøyene. Her ble det stekt vafler, til alle andres misunnelse.',
     bildeUrl: 'img/Torunn/Torunn i robåt.jpg',
+  }, {
+    aar: '2011',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'Gode venner',
+    tekst: 'Det er mange år siden Torunn og Trond var sammen som kjærester, men de er fortsatt veldig gode venner. Kanskje man kan gå så langt som å si at de er hverandres beste venn. ' +
+    'Torunn og Trond gjør det meste i fellesskap. De er ofte med hverandre når de har fri, de besøker venner og familie sammen, de hjelper hverandre når det trengs, og de tilbringer det meste ' +
+    'av ferie og høytidsdager sammen. Jul- og påskeferie har for det meste blitt feiret sammen, hele familien. I 2011 dro hele familien, pluss niese Hilde, til USA. Turen varte i 11 dager, og gikk innom' +
+    'New York, Boston, snarvisitt hos Kristin og Jean Pierre i Montreal, besøk hos fjern familie i Reno, og avslutning i San Francisco. Her er de avbildet sammen utenfor Alcatraz mens de venter ' +
+    'på båten tilbake til San Francisco.',
+    bildeUrl: 'img/Begge/USAtur.jpg',
+  }, {
+    aar: '2011',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Glad i å leke',
+    tekst: 'Torunn er til tider er stort barn fanget i en voksen kropp, og hun elsker å leke. Konkurranser og spill er gøy (hun kan gjerne jukse om det er så om å gjøre), hoppetau er gøy, ' +
+    'utkledning er gøy. Noe som alltid må med når hun besøker familien på Os er litt tid til leke seg på trampolina, gjerne sammen med barna.',
+    bildeUrl: 'img/Torunn/lek.jpg',
   }, {
     aar: '2011',
     jubilant: JUBILANT_TROND,
@@ -435,9 +512,9 @@ export const jubilantene = [
     tittel: 'Sykkeltur langs Donau',
     tekst: 'At Torunn og Mathilde drar på sykkeltur sammen har vært en årlig agenda for sommerferien siden sykkelturen til Bergen. Turene har da vært rundt om i vakre Norge. Sommeren 2013 ' +
     'ville Torunn og Mathilde prøve noe nytt, og de ville ha med seg lille niesa/kusina Ester på lasset. Denne gangen skulle turen gå til utlandet, nærmere bestemt Østerriket. Etter et par flyturer ' +
-    'og en ganske så oppstykket togtur (som inkluderte noen avslappende timer på noe avispapir på en forlatt togstasjon midt på natta), så kom vi frem til Passau hvor turen skulle starte. ' +
-    'Turen skulle vare i 7 dager, og i løpet av denne tiden skulle vi sykle langs Donau i fantastisk natur, se spennende bygg og småbygder, besøke vingårer, spise masse god mat, få vonde rumper ' +
-    'og ',
+    'og en ganske så oppstykket togtur (som inkluderte noen avslappende timer på noe avispapir på en forlatt togstasjon midt på natta), så kom de frem til Passau hvor turen skulle starte. ' +
+    'Turen skulle vare i 7 dager, og i løpet av denne tiden skulle de sykle langs Donau i fantastisk natur, se spennende bygg og småbygder, besøke vingårer, spise masse god mat, få vonde ' +
+    'rumper og litt bedre kondis.',
     bildeUrl: 'img/Torunn/sykkeltur donau.jpg',
   }, {
     aar: '2014',
@@ -463,5 +540,31 @@ export const jubilantene = [
     tekst: 'Torunns kusine Anita pleier å leie seg leilighet nede på Gran Canaria, noe som har gjort det lett for Torunn å ta turen. ' +
     'Dette har også blitt en av de turene som må gjentas, og som Torunn har hatt stor glede av.',
     bildeUrl: 'img/Torunn/Kusineferie.jpg',
+  }, {
+    aar: '2015',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Hyttetur',
+    tekst: 'Trond er til stadighet ute og reiser, og det er så lett å få booket noe tid med ham. Påsken 2015 var han tilfeldigvis hjemme, og ble raskt huket tak i av søster Elle og hennes ' +
+    'mann Poul. Sammen med hele deres familie og Mathilde, feiret da Trond påske på hytta deres ved Vansjø utenfor Moss. Påsken falt det året over bursdagen til Elle og Trond, og her ' +
+    'er de avbildet som bursdagsbarn med fantasiske hodeplagg laget av deres mor.',
+    bildeUrl: 'img/Trond/pappa og elle påske.jpg',
+  }, {
+    aar: '2015',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'Spontane',
+    tekst: 'Med unntak av at både Torunn og Trond er mye opptatt med reising, så er de med på det meste når de først har tid. De er veldig glad i gjøre ting med andre, men også bare seg ' +
+    'i mellom. Trond er stadig vekk hos Torunn for å spise middag, og kanskje få noen "bodler" eller vafler til dessert, og Torunn blir ofte med Trond på kino. De ble også med, uten ' +
+    'spesielt mye trening, Mathilde på fjelltur til Store-Ble. Turen ble litt tung, men de kom seg opp på 1000 meter før det sa stopp. De siste 300 meterne gikk Mathilde derfor alene, ' +
+    'mens Torunn og Trond fikk god tid til å slappe med av niste.',
+    bildeUrl: 'img/Begge/spontane.jpg',
+  }, {
+    aar: '2016',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Fantastisk sangstemme',
+    tekst: 'Det er kanskje ikke alle som har fått gleden av å høre den, men Trond har en helt fantastisk sangstemme. Både Mathilde og Thomas har vokst opp med pappaen sin sangstemme, ' +
+    'gjennom nattasanger som "Alltid fredig når du går", "Vår gud han er så fast en borg" og tulleverjsonen av "Bæ, bæ, lille lam", og utallige bilturer med musikk på anlegget. I senere tid kjøpte Trond karaokeannlegg, ' +
+    'hvor sanger som "Hello" og "Bridge over troubled water" gjerne blir sunget. Mathilde har alltid vært veldig glad i å høre faren synge, da kanskje spesielt "Deilig er jorden" i ' +
+    'kirken på julaften. Her sitter Mathilde og Trond og gauler sammen til "Honesty" i bilen på vei til Danmark.',
+    bildeUrl: 'img/Trond/sangstemme.jpg',
   },
 ];
