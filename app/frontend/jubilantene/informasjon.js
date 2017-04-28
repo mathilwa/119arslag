@@ -293,8 +293,8 @@ export const jubilantene = [
     aar: '1981',
     jubilant: JUBILANT_TROND,
     tittel: 'Reiser til Nord-Norge',
-    tekst: 'Gjennom militøret ble Trond beordret til Nord-Norge, men han fortsatte å holde kontakten med Torunn, og besøkte henne mange ganger. Trond likte, da som nå, å kjøre bil, ' +
-    'så det ble mange, lange kjøreturer fra Bardufoss til Trondheim. Besøkene var til tider ganske kort, da det hendte han kjørte nedover natt til lørdag, ' +
+    tekst: 'Gjennom militæret ble Trond beordret til Nord-Norge, men han fortsatte å holde kontakten med Torunn, og besøkte henne mange ganger. Trond likte, da som nå, å kjøre bil, ' +
+    'så det ble mange, lange kjøreturer fra Bardufoss til Trondheim. Besøkene var til tider ganske korte, da det hendte han kjørte nedover natt til lørdag, ' +
     'og måtte dra nordover igjen allerede søndag morgen.',
     bildeUrl: 'img/Trond/Kjørte mye bil.jpg',
   }, {
@@ -385,7 +385,7 @@ export const jubilantene = [
     'heller ikke an å åpne en liten pakke uten at Trond skal gjette at det er en fotball. En annen slager er å storme inn i et rom å alt for høyt si noe som "bllblalblulbulbulb!", hvor alle' +
     'skvetter til, og han følger opp med "Ble du skremt nå?" Trond er glad i spille kort, og en superirriterende fakte er at han alltid sier "sooorry" med et fårete smil når han vinner. ' +
     'Og alle som kjenner Trond vet hva som kommer om man ser på TV2 eller om restauranten bare har Fanta. Til slutt tar vi med et uttrykk Trond har brukt mye, som kanskje beskrives best i bildet: "å purke"',
-    bildeUrl: 'img/Trond/Purking.JPG',
+    bildeUrl: 'img/Trond/Purking.jpg',
   }, {
     aar: '1995',
     jubilant: JUBILANT_TORUNN,
@@ -474,7 +474,7 @@ export const jubilantene = [
     'av ferie og høytidsdager sammen. Jul- og påskeferie har for det meste blitt feiret sammen, hele familien. I 2011 dro hele familien, pluss niese Hilde, til USA. Turen varte i 11 dager, og gikk innom' +
     'New York, Boston, snarvisitt hos Kristin og Jean Pierre i Montreal, besøk hos fjern familie i Reno, og avslutning i San Francisco. Her er de avbildet sammen utenfor Alcatraz mens de venter ' +
     'på båten tilbake til San Francisco.',
-    bildeUrl: 'img/Begge/USAtur.jpg',
+    bildeUrl: 'img/begge/USAtur.jpg',
   }, {
     aar: '2011',
     jubilant: JUBILANT_TORUNN,
@@ -487,7 +487,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'Dagens stil',
     tekst: 'Det ble jo tidligere nevnt at Trond egentlig hadde ganske hipp klesstil som ung, men hva med nå? Dette bildet representerer den mest vanlige versjonen man finner av Trond -  ' +
-    'lys (helst hvit) skjorte, bukse og kanskje en mørk jakke over. Fe fleste hvite skjortene tilhører jobben, og er fint merket med Høglund. Den andre, nesten like vanlige, versjonen ' +
+    'lys (helst hvit) skjorte, bukse og kanskje en mørk jakke over. De fleste hvite skjortene tilhører jobben, og er fint merket med Høglund. Den andre, nesten like vanlige, versjonen ' +
     'inneholder de samme klærne, bare med olje på. Da Trond en gang ble invitert til Mathilde i Oslo for å være med på middag fikk han beskjed om at det var strengt forbudt å stille ' +
     'i den hvite Høglundskjorta. Da gikk Trond på Dressmann og kjøpte 3 fine, nye bukser, 3 fine, nye skjorter og 3 slips, hvor Mathilde fikk lov til å velge kombinasjonen.',
     bildeUrl: 'img/Trond/pappa og grisebussen.jpg',
@@ -505,7 +505,7 @@ export const jubilantene = [
     tittel: 'Allmenkunnskap',
     tekst: 'Trond er glad i å spille spill, og utenom kortspill, så er spørrespill og quiz noe av det som oftest blir valgt. Trond er en reser i allmenkunnskap, og om han ikke kan svaret så ' +
     'har han en tendens til å klare å gjette seg frem til det. Favorittkategoriene er "natur og vitenskap", "tv og film" og "sport og spill".',
-    bildeUrl: 'img/Trond/spill.JPG',
+    bildeUrl: 'img/Trond/spill.jpg',
   }, {
     aar: '2013',
     jubilant: JUBILANT_TORUNN,
@@ -556,7 +556,7 @@ export const jubilantene = [
     'i mellom. Trond er stadig vekk hos Torunn for å spise middag, og kanskje få noen "bodler" eller vafler til dessert, og Torunn blir ofte med Trond på kino. De ble også med, uten ' +
     'spesielt mye trening, Mathilde på fjelltur til Store-Ble. Turen ble litt tung, men de kom seg opp på 1000 meter før det sa stopp. De siste 300 meterne gikk Mathilde derfor alene, ' +
     'mens Torunn og Trond fikk god tid til å slappe med av niste.',
-    bildeUrl: 'img/Begge/spontane.jpg',
+    bildeUrl: 'img/begge/spontane.jpg',
   }, {
     aar: '2016',
     jubilant: JUBILANT_TROND,
