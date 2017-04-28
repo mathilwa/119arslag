@@ -331,9 +331,9 @@ export const jubilantene = [
     tittel: 'Typisk Trond',
     tekst: 'Trond er person med mye humor, og med det følger det ganske mange dumme ord, utsagn og uttrykk som har festet seg. Typiske ord er pørsjgerøsj (=pølse), bodler (=boller) eller ' +
     'pidnatjøt (=pinnekjøtt). Mange andre ord er preget av det Trond mener er vestlandsk, eller "Osisk", som er å legge til noen d-er i ordet, med en fast o på slutten. ' +
-    'Eksepmpler her er skjevo (=brødskive), judlaribbo (=juleribbe) og pudso (=kallenavn for pusen). Det går ikke an å spise riskrem på julaften uten at Trond entusiastisk later som han får mandelen (dette skjer typisk minst tre ganger), og det går ' +
+    'Eksepmpler her er skjevo (=brødskive), judlaribbo (=juleribbe) og pedudso (=pusen). Det går ikke an å spise riskrem på julaften uten at Trond entusiastisk later som han får mandelen (dette skjer typisk minst tre ganger), og det går ' +
     'heller ikke an å åpne en liten pakke uten at Trond skal gjette at det er en fotball. En annen slager er å storme inn i et rom å alt for høyt si noe som "bllblalblulbulbulb!", hvor alle' +
-    'skvetter til, og han følger opp med "Ble du skremt nå?" Trond er glad i spille kort, og en superirriterende fakte er at han alltid sier "sorry" med et fårete smil når han vinner. ' +
+    'skvetter til, og han følger opp med "Ble du skremt nå?" Trond er glad i spille kort, og en superirriterende fakte er at han alltid sier "sooorry" med et fårete smil når han vinner. ' +
     'Og alle som kjenner Trond vet hva som kommer om man ser på TV2 eller om restauranten bare har Fanta. Til slutt tar vi med et uttrykk Trond har brukt mye, som kanskje beskrives best i bildet: "å purke"',
     bildeUrl: 'img/Trond/Purking.JPG',
   }, {
@@ -451,9 +451,9 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'Ekte svigersvin',
     tekst: 'Som en årlig greie har Wærstad-familien pleid å delta på Ringeriksmaraton under lagnavnet "Svigersvina". I etterkant av løpet har det ' +
-    'vært stor familiefest, noe som har vært tradisjon i nå over 20 år. Det har blitt en greie at vi gjør mye ut av oss, og her har Trond vært en stor bidragsyter. ' +
+    'vært stor familiefest, noe som har vært tradisjon i nå over 20 år. Familien pleier å gjøre mye ut av seg, og her har Trond vært en stor bidragsyter. ' +
     'Først med egen van med papp-gris på taket, så med rosa minibuss med nese og ører. Denne bussen har, i tillegg til å lage show, blitt brukt til å frakte folk ' +
-    'frem og tilbake for å heie på de som løper. Men kanskje aller viktist så Trond og bussen pleid å frakte ca 20 "barn" til godtebutikken på kvelden. Kveldens absolutte ' +
+    'frem og tilbake for å heie på de som løper. Men kanskje aller viktist så har Trond og bussen pleid å frakte ca 20 "barn" til godtebutikken på kvelden. Kveldens absolutte ' +
     'høydepunkt for mange av de minste, denne turen med onkel Trond og godtebussen. I 2014 fikk Trond, vel fortjent, utdelt prisen for årets Hederssvin!',
     bildeUrl: 'img/Trond/svigersvin.JPG',
   }, {
