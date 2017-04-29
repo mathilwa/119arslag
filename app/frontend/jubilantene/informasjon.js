@@ -376,7 +376,34 @@ export const jubilantene = [
     'Her ble det arrangert feiringer når det passet seg, for eksempel til jul og på 17. mai.',
     bildeUrl: 'img/begge/17mai pappa og barna.jpg',
   }, {
+    aar: '1993',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'I bil fra Kirkenes til Horten',
+    tekst: 'Sommeren 1993 sto det Norgesferie på agendaen. Denne startet med Hurtigruta (Kong Håkon) fra Bergen til Kirkenes. Torunn og ungene møtte Trond i Bergen (som jobbet på Kong Håkon på den tiden),' +
+    'i en nykjøpt Chevrolet Van som skulle ta dem med gjennom Norge. Turen fra Kirkenes til Horten var spesiell, med mange fine opplevelser. Trond sørget for musikk og at barna hadde ' +
+    'nok filmer til det hjemmesnekra kinoanlegget i baksetet, mens Torunn sørget for å fange minnene gjennom tegninger av hendelser og markeringer på kart.',
+    bildeUrl: 'img/begge/bilferie.jpg',
+  }, {
     aar: '1994',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Mannen som alltid sier ja',
+    tekst: 'De fleste som kjenner Trond vet at han alltid sier stiller opp når man ber om hjelp. Om det skulle være å skru opp en hylle, fikse en bil, eller bli henta på andre siden av ' +
+    'landet, Trond sier alltid ja. Et eksempel på dette er en liten historie fra da Torunn i en periode bodde i Horten, mens Trond bodde i Oslo. På en av hjemturene etter ' +
+    'et besøk i Horten kjørte Trond forbi noen gutter ved Sandvika som stod med panseret oppe på en gammel BMW. De var på vei sørover, så Trond snudde og spurte hvor de skulle. ' +
+    'Porsgrunn var svaret, og Trond syntes dette var litt langt, så han sa lykke til, snudde og fortsatte turen mot Oslo. Han klarte likevel ikke slutte å tenke på de guttene, og det' +
+    'at de ikke kom til å få hjelp på denne tiden av døgnet, så Trond snudde for tredje gang og tauet dem helt til Porsgrunn. De sa ikke engang takk! Heldigvis finnes det andre ting som er mer' +
+    'givende å si ja til når det blir spurt, som når Mathilde spør om pappa kan følge henne første skoledag.',
+    bildeUrl: 'img/Trond/pappa følger mathilde.jpg',
+  }, {
+    aar: '1995',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Ridetur i fjellet',
+    tekst: 'Noen ting er bare så koselig at det må gjentas, og rideturen i 1995 med familien Torpe i Hallingdalsfjellene var et tilfelle av dette. ' +
+    'Torunn dro på denne første turen med venninnen Monika, og dro på tur nr 2 da Mathilde ble gammel nok i 1998. Etter dette har dette vært et (ca) ' +
+    'årlig høydepunkt i sommerferiene til Torunn og Mathilde.',
+    bildeUrl: 'img/Torunn/ridetur.JPG',
+  }, {
+    aar: '1995',
     jubilant: JUBILANT_TROND,
     tittel: 'Typisk Trond',
     tekst: 'Trond er person med mye humor, og med det følger det ganske mange dumme ord, utsagn og uttrykk som har festet seg. Typiske ord er pørsjgerøsj (=pølse), bodler (=boller) eller ' +
@@ -386,14 +413,6 @@ export const jubilantene = [
     'skvetter til, og han følger opp med "Ble du skremt nå?" Trond er glad i spille kort, og en superirriterende fakte er at han alltid sier "sooorry" med et fårete smil når han vinner. ' +
     'Og alle som kjenner Trond vet hva som kommer om man ser på TV2 eller om restauranten bare har Fanta. Til slutt tar vi med et uttrykk Trond har brukt mye, som kanskje beskrives best i bildet: "å purke"',
     bildeUrl: 'img/Trond/Purking.jpg',
-  }, {
-    aar: '1995',
-    jubilant: JUBILANT_TORUNN,
-    tittel: 'Ridetur i fjellet',
-    tekst: 'Noen ting er bare så koselig at det må gjentas, og rideturen i 1995 med familien Torpe i Hallingdalsfjellene var et tilfelle av dette. ' +
-    'Torunn dro på denne første turen med venninnen Monika, og dro på tur nr 2 da Mathilde ble gammel nok i 1998. Etter dette har dette vært et (ca) ' +
-    'årlig høydepunkt i sommerferiene til Torunn og Mathilde.',
-    bildeUrl: 'img/Torunn/ridetur.JPG',
   }, {
     aar: '1996',
     jubilant: JUBILANT_BEGGE,
@@ -467,6 +486,14 @@ export const jubilantene = [
     bildeUrl: 'img/Torunn/Torunn i robåt.jpg',
   }, {
     aar: '2011',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Countryfestival',
+    tekst: 'Et annet høydepunkt for Torunn om somrene er tur til Countryfestivalen i Seljord med kusine Anita. Her er det mye Torunn liker, god musikk, dans, mulighet til å kle seg ut,' +
+    'og et ekstremt godt marked for people watching. Det med å kle seg ut til denne festivalen er litt artig, for Torunn har på seg ca det samme når hun er på ridetur som når hun skal' +
+    'på festival. Dere kan jo prøve å gjette selv hva Torunn er på på dette bildet.',
+    bildeUrl: 'img/Torunn/cowboy.jpg',
+  }, {
+    aar: '2011',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Gode venner',
     tekst: 'Det er mange år siden Torunn og Trond var sammen som kjærester, men de er fortsatt veldig gode venner. Kanskje man kan gå så langt som å si at de er hverandres beste venn. ' +
@@ -518,13 +545,6 @@ export const jubilantene = [
     bildeUrl: 'img/Torunn/sykkeltur donau.jpg',
   }, {
     aar: '2014',
-    jubilant: JUBILANT_TORUNN,
-    tittel: 'Gjøre det selv',
-    tekst: 'Som datter av en mor som har drevet en gård og oppdratt to barn alene, er Torunn vant til å ta tak og gjøre ting selv. ' +
-    'Da det var på tide å male huset var det derfor en selvfølge at maleoutfien skulle på, og at dette også skulle gjøres selv (med god hjelp fra venner som f.eks Karin).',
-    bildeUrl: 'img/Torunn/gjøre det selv.jpg',
-  }, {
-    aar: '2014',
     jubilant: JUBILANT_TROND,
     tittel: 'Ekte svigersvin',
     tekst: 'Som en årlig greie har Wærstad-familien pleid å delta på Ringeriksmaraton under lagnavnet "Svigersvina". I etterkant av løpet har det ' +
@@ -534,6 +554,21 @@ export const jubilantene = [
     'høydepunkt for mange av de minste, denne turen med onkel Trond og godtebussen. I 2014 fikk Trond, vel fortjent, utdelt prisen for årets Hederssvin!',
     bildeUrl: 'img/Trond/svigersvin.JPG',
   }, {
+    aar: '2014',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Gjøre det selv',
+    tekst: 'Som datter av en mor som har drevet en gård og oppdratt to barn alene, er Torunn vant til å ta tak og gjøre ting selv. ' +
+    'Da det var på tide å male huset var det derfor en selvfølge at maleoutfien skulle på, og at dette også skulle gjøres selv (med god hjelp fra venner som f.eks Karin).',
+    bildeUrl: 'img/Torunn/gjøre det selv.jpg',
+  }, {
+    aar: '2015',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Hyttetur',
+    tekst: 'Trond er til stadighet ute og reiser, og det er ikke så lett å få booket noe tid med ham. Påsken 2015 var han tilfeldigvis hjemme, og ble raskt huket tak i av søster Elle og hennes ' +
+    'mann Poul. Sammen med hele deres familie og Mathilde, feiret da Trond påske på hytta deres ved Vansjø utenfor Moss. Påsken falt det året over bursdagen til Elle og Trond, og her ' +
+    'er de avbildet som bursdagsbarn med fantasiske hodeplagg laget av deres mor.',
+    bildeUrl: 'img/Trond/pappa og elle påske.jpg',
+  }, {
     aar: '2015',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Kusinetur',
@@ -542,20 +577,12 @@ export const jubilantene = [
     bildeUrl: 'img/Torunn/Kusineferie.jpg',
   }, {
     aar: '2015',
-    jubilant: JUBILANT_TROND,
-    tittel: 'Hyttetur',
-    tekst: 'Trond er til stadighet ute og reiser, og det er så lett å få booket noe tid med ham. Påsken 2015 var han tilfeldigvis hjemme, og ble raskt huket tak i av søster Elle og hennes ' +
-    'mann Poul. Sammen med hele deres familie og Mathilde, feiret da Trond påske på hytta deres ved Vansjø utenfor Moss. Påsken falt det året over bursdagen til Elle og Trond, og her ' +
-    'er de avbildet som bursdagsbarn med fantasiske hodeplagg laget av deres mor.',
-    bildeUrl: 'img/Trond/pappa og elle påske.jpg',
-  }, {
-    aar: '2015',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Spontane',
     tekst: 'Med unntak av at både Torunn og Trond er mye opptatt med reising, så er de med på det meste når de først har tid. De er veldig glad i gjøre ting med andre, men også bare seg ' +
     'i mellom. Trond er stadig vekk hos Torunn for å spise middag, og kanskje få noen "bodler" eller vafler til dessert, og Torunn blir ofte med Trond på kino. De ble også med, uten ' +
     'spesielt mye trening, Mathilde på fjelltur til Store-Ble. Turen ble litt tung, men de kom seg opp på 1000 meter før det sa stopp. De siste 300 meterne gikk Mathilde derfor alene, ' +
-    'mens Torunn og Trond fikk god tid til å slappe med av niste.',
+    'mens Torunn og Trond fikk god tid til å slappe av med niste.',
     bildeUrl: 'img/begge/spontane.jpg',
   }, {
     aar: '2016',
@@ -566,5 +593,18 @@ export const jubilantene = [
     'hvor sanger som "Hello" og "Bridge over troubled water" gjerne blir sunget. Mathilde har alltid vært veldig glad i å høre faren synge, da kanskje spesielt "Deilig er jorden" i ' +
     'kirken på julaften. Her sitter Mathilde og Trond og gauler sammen til "Honesty" i bilen på vei til Danmark.',
     bildeUrl: 'img/Trond/sangstemme.jpg',
+  }, {
+    aar: '2017',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Jubilant',
+    tekst: '9. april var det 60 år siden lille Torunn kom til verden. En vaskeekte jubilant som skal feires med brask og bram!',
+    bildeUrl: 'img/Torunn/danmark.jpg',
+  },{
+    aar: '2017',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Ikke helt jubilant, men nesten',
+    tekst: '2017 er Tronds siste år i 50-åra. 59 år er ikke akkurat et rundt tall, men vi later som han er jubilant likevel. Siden vi først skal samles, kan vi liksågodt slå to ' +
+    'fluer i en smekk og ha en kjempefest for begge to! Hurra',
+    bildeUrl: 'img/Trond/pappa.jpg',
   },
 ];
