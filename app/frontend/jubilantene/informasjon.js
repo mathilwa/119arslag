@@ -599,7 +599,7 @@ export const jubilantene = [
     tittel: 'Jubilant',
     tekst: '9. april var det 60 år siden lille Torunn kom til verden. En vaskeekte jubilant som skal feires med brask og bram!',
     bildeUrl: 'img/Torunn/danmark.jpg',
-  },{
+  }, {
     aar: '2017',
     jubilant: JUBILANT_TROND,
     tittel: 'Ikke helt jubilant, men nesten',
