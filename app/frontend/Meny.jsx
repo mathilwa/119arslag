@@ -1,39 +1,61 @@
 import React from 'react';
 import { browserHistory } from 'react-router';
 import classNames from 'classnames';
+import MenyIkon from './MenyIkon.jsx';
 
-const Meny = ({antallPameldte, valgtMenyelement}) => {
-  const menyElementer = [
-    { url: '/', menyElementTekst: '119årslag'},
-    { url: '/pamelding', menyElementTekst: 'Påmelding'},
-    { url: '/overnatting', menyElementTekst: 'Overnatting'},
-  ];
+const menyElementer = [
+  { url: '/', menyElementTekst: '119årslag'},
+  { url: '/pamelding', menyElementTekst: 'Påmelding'},
+  { url: '/overnatting', menyElementTekst: 'Overnatting'},
+  { url: '/jubilantene', menyElementTekst: 'Jubilantene'},
+];
 
-  const listUtMenyElementer = menyElementer.map((menyElement, key) => {
-    const className = classNames({
-      'pure-menu-item': true,
-      'pure-menu-selected': valgtMenyelement === menyElement.url,
+const Meny = React.createClass({
+  propTypes: {
+    antallPameldte: React.PropTypes.number.isRequired,
+    valgtMenyelement: React.PropTypes.string.isRequired,
+  },
+  getInitialState () {
+    return {
+      menyErApen: false,
+    };
+  },
+  listUtMenyElementer () {
+    return menyElementer.map((menyElement, key) => {
+      const className = classNames({
+        'pure-menu-item': true,
+        'pure-menu-selected': this.props.valgtMenyelement === menyElement.url,
+      });
+      return (
+          <li key={key} className={className}>
+            <a className="pure-menu-link"
+               onClick={() => browserHistory.push(menyElement.url)}>{menyElement.menyElementTekst}</a>
+          </li>
+      );
     });
+  },
+  toggleMeny () {
+    this.setState({menyErApen: !this.state.menyErApen});
+  },
+  render () {
+    const className = classNames({
+      'pure-menu-list': true,
+      'open': this.state.menyErApen,
+    });
+
     return (
-      <li key={key} className={className}>
-        <a className="pure-menu-link" onClick={() => browserHistory.push(menyElement.url)}>{menyElement.menyElementTekst}</a>
-      </li>
-    );
-  });
-
-  return (
-      <div className="pure-menu pure-menu-horizontal">
-        <ul className="pure-menu-list">
-          {listUtMenyElementer}
-        </ul>
-        <div className=" pure-menu-list antall-pameldte"><span className="pure-menu-link">Antall påmeldte: {antallPameldte}</span></div>
+      <div className="pure-menu-container">
+        <div className="pure-menu">
+          <MenyIkon menyErApen={this.state.menyErApen} toggleMeny={this.toggleMeny}/>
+          <ul className={className}>
+            {this.listUtMenyElementer()}
+          </ul>
+          <div className=" pure-menu-list antall-pameldte"><span
+              className="pure-menu-link">Antall påmeldte: {this.props.antallPameldte}</span></div>
+        </div>
       </div>
-  );
-};
-
-Meny.propTypes = {
-  antallPameldte: React.PropTypes.number.isRequired,
-  valgtMenyelement: React.PropTypes.string.isRequired,
-};
+    );
+  },
+});
 
 export default Meny;
