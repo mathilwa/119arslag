@@ -97,7 +97,7 @@ export const jubilantene = [
   }, {
     aar: '1966',
     jubilant: JUBILANT_TROND,
-    tittel: 'Suvernir',
+    tittel: 'Souvenir',
     tekst: 'Trond hadde fått seg en «puslering» i sølv da han var i Israel. Denne var låst med en liten bøyd ståltråd slik at den ikke skulle falle fra hverandre. ' +
     'En dag fjernet Trond låsen og fikk store problemer med å sette den sammen igjen. Trond ble livredd for at moren eller faren skulle komme hjem før ' +
     'han fikk satt den sammen igjen. Selvfølgelig uten grunn, men han klarte å sette den sammen igjen etter utallige forsøk.',
@@ -320,9 +320,8 @@ export const jubilantene = [
     aar: '1986',
     jubilant: JUBILANT_TROND,
     tittel: 'Norcontrol',
-    tekst: 'Trond begynte på Norcontrol den første uka i august 1986. En spesiell dag da både Kåre Høglund og Egil Gundersen (som viser seg å skulle være arbeidskolleger' +
-    'i mange år fremover) begynte denne dagen. Egil begynte på motorstyrings-avdelingen, mens Kåre og Trond begynte på "automasjons-avdelingen". Tronds første oppdrag på ' +
-    'båt var en sightseeing til Slagentangen. Båten var en shutteltanker fra Nordsjøen og het Polytrader. Trond fikk stoooore øyne da han fikk se en båtmotor for første gang. ' +
+    tekst: 'Trond begynte på Norcontrol den første uka i august 1986. Trond begynte på "automasjons-avdelingen", med første oppdrag på ' +
+    'båt på sightseeing til Slagentangen utenfor Tønsberg. Båten var en shutteltanker fra Nordsjøen og het Polytrader. Trond fikk stoooore øyne da han fikk se en båtmotor for første gang. ' +
     'Den var like stor som en toetasjes enebolig, og propellakslingen var så stor i diameter at han ikke rakk rundt den.',
     bildeUrl: 'img/Trond/Trond3.JPG',
   }, {
@@ -351,6 +350,15 @@ export const jubilantene = [
     tittel: 'Torunn og Trond blir foreldre',
     tekst: 'Høsten 1987, kun ett år etter at Torunn og Trond flyttet til Horten, ble de foreldre til lille Mathilde.',
     bildeUrl: 'img/begge/1988_0002.jpg',
+  }, {
+    aar: '1987',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Sør-Korea',
+    tekst: 'På denne tiden jobbet Trond i Pusan i Sør-Korea. Først og fremt var det en kraftig overgang fra «ferien i Spania», ' +
+    'med jobbing hver dag fra 08 til 17 som standard, men alltid med overtid til 20 - 21. Dette var livet hver eneste dag, med fri én søndag i måneden. Trond jobbet likevel hele ' +
+    '6 uker i strekk før han tok en søndag fri. Voldsomme arbeidsmengder, men likevel en fantastisk opplevelse. Ellers lot Trond seg sjarmere av maten der nede. Fra første måltid var ' +
+    'Trond overbevist om at koreansk mat var det beste - grillet mat hele året, overalt!',
+    bildeUrl: 'img/Trond/korea.jpg',
   }, {
     aar: '1990',
     jubilant: JUBILANT_BEGGE,
@@ -382,7 +390,7 @@ export const jubilantene = [
     tekst: 'Sommeren 1993 sto det Norgesferie på agendaen. Denne startet med Hurtigruta (Kong Håkon) fra Bergen til Kirkenes. Torunn og ungene møtte Trond i Bergen (som jobbet på Kong Håkon på den tiden),' +
     'i en nykjøpt Chevrolet Van som skulle ta dem med gjennom Norge. Turen fra Kirkenes til Horten var spesiell, med mange fine opplevelser. Trond sørget for musikk og at barna hadde ' +
     'nok filmer til det hjemmesnekra kinoanlegget i baksetet, mens Torunn sørget for å fange minnene gjennom tegninger av hendelser og markeringer på kart.',
-    bildeUrl: 'img/begge/bilferie.jpg',
+    bildeUrl: 'img/begge/Kong Harald.jpg',
   }, {
     aar: '1994',
     jubilant: JUBILANT_TROND,
@@ -414,6 +422,23 @@ export const jubilantene = [
     'Og alle som kjenner Trond vet hva som kommer om man ser på TV2 eller om restauranten bare har Fanta. Til slutt tar vi med et uttrykk Trond har brukt mye, som kanskje beskrives best i bildet: "å purke"',
     bildeUrl: 'img/Trond/Purking.jpg',
   }, {
+    aar: '1995',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'Bilturene til vestlandet',
+    tekst: 'Hver sommer pleide Torunn og Trond å ta turen til vestlandet og Os for å besøke familien der borte. Og turene over fjellet ble som oftest en del av ferien. I stedet' +
+    'for å kjøre raskeste vei over fjellet innebar turen ofte flere stopp innom vakre og spektakulære steder. Det var gamleveier, utsiktspunkt, geiteklapping, overnatting i telt, bading' +
+    'i isvann, fossefall og ferske bær fra Hardanger. Vanen til Trond ble fortsatt flittig brukt på disse turene. ',
+    bildeUrl: 'img/begge/bilferie.jpg',
+  }, {
+    aar: '1995',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Ribbemannen',
+    tekst: 'I timene før julen ringes inn er Trond å finne inne på kjøkkenet, iført forkle, hvor han står foran ovnen og vokter ribba. Ribba skal være saftig og god, ' +
+    'men viktigst av alt er svoren. Dette er et suksessfullt prosjekt hver eneste år - den ender alltid opp med å være knasende sprø! Torunn, ' +
+    'med sine vestlandsrøtter, har flere ganger prøvd å få gjennom både pinnekjøtt og lutefisk, men her har Trond (heldigvis) stått på kravene. ' +
+    'Det blir ikke jul uten ribbe. Da vi i 1995 feiret jul på Haugland hos Torunn sin familie, ble det derfor servert både pinnekjøtt og ribbe. ',
+    bildeUrl: 'img/Trond/ribbemannen.jpg',
+  }, {
     aar: '1996',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Tur til Korea',
@@ -428,14 +453,14 @@ export const jubilantene = [
     'Her er Torunn sammen med Kristin sin mann Jean-Pierre og deres sønn Sebastien.',
     bildeUrl: 'img/begge/montreal96.jpg',
   }, {
-    aar: '1995',
-    jubilant: JUBILANT_TROND,
-    tittel: 'Ribbemannen',
-    tekst: 'I timene før julen ringes inn er Trond å finne inne på kjøkkenet, iført forkle, hvor han står foran ovnen og vokter ribba. Ribba skal være saftig og god, ' +
-    'men viktigst av alt er svoren. Dette er et suksessfullt prosjekt hver eneste år - den ender alltid opp med å være knasende sprø! Torunn, ' +
-    'med sine vestlandsrøtter, har flere ganger prøvd å få gjennom både pinnekjøtt og lutefisk, men her har Trond (heldigvis) stått på kravene. ' +
-    'Det blir ikke jul uten ribbe. Da vi i 1995 feiret jul på Haugland hos Torunn sin familie, ble det derfor servert både pinnekjøtt og ribbe. ',
-    bildeUrl: 'img/Trond/ribbemannen.jpg',
+    aar: '1999',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'Det tar slutt. På en måte.',
+    tekst: 'Etter mange år sammen i Horten tar kjæresteforholdet mellom Torunn og Trond slutt. Trond reiser (etter et kort opphold i Tyskland) tilbake til Korea, mens Torunn bli ' +
+    'boende i Horten med barna. Selv om det til tider er vanskelig holder de fortsatt kontakten, mest for barnas skyld. Trond ringer hver dag og spør hvordan det går, og ' +
+    'kommer hjem til de fleste bursdager og ferier, slik at barna skulle få ha hele familien sin. Denne slutten viser seg å være starten på det som etterhvert skal bli et ' +
+    'veldig godt vennskap mellom Torunn og Trond.',
+    bildeUrl: 'img/begge/Torunn_Trond_81.JPG',
   }, {
     aar: '2000',
     jubilant: JUBILANT_TROND,
@@ -445,19 +470,41 @@ export const jubilantene = [
     'selv om han fikk turens snilleste hest, Bendik. Trond kommer nok aldri til å bli med igjen, men vil alltid være husket hos familien Torpe.',
     bildeUrl: 'img/Trond/pappa og bendik.png',
   }, {
-    aar: '2005',
+    aar: '2001',
     jubilant: JUBILANT_TROND,
-    tittel: 'Handyman',
-    tekst: 'Om noen har noe som skal fikses så er Trond mannen å kontakte. Han stiller alltid opp, og har alltid en fiks løsning. Han er ekstremt kreativ, ' +
-    'og liker å finne morsomme løsninger på problemer. Trond har blant annet laget en miniatyrversjon av huset hjemme i Horten, hvor familiens kaniner skulle bo.' +
-    ' Huset hadde isolasjon, veranda, radiatorovn og varme til vannskåla.',
-    bildeUrl: 'img/Trond/antenna.jpg',
+    tittel: 'Korea igjen',
+    tekst: 'Etter et kort opphold i Tyskland flytter Trond tilbake til Sør-Korea, og kjøper seg denne gangen leilighet i Ulsan. Vinterferien 2001 inviterte han Thomas og Mathilde på' +
+    'besøk, hvor de fikk gjenoppleve mye av det de gjorde da de var der sist. I tilegg ble det mye god mat og den obligatoriske karaoken.',
+    bildeUrl: 'img/Trond/besøk.jpg',
   }, {
     aar: '2004',
     jubilant: JUBILANT_TORUNN,
     tittel: 'På to hjul til Bergen',
     tekst: 'Sommeren 2004 tok Torunn med seg Mathilde og Thomas på den 50 mil lange sykkelturen fra Horten til Bergen. Turen gikk via Kongsberg, Geilo, Hardangervidda og Hardangerfjorden.',
     bildeUrl: 'img/Torunn/Sykkeltur.JPG',
+  }, {
+    aar: '2004',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Skifter jobb',
+    tekst: 'I løpet av sin jobbkarriere har Trond rukket å være innom en god del forskjellige arbeidsplasser. Det har vært Forsvaret, Norcontrol, Hitec, ABB, Høglund Marine ' +
+    'Automasjon (HMA), og noen perioder med freelance, og stedene han har jobbet har vært mange. Mye av arbeidet har foregått i utlandet, gjerne til sjøs. ' +
+    'I 2004, etter perioden i Hitec, begynner han igjen i HMA og flytter til Tønsberg. Selv om Trond nå er bosatt i Norge er han fortsatt mye ute og reiser, både i Norge og i utlandet. ' +
+    'Trond jobber med automasjonssystem for båter, hvor han reiser verden rundt for å installere, og fikse feil på, disse systemene. ',
+    bildeUrl: 'img/Trond/HMA.jpg',
+  }, {
+    aar: '2004',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Glad i å leke',
+    tekst: 'Torunn er til tider er stort barn fanget i en voksen kropp, og hun elsker å leke. Konkurranser og spill er gøy (hun kan gjerne jukse om det er så om å gjøre), hoppetau er gøy, ' +
+    'utkledning er gøy. Noe som alltid må med når hun besøker familien på Os er litt tid til leke seg på trampolina, gjerne sammen med barna.',
+    bildeUrl: 'img/Torunn/lek.jpg',
+  }, {
+    aar: '2004',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Kjøper sitt første hus',
+    tekst: 'Etter mye jobbing i utlandet er Trond klar til å få kontor i Norge, og kjøper med dette seg et hus på Eik i Tønsberg. Stor hage med plass til alle bilene, stor kjeller' +
+    'med plass til alt av verktøy og stor (selvbygget) terrasse med plass til mange venner.',
+    bildeUrl: 'img/Trond/hus.jpg',
   }, {
     aar: '2008',
     jubilant: JUBILANT_TORUNN,
@@ -485,13 +532,20 @@ export const jubilantene = [
     'somrene i Horten, både på ro- og seilturer. Vaffelrøre ble laget og primusen ble pakket, før Torunn og barna kursen ut på småøyene. Her ble det stekt vafler, til alle andres misunnelse.',
     bildeUrl: 'img/Torunn/Torunn i robåt.jpg',
   }, {
-    aar: '2011',
+    aar: '2010',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Handyman',
+    tekst: 'Om noen har noe som skal fikses så er Trond mannen å kontakte. Han stiller alltid opp, og har alltid en fiks løsning. Han er ekstremt kreativ, ' +
+    'og liker å finne morsomme løsninger på problemer. Trond har blant annet laget en miniatyrversjon av huset hjemme i Horten, hvor familiens kaniner skulle bo.' +
+    ' Huset hadde isolasjon, veranda, radiatorovn og varme til vannskåla.',
+    bildeUrl: 'img/Trond/antenna.jpg',
+  }, {
+    aar: '2010',
     jubilant: JUBILANT_TORUNN,
-    tittel: 'Countryfestival',
-    tekst: 'Et annet høydepunkt for Torunn om somrene er tur til Countryfestivalen i Seljord med kusine Anita. Her er det mye Torunn liker, god musikk, dans, mulighet til å kle seg ut,' +
-    'og et ekstremt godt marked for people watching. Det med å kle seg ut til denne festivalen er litt artig, for Torunn har på seg ca det samme når hun er på ridetur som når hun skal' +
-    'på festival. Dere kan jo prøve å gjette selv hva Torunn er på på dette bildet.',
-    bildeUrl: 'img/Torunn/cowboy.jpg',
+    tittel: 'Sin livs ferie',
+    tekst: 'En av de mest spesielle feriene Torunn har hatt er sommeren hun fikk være med på Tall Ships Race på båten Statsraad Lehmkuhl. Dette var ikke en ferietur med latsmanssliv' +
+    'på dekk, men mye jobbing i form av å delta i det praktiske arbeidet på båt. Det var vasking av dekk, heving av seil, klatring i mast og mye mer. Stas for båt-glade Torunn! ',
+    bildeUrl: 'img/Torunn/båtferie.jpg',
   }, {
     aar: '2011',
     jubilant: JUBILANT_BEGGE,
@@ -505,10 +559,11 @@ export const jubilantene = [
   }, {
     aar: '2011',
     jubilant: JUBILANT_TORUNN,
-    tittel: 'Glad i å leke',
-    tekst: 'Torunn er til tider er stort barn fanget i en voksen kropp, og hun elsker å leke. Konkurranser og spill er gøy (hun kan gjerne jukse om det er så om å gjøre), hoppetau er gøy, ' +
-    'utkledning er gøy. Noe som alltid må med når hun besøker familien på Os er litt tid til leke seg på trampolina, gjerne sammen med barna.',
-    bildeUrl: 'img/Torunn/lek.jpg',
+    tittel: 'Countryfestival',
+    tekst: 'Et annet høydepunkt for Torunn om somrene er tur til Countryfestivalen i Seljord med kusine Anita. Her er det mye Torunn liker, god musikk, dans, mulighet til å kle seg ut,' +
+    'og et ekstremt godt marked for people watching. Det med å kle seg ut til denne festivalen er litt artig, for Torunn har på seg ca det samme når hun er på ridetur som når hun skal' +
+    'på festival. Dere kan jo prøve å gjette selv hva Torunn er på på dette bildet.',
+    bildeUrl: 'img/Torunn/cowboy.jpg',
   }, {
     aar: '2011',
     jubilant: JUBILANT_TROND,
@@ -595,16 +650,10 @@ export const jubilantene = [
     bildeUrl: 'img/Trond/sangstemme.jpg',
   }, {
     aar: '2017',
-    jubilant: JUBILANT_TORUNN,
-    tittel: 'Jubilant',
-    tekst: '9. april var det 60 år siden lille Torunn kom til verden. En vaskeekte jubilant som skal feires med brask og bram!',
-    bildeUrl: 'img/Torunn/danmark.jpg',
-  }, {
-    aar: '2017',
-    jubilant: JUBILANT_TROND,
-    tittel: 'Ikke helt jubilant, men nesten',
-    tekst: '2017 er Tronds siste år i 50-åra. 59 år er ikke akkurat et rundt tall, men vi later som han er jubilant likevel. Siden vi først skal samles, kan vi liksågodt slå to ' +
-    'fluer i en smekk og ha en kjempefest for begge to! Hurra',
-    bildeUrl: 'img/Trond/pappa.jpg',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'Jubilantene',
+    tekst: '9. april var det 60 år siden lille Torunn kom til verden, mens 2017 for Trond vil være hans siste år i 50-åra. 59 år er ikke akkurat et rundt tall, men vi later som han er ' +
+    'jubilant likevel. Siden vi først skal samles, kan vi liksågodt slå to fluer i en smekk og ha en kjempefest for begge to! Hurra',
+    bildeUrl: 'img/begge/tihtw13.jpg',
   },
 ];
