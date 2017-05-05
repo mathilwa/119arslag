@@ -18,6 +18,18 @@ export const jubilantene = [
     'De ble født i Sverige fordi deres far da gikk på Krigshøgskolan der. Etter kort tid flyttet de til Norge.',
     bildeUrl: 'img/Trond/nyfødt.jpg',
   }, {
+    aar: '1958',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Pent pyntet',
+    tekst: 'Lille Torunn, pent pyntet utenfor huset hjemme på Os.',
+    bildeUrl: 'img/Torunn/Torunn0028.JPG',
+  }, {
+    aar: '1959',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Opp og stå',
+    tekst: 'Trond i farta, hvor han prøver seg på sine første steg.',
+    bildeUrl: 'img/Trond/pappa rumpe.jpg',
+  }, {
     aar: '1960',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Oppvokst på gård',
@@ -177,6 +189,12 @@ export const jubilantene = [
     'så da var det naturlig for Trond å begynne der. Puslete og uten selvtillit spilte han det han kunne, og fikk prøve nesten alle posisjoner untatt midtstopper, selv om han ikke fikk det helt til.',
     bildeUrl: 'img/Trond/Isreal4_1.jpg',
   }, {
+    aar: '1970',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Sunn og frisk ungdom',
+    tekst: '',
+    bildeUrl: 'img/Torunn/sunnogfriskungdom.JPG',
+  }, {
     aar: '1971',
     jubilant: JUBILANT_TROND,
     tittel: 'Sykling og løping',
@@ -193,6 +211,24 @@ export const jubilantene = [
     tekst: 'På ungdomskolen og gymnaset var Torunn aktiv i det kristne ungdomsmiljøet på Os. I ”skulelaget”, Norges Kristne Student- og Skuleungdomslag, ' +
     'hadde Torunn i flere år diverse verv, og det var ikke mange kvelder hun var hjemme. Ei trygg, men veldig fin og spennende ungdomstid, selv utan de utskeielsene som ungdom idag er er med på.',
     bildeUrl: 'img/Torunn/påRommetCa16år.jpg',
+  }, {
+    aar: '1974',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Lunsj med søster',
+    tekst: '',
+    bildeUrl: 'img/Trond/piknik.jpg',
+  }, {
+    aar: '1974',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Bror og søster',
+    tekst: 'Tormodd og Torunn sammen, pyntet, i Tormod sin konfirmasjon.',
+    bildeUrl: 'img/Torunn/torunn og tormod komf.jpg',
+  }, {
+    aar: '1975',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Trond og Burmann',
+    tekst: '',
+    bildeUrl: 'img/Trond/burmann.jpg',
   }, {
     aar: '1975',
     jubilant: JUBILANT_TORUNN,
@@ -297,6 +333,12 @@ export const jubilantene = [
     'så det ble mange, lange kjøreturer fra Bardufoss til Trondheim. Besøkene var til tider ganske korte, da det hendte han kjørte nedover natt til lørdag, ' +
     'og måtte dra nordover igjen allerede søndag morgen.',
     bildeUrl: 'img/Trond/Kjørte mye bil.jpg',
+  }, {
+    aar: '1982',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Karnevalets dronning',
+    tekst: 'Man kan si mye rart om Torunn, men en beskjeden dame har hun ikke vært. Hvert fall sånn innerst inne.',
+    bildeUrl: 'img/Torunn/Karneval.JPG',
   }, {
     aar: '1983',
     jubilant: JUBILANT_BEGGE,
@@ -523,6 +565,12 @@ export const jubilantene = [
     'å bygge en stor og romslig snøhule. Dette mens Torunn og Ester sto inne og bakte boller. Snøhula rommet alle mann, så de nybakte bollene, med varm kakao, ble nytt inne i ' +
     'denne.',
     bildeUrl: 'img/Trond/pappa og ester.jpg',
+  }, {
+    aar: '2008',
+    jubilant: JUBILANT_BEGGE,
+    tittel: 'Påskeferie',
+    tekst: '',
+    bildeUrl: 'img/begge/påskeferie.jpg',
   }, {
     aar: '2010',
     jubilant: JUBILANT_TORUNN,
