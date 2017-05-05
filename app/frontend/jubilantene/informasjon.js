@@ -189,12 +189,6 @@ export const jubilantene = [
     'så da var det naturlig for Trond å begynne der. Puslete og uten selvtillit spilte han det han kunne, og fikk prøve nesten alle posisjoner untatt midtstopper, selv om han ikke fikk det helt til.',
     bildeUrl: 'img/Trond/Isreal4_1.jpg',
   }, {
-    aar: '1970',
-    jubilant: JUBILANT_TORUNN,
-    tittel: 'Sunn og frisk ungdom',
-    tekst: '',
-    bildeUrl: 'img/Torunn/sunnogfriskungdom.JPG',
-  }, {
     aar: '1971',
     jubilant: JUBILANT_TROND,
     tittel: 'Sykling og løping',
@@ -249,14 +243,6 @@ export const jubilantene = [
     bildeUrl: 'img/Torunn/Torunn_militæret.jpg',
   }, {
     aar: '1977',
-    jubilant: JUBILANT_TORUNN,
-    tittel: 'Plikttjenesteår',
-    tekst: 'Da Torunn var ferdig med året sitt på Jørstadmoen var det tid for et plinktjenesteår på Helgelandsmoen, på NATO sin radiostasjon. Her brukte Torunn fritiden ' +
-    'sin til å plukke epler i Norges største eplehage, som den gangen besto av ca 20 000 epletrær. Dette var i kort avstand fra Hønefoss, så Torunn var ofte ' +
-    'ute i byen, både på middag og dans, men traff aldri Trond her.',
-    bildeUrl: 'img/Torunn/nato.jpg',
-  }, {
-    aar: '1977',
     jubilant: JUBILANT_TROND,
     tittel: 'Hobbymekaniker',
     tekst: 'Trond har fra han var veldig ung hatt en stor interesse for elektriske ting. Han leste alt han kom over av elektroniske blader, og brukte ofte fritiden sin som hobbymekaniker. ' +
@@ -264,12 +250,13 @@ export const jubilantene = [
     'Dette er en fascinasjon og glede som ikke akkurat har avtatt med åren, og listen over biler og tilhørende bildeler kjøpt og jobbet på er tilnærmet lik uendelig lang.',
     bildeUrl: 'img/Trond/pappa mekker bil.jpg',
   }, {
-    aar: '1978',
+    aar: '1977',
     jubilant: JUBILANT_TORUNN,
-    tittel: 'Til sjøs',
-    tekst: 'Etter pliktåret i militæret tok Torunn med seg kunnskapen fra Radioskolen ut på havet for å arbeide som telegrafist. Hun fikk i ett helt år reise verden rundt, ' +
-    'og fikk oppleve en helt annen verden enn hun hadde sett til nå.',
-    bildeUrl: 'img/Torunn/Telegrafist.JPG',
+    tittel: 'Plikttjenesteår',
+    tekst: 'Da Torunn var ferdig med året sitt på Jørstadmoen var det tid for et plinktjenesteår på Helgelandsmoen, på NATO sin radiostasjon. Her brukte Torunn fritiden ' +
+    'sin til å plukke epler i Norges største eplehage, som den gangen besto av ca 20 000 epletrær. Dette var i kort avstand fra Hønefoss, så Torunn var ofte ' +
+    'ute i byen, både på middag og dans, men traff aldri Trond her.',
+    bildeUrl: 'img/Torunn/nato.jpg',
   }, {
     aar: '1978',
     jubilant: JUBILANT_TROND,
@@ -281,6 +268,13 @@ export const jubilantene = [
     'for å sette på vannslangen. Innen han  kom tilbake var alt allerede på plass: brannbil, politi og tilskuere. De hadde sett røyken fra brannstasjonen og kom umiddelbart. Garasjen ' +
     'fikk heldigvis bare innvendige skader.',
     bildeUrl: 'img/Trond/møkkete.jpg',
+  }, {
+    aar: '1978',
+    jubilant: JUBILANT_TORUNN,
+    tittel: 'Til sjøs',
+    tekst: 'Etter pliktåret i militæret tok Torunn med seg kunnskapen fra Radioskolen ut på havet for å arbeide som telegrafist. Hun fikk i ett helt år reise verden rundt, ' +
+    'og fikk oppleve en helt annen verden enn hun hadde sett til nå.',
+    bildeUrl: 'img/Torunn/Telegrafist.JPG',
   }, {
     aar: '1978',
     jubilant: JUBILANT_TROND,
@@ -568,7 +562,7 @@ export const jubilantene = [
   }, {
     aar: '2008',
     jubilant: JUBILANT_BEGGE,
-    tittel: 'Påskeferie',
+    tittel: 'Sammen på påskeferie',
     tekst: '',
     bildeUrl: 'img/begge/påskeferie.jpg',
   }, {
