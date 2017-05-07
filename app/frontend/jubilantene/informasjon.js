@@ -40,8 +40,8 @@ export const jubilantene = [
     jubilant: JUBILANT_TORUNN,
     tittel: 'Søsken',
     tekst: 'Torunn har en tre år (og to måneder) yngre bror, Tormod. De var venner når de var hjemme alene, men ellers holdt de på med hver sitt. ' +
-    'Som søsken flest hadde de også sine krangler, kanskje spesielt over middagsoppvasken på søndagane hvor Torunn ALLTID måtte vaske, mens han ' +
-    'slapp unna med å tørke. I perioder sov de på samme rom, hvor hobbyen var å telle lysstripet i taket når bilene kjørte forbi ' +
+    'Som søsken flest hadde de også sine krangler, kanskje spesielt over middagsoppvasken på søndagene hvor Torunn ALLTID måtte vaske, mens han ' +
+    'slapp unna med å tørke. I perioder sov de på samme rom, hvor hobbyen var å telle lysstriper i taket når bilene kjørte forbi ' +
     '(noe som på den tida tok tid å få noe tall å skryte av).',
     bildeUrl: 'img/Torunn/torunn og tormod.jpg',
   }, {
@@ -76,10 +76,10 @@ export const jubilantene = [
     jubilant: JUBILANT_TORUNN,
     tittel: 'Det å bo på gård',
     tekst: 'Da Torunn var 6 år mistet hun faren sin, og mamma Dorthea måtte derfor drive den lille gården de bodde på alene. Det var mye å gjøre, ' +
-    'men Torunn og Tormod prøvde så langt det lot seg gjøre å unngå arbeidsoppgaver. De var aldri med i fjøset, og Torunn husker med gru all ripsen som skulle plukkest til saft. Torunn prøvde ' +
+    'men Torunn og Tormod prøvde så langt det lot seg gjøre å unngå arbeidsoppgaver. De var aldri med i fjøset, og Torunn husker med gru all ripsen som skulle plukkes til saft. Torunn prøvde ' +
     'også å unngå klesvasken, da det var veldig tungt og kjedsommelig arbeid. Klesvasken foregikk i kjelleren, med koking av klær i diger kjele på den gamle vedovnen, og skovlemaskin med vriapparat. ' +
-    'Alt ble skylt i kaldt vann i store stamper og hengt ut på snora. Når klærne var ute var det viktig å følge med på været, og ta inn klærne før regnet kom. Torunn hadde som jobb å vaska ' +
-    'soverom og gang hver fredag, noe hun fikk 10 kr for. Det som ble sett frem til av arbeidoppgaver var onnene, fordi det da var fullt av folk på gården.',
+    'Alt ble skylt i kaldt vann i store stamper og hengt ut på snora. Når klærne var ute var det viktig å følge med på været, og ta inn klærne før regnet kom. Torunn hadde som jobb å vaske ' +
+    'soverom og gang hver fredag, noe hun fikk 10 kr for. Det som ble sett frem til av arbeidsoppgaver var onnene, fordi det da var fullt av folk på gården.',
     bildeUrl: 'img/Torunn/Oppvokst på gård.jpg',
   }, {
     aar: '1964',
@@ -103,13 +103,13 @@ export const jubilantene = [
     'Trond og søsknene pleide å leke ute bak huset, hvor det var masse giftige krypdyr, noe Trond mener han aldri kunne gjort i dag! Om morgenen kunne det ' +
     'være både saksedyr og firfisler på veggene på soverommet. Firfislene var helt OK, da de var forholdsvis små og ikke farlige, men ' +
     'skorpionene var det litt verre med. Av og til var de nødt til å lempe ut noen skorpioner, og da brukte de klesklyper til å bære dem med for å unngå å bli stukket. ' +
-    'De fanget også tusenbein, kjempelange og giftige, i Nescafe-glass som de hadde sprit på, i tillegg til giftige skorpioner som de hadde i fyrstikkesker. Arnulf Odd ' +
-    'kom hjem fra arbeid en dag med et stort, korsformet kutt i stortoa. Han hadde blitt stukket av en skorpion og kuttet seg selv i stortåa for å blø giften ut.',
+    'De fanget også tusenbein, kjempelange og giftige, i Nescafé-glass som de hadde sprit på, i tillegg til giftige skorpioner som de hadde i fyrstikkesker. Arnulf Odd ' +
+    'kom hjem fra arbeid en dag med et stort, korsformet kutt i stortåa. Han hadde blitt stukket av en skorpion og kuttet seg selv i stortåa for å blø giften ut.',
     bildeUrl: 'img/Trond/Israel.jpg',
   }, {
     aar: '1966',
     jubilant: JUBILANT_TROND,
-    tittel: 'Souvenir',
+    tittel: 'Suvenir',
     tekst: 'Trond hadde fått seg en «puslering» i sølv da han var i Israel. Denne var låst med en liten bøyd ståltråd slik at den ikke skulle falle fra hverandre. ' +
     'En dag fjernet Trond låsen og fikk store problemer med å sette den sammen igjen. Trond ble livredd for at moren eller faren skulle komme hjem før ' +
     'han fikk satt den sammen igjen. Selvfølgelig uten grunn, men han klarte å sette den sammen igjen etter utallige forsøk.',
@@ -160,14 +160,14 @@ export const jubilantene = [
     tekst: 'Trond og familien flyttet etterhvert til Telegrafalléen 4 i Hønefoss. Det var et kjempestort hus med flere titalls dører, og Trond gikk seg ofte vill i begynnelsen. ' +
     'Huset var fyrt med ved og kull, så om vinteren måtte Trond opp og hugge ved og fyre i ovnene slik at det ikke skulle være så kaldt. Det var likevel ikke mulig å få varmet opp hele huset, ' +
     'så om morgenen det var bare vinduene på soverommet man kunne se ut av på den årstiden. I resten av huset var det fullt av is på vinduene - på innsiden! Det var ofte gjerne bare rett over 0 grader ' +
-    'på rommet til Trond da han stod opp. Dette ble bedre da familien arvet Koleman’en fra bestemoren. Det var en parafinbrenner som klunket og gikk og holdt rommet nogenlunde varmt, og Trond ' +
+    'på rommet til Trond da han stod opp. Dette ble bedre da familien arvet Koleman’en fra bestemoren. Det var en parafinbrenner som klunket og gikk og holdt rommet nogen lunde varmt, og Trond ' +
     'likte godt å stå å varme ryggen mot klebersteinsovnen i stua. Telegrafalléen er fortsatt i familien, hvor Anne og hennes mann Tore er de som bor der den dag i dag.',
     bildeUrl: 'img/Trond/familien.jpg',
   }, {
     aar: '1972',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Konfirmant',
-    tekst: 'Torunn blir konfirmert i mai 1972 i Os Kyrkje. Her har hun på seg den fantasisk fine Hardangerbunaden sin, som hun fikk sydd til konfirmasjonen. ' +
+    tekst: 'Torunn blir konfirmert i mai 1972 i Os Kyrkje. Her har hun på seg den fantastisk fine Hardangerbunaden sin, som hun fikk sydd til konfirmasjonen. ' +
     'Den største søljen har hun arvet av sin tante, og er i år over 100 år gammel. Både søljer og bunaden har nå gått i arv til Mathilde. Her ser man også at det lange håret kom til nytte.',
     bildeUrl: 'img/Torunn/Torunn0005.JPG',
   }, {
@@ -184,9 +184,9 @@ export const jubilantene = [
     tittel: 'En aktiv gutt',
     tekst: 'Trond var en aktiv gutt som liten, både med tanke på hvor mye forskjellig han drev med, og at han var mye fysisk aktiv. Trond spilte baryton i skolekorpset, sang i kor og gikk ' +
     'på svømming. Hvorfor han begynte med svømming husker han ikke selv, men han stod i hvert fall tidlig opp for å trene i bassenget på Folkehøyskolen i Hønefoss. Han lærte bare bryst, ' +
-    'men ble såpass god at han fikk delta i ett mesterskap med masse deltakere. Stakars Trond var livredd, og husker ikke selv hvordan det gikk. Trond valgte etterhvert ' +
+    'men ble såpass god at han fikk delta i ett mesterskap med masse deltakere. Stakkars Trond var livredd, og husker ikke selv hvordan det gikk. Trond valgte etterhvert ' +
     'å slutte med disse aktivitetene til fordel for den største interessen av dem alle - fotball. Barndomsvennen hans, Thor-Helge, spilte fotball i Tolpinrud Idrettslag,' +
-    'så da var det naturlig for Trond å begynne der. Puslete og uten selvtillit spilte han det han kunne, og fikk prøve nesten alle posisjoner untatt midtstopper, selv om han ikke fikk det helt til.',
+    'så da var det naturlig for Trond å begynne der. Puslete og uten selvtillit spilte han det han kunne, og fikk prøve nesten alle posisjoner unntatt midtstopper, selv om han ikke fikk det helt til.',
     bildeUrl: 'img/Trond/Isreal4_1.jpg',
   }, {
     aar: '1971',
@@ -203,7 +203,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TORUNN,
     tittel: 'Aktiv ungdom',
     tekst: 'På ungdomskolen og gymnaset var Torunn aktiv i det kristne ungdomsmiljøet på Os. I ”skulelaget”, Norges Kristne Student- og Skuleungdomslag, ' +
-    'hadde Torunn i flere år diverse verv, og det var ikke mange kvelder hun var hjemme. Ei trygg, men veldig fin og spennende ungdomstid, selv utan de utskeielsene som ungdom idag er er med på.',
+    'hadde Torunn i flere år diverse verv, og det var ikke mange kvelder hun var hjemme. Ei trygg, men veldig fin og spennende ungdomstid, selv uten de utskeielsene som ungdom idag er med på.',
     bildeUrl: 'img/Torunn/påRommetCa16år.jpg',
   }, {
     aar: '1974',
@@ -240,7 +240,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'Hobbymekaniker',
     tekst: 'Trond har fra han var veldig ung hatt en stor interesse for elektriske ting. Han leste alt han kom over av elektroniske blader, og brukte ofte fritiden sin som hobbymekaniker. ' +
-    'Trond var en enstøing som i stedet for å dra på fest gjerne satt hjemme og demonterte radioer, koblet opp telefonlinjer, eller skrudde på bil eller mopedene til kameratene. ' +
+    'Trond var en einstøing som i stedet for å dra på fest gjerne satt hjemme og demonterte radioer, koblet opp telefonlinjer, eller skrudde på bil eller mopedene til kameratene. ' +
     'Dette er en fascinasjon og glede som ikke akkurat har avtatt med åren, og listen over biler og tilhørende bildeler kjøpt og jobbet på er tilnærmet lik uendelig lang.',
     bildeUrl: 'img/Trond/pappa mekker bil.jpg',
   }, {
@@ -256,10 +256,10 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'Uhell',
     tekst: 'I forbindelse med at Trond en gang som ung skulle fikse bremsene på familiens bil trengte han å varme opp noe. Faren hadde en militær blåselampe som gikk på parafin. ' +
-    'Den funker slik at man pumper til man får trykk, og når den var varm nok blåser den en fin, tykk flamme. Denne prøvde Trond utenfor hovedinngange. Da Trond trodde den var ' +
-    'varm nok åpnet han for hovedflammen. Den kom ikke, men i stedet sendte lampen ut en laaang stråle med brennende parafin som traff like ved garasjen. Uheledigvis akkurat samme sted som ' +
-    'fjorårets svært tørre juletre sto plassert. Det tok fyr, som videre satte garasjen i brann. Trond ropte inn at noen skulle ringe brannvesnet, mens han selv løp ned i kjelleren ' +
-    'for å sette på vannslangen. Innen han  kom tilbake var alt allerede på plass: brannbil, politi og tilskuere. De hadde sett røyken fra brannstasjonen og kom umiddelbart. Garasjen ' +
+    'Den funker slik at man pumper til man får trykk, og når den var varm nok blåser den en fin, tykk flamme. Denne prøvde Trond utenfor hovedinngangen. Da Trond trodde den var ' +
+    'varm nok åpnet han for hovedflammen. Den kom ikke, men i stedet sendte lampen ut en laaang stråle med brennende parafin som traff like ved garasjen. Uheldigvis akkurat samme sted som ' +
+    'fjorårets svært tørre juletre sto plassert. Det tok fyr, som videre satte garasjen i brann. Trond ropte inn at noen skulle ringe brannvesenet, mens han selv løp ned i kjelleren ' +
+    'for å sette på vannslangen. Innen han kom tilbake var alt allerede på plass: brannbil, politi og tilskuere. De hadde sett røyken fra brannstasjonen og kom umiddelbart. Garasjen ' +
     'fikk heldigvis bare innvendige skader.',
     bildeUrl: 'img/Trond/møkkete.jpg',
   }, {
@@ -311,7 +311,7 @@ export const jubilantene = [
     tittel: 'Blir igjen i Trondheim',
     tekst: 'Torunn ble igjen i Trondheim da Trond reiste nordover, og begynte å jobbe på Elab på NTH (dagens NTNU), hvor hun ble værende i 5 år.  ' +
     'Torunn ble i løpet av Ingeniørhøgskolen utdannet elektroingeniør, men flyttet seg i denne jobben over mot det digitale, som var mye mer spennende. ' +
-    'Hun ble hekta på programmering, og et morsomt, men veldig spennende prosjekt var å få være med å bygge Norges første GPS-mottakar.',
+    'Hun ble hekta på programmering, og et morsomt, men veldig spennende prosjekt var å få være med å bygge Norges første GPS-mottaker.',
     bildeUrl: 'img/Torunn/ELab.jpg',
   }, {
     aar: '1981',
@@ -406,9 +406,9 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'Hytta',
     tekst: 'I nærheten av Ulefoss i Telemark finner man røttene til Wærstadfamilien, og like ved det som kalles Wærstad-gården hadde Trond og familie en hytte. Ikke store greiene, ' +
-    'med 2 soverom, 2 mindre stuer, et kjøkken og loft, spesielt ikke når man plutselig skulle samle hele familien (mor, far, søsken og alle ders barn). Trangt var det, men desto hyggeligere' +
+    'med 2 soverom, 2 mindre stuer, et kjøkken og loft, spesielt ikke når man plutselig skulle samle hele familien (mor, far, søsken og alle deres barn). Trangt var det, men desto hyggeligere' +
     ' (og høylytt) kunne det bli. Hytta hadde ikke innlagt vann, og den hadde også utedo i skogkanten. Heldigvis var det nok av uteområder, og et høydepunkt for hver samling var løypa i skogen hvor man' +
-    ' skulle prøve å finne gjemte ting som ikke hørte til der. En annen hyggelig tradisjon var å plukke blåbær, da skogenbunnen til tider var blå så langt øyet kunne se.',
+    ' skulle prøve å finne gjemte ting som ikke hørte til der. En annen hyggelig tradisjon var å plukke blåbær, da skogbunnen til tider var blå så langt øyet kunne se.',
     bildeUrl: 'img/Trond/Hytta.jpg',
   }, {
     aar: '1990',
@@ -452,16 +452,16 @@ export const jubilantene = [
     tittel: 'Typisk Trond',
     tekst: 'Trond er person med mye humor, og med det følger det ganske mange dumme ord, utsagn og uttrykk som har festet seg. Typiske ord er pørsjgerøsj (=pølse), bodler (=boller) eller ' +
     'pidnatjøt (=pinnekjøtt). Mange andre ord er preget av det Trond mener er vestlandsk, eller "Osisk", som er å legge til noen d-er i ordet, med en fast o på slutten. ' +
-    'Eksepmpler her er skjevo (=brødskive), judlaribbo (=juleribbe) og pedudso (=pusen). Det går ikke an å spise riskrem på julaften uten at Trond entusiastisk later som han får mandelen (dette skjer typisk minst tre ganger), og det går ' +
-    'heller ikke an å åpne en liten pakke uten at Trond skal gjette at det er en fotball. En annen slager er å storme inn i et rom å alt for høyt si noe som "bllblalblulbulbulb!", hvor alle' +
-    'skvetter til, og han følger opp med "Ble du skremt nå?" Trond er glad i spille kort, og en superirriterende fakte er at han alltid sier "sooorry" med et fårete smil når han vinner. ' +
+    'Eksempler her er skjevo (=brødskive), judlaribbo (=juleribbe) og pedudso (=pusen). Det går ikke an å spise riskrem på julaften uten at Trond entusiastisk later som han får mandelen (dette skjer typisk minst tre ganger), og det går ' +
+    'heller ikke an å åpne en liten pakke uten at Trond skal gjette at det er en fotball. En annen slager er å storme inn i et rom for å alt for høyt si noe som "bllblalblulbulbulb!", hvor alle' +
+    'skvetter til, og han følger opp med "Ble du skremt nå?" Trond er glad i å spille kort, og en superirriterende fakte er at han alltid sier "sooorry" med et fårete smil når han vinner. ' +
     'Og alle som kjenner Trond vet hva som kommer om man ser på TV2 eller om restauranten bare har Fanta. Til slutt tar vi med et uttrykk Trond har brukt mye, som kanskje beskrives best i bildet: "å purke"',
     bildeUrl: 'img/Trond/Purking.jpg',
   }, {
     aar: '1995',
     jubilant: JUBILANT_BEGGE,
-    tittel: 'Bilturene til vestlandet',
-    tekst: 'Hver sommer pleide Torunn og Trond å ta turen til vestlandet og Os for å besøke familien der borte. Og turene over fjellet ble som oftest en del av ferien. I stedet' +
+    tittel: 'Bilturene til Vestlandet',
+    tekst: 'Hver sommer pleide Torunn og Trond å ta turen til Vestlandet og Os for å besøke familien der borte. Og turene over fjellet ble som oftest en del av ferien. I stedet' +
     'for å kjøre raskeste vei over fjellet innebar turen ofte flere stopp innom vakre og spektakulære steder. Det var gamleveier, utsiktspunkt, geiteklapping, overnatting i telt, bading' +
     'i isvann, fossefall og ferske bær fra Hardanger. Vanen til Trond ble fortsatt flittig brukt på disse turene. ',
     bildeUrl: 'img/begge/bilferie.jpg',
@@ -510,7 +510,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'Korea igjen',
     tekst: 'Etter et kort opphold i Tyskland flytter Trond tilbake til Sør-Korea, og kjøper seg denne gangen leilighet i Ulsan. Vinterferien 2001 inviterte han Thomas og Mathilde på' +
-    'besøk, hvor de fikk gjenoppleve mye av det de gjorde da de var der sist. I tilegg ble det mye god mat og den obligatoriske karaoken.',
+    'besøk, hvor de fikk gjenoppleve mye av det de gjorde da de var der sist. I tillegg ble det mye god mat og den obligatoriske karaoken.',
     bildeUrl: 'img/Trond/besøk.jpg',
   }, {
     aar: '2004',
@@ -585,7 +585,7 @@ export const jubilantene = [
     aar: '2010',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Sin livs ferie',
-    tekst: 'En av de mest spesielle feriene Torunn har hatt er sommeren hun fikk være med på Tall Ships Race på båten Statsraad Lehmkuhl. Dette var ikke en ferietur med latsmanssliv' +
+    tekst: 'En av de mest spesielle feriene Torunn har hatt er sommeren hun fikk være med på Tall Ships Race på båten Statsraad Lehmkuhl. Dette var ikke en ferietur med latmannsliv' +
     'på dekk, men mye jobbing i form av å delta i det praktiske arbeidet på båt. Det var vasking av dekk, heving av seil, klatring i mast og mye mer. Stas for båt-glade Torunn! ',
     bildeUrl: 'img/Torunn/båtferie.jpg',
   }, {
@@ -620,14 +620,14 @@ export const jubilantene = [
     jubilant: JUBILANT_TORUNN,
     tittel: 'Korpssjel',
     tekst: 'Siden Mathilde begynte i korps i 1998 har Torunn vært godt involvert i korpsmiljøet. Først som vanlig korpsmamma, så som økonomiansvarlig, ' +
-    'og så også som fast fanebærer. Da Mathilde flyttet til Trondheim og begynte å spille der, tok Torunn liksågodt turen oppover på 17. mai og var fanebærer der også. ' +
+    'og så også som fast fanebærer. Da Mathilde flyttet til Trondheim og begynte å spille der, tok Torunn likså godt turen oppover på 17. mai og var fanebærer der også. ' +
     'Tiden i skolekorpset har gitt nye venner, givende oppgaver, flotte korpsturer, og muligheten til å bli kjent med ungene i området.',
     bildeUrl: 'img/Torunn/Nidarholm1.jpg',
   }, {
     aar: '2012',
     jubilant: JUBILANT_TROND,
-    tittel: 'Allmenkunnskap',
-    tekst: 'Trond er glad i å spille spill, og utenom kortspill, så er spørrespill og quiz noe av det som oftest blir valgt. Trond er en reser i allmenkunnskap, og om han ikke kan svaret så ' +
+    tittel: 'Allmennkunnskap',
+    tekst: 'Trond er glad i å spille spill, og utenom kortspill, så er spørrespill og quiz noe av det som oftest blir valgt. Trond er en reser i allmennkunnskap, og om han ikke kan svaret så ' +
     'har han en tendens til å klare å gjette seg frem til det. Favorittkategoriene er "natur og vitenskap", "tv og film" og "sport og spill".',
     bildeUrl: 'img/Trond/spill.jpg',
   }, {
@@ -635,9 +635,9 @@ export const jubilantene = [
     jubilant: JUBILANT_TORUNN,
     tittel: 'Sykkeltur langs Donau',
     tekst: 'At Torunn og Mathilde drar på sykkeltur sammen har vært en årlig agenda for sommerferien siden sykkelturen til Bergen. Turene har da vært rundt om i vakre Norge. Sommeren 2013 ' +
-    'ville Torunn og Mathilde prøve noe nytt, og de ville ha med seg lille niesa/kusina Ester på lasset. Denne gangen skulle turen gå til utlandet, nærmere bestemt Østerriket. Etter et par flyturer ' +
+    'ville Torunn og Mathilde prøve noe nytt, og de ville ha med seg lille niesa/kusina Ester på lasset. Denne gangen skulle turen gå til utlandet, nærmere bestemt Østerrike. Etter et par flyturer ' +
     'og en ganske så oppstykket togtur (som inkluderte noen avslappende timer på noe avispapir på en forlatt togstasjon midt på natta), så kom de frem til Passau hvor turen skulle starte. ' +
-    'Turen skulle vare i 7 dager, og i løpet av denne tiden skulle de sykle langs Donau i fantastisk natur, se spennende bygg og småbygder, besøke vingårer, spise masse god mat, få vonde ' +
+    'Turen skulle vare i 7 dager, og i løpet av denne tiden skulle de sykle langs Donau i fantastisk natur, se spennende bygg og småbygder, besøke vingårder, spise masse god mat, få vonde ' +
     'rumper og litt bedre kondis.',
     bildeUrl: 'img/Torunn/sykkeltur donau.jpg',
   }, {
@@ -647,7 +647,7 @@ export const jubilantene = [
     tekst: 'Som en årlig greie har Wærstad-familien pleid å delta på Ringeriksmaraton under lagnavnet "Svigersvina". I etterkant av løpet har det ' +
     'vært stor familiefest, noe som har vært tradisjon i nå over 20 år. Familien pleier å gjøre mye ut av seg, og her har Trond vært en stor bidragsyter. ' +
     'Først med egen van med papp-gris på taket, så med rosa minibuss med nese og ører. Denne bussen har, i tillegg til å lage show, blitt brukt til å frakte folk ' +
-    'frem og tilbake for å heie på de som løper. Men kanskje aller viktist så har Trond og bussen pleid å frakte ca 20 "barn" til godtebutikken på kvelden. Kveldens absolutte ' +
+    'frem og tilbake for å heie på de som løper. Men kanskje aller viktigst så har Trond og bussen pleid å frakte ca 20 "barn" til godtebutikken på kvelden. Kveldens absolutte ' +
     'høydepunkt for mange av de minste, denne turen med onkel Trond og godtebussen. I 2014 fikk Trond, vel fortjent, utdelt prisen for årets Hederssvin!',
     bildeUrl: 'img/Trond/svigersvin.JPG',
   }, {
@@ -663,7 +663,7 @@ export const jubilantene = [
     tittel: 'Hyttetur',
     tekst: 'Trond er til stadighet ute og reiser, og det er ikke så lett å få booket noe tid med ham. Påsken 2015 var han tilfeldigvis hjemme, og ble raskt huket tak i av søster Elle og hennes ' +
     'mann Poul. Sammen med hele deres familie og Mathilde, feiret da Trond påske på hytta deres ved Vansjø utenfor Moss. Påsken falt det året over bursdagen til Elle og Trond, og her ' +
-    'er de avbildet som bursdagsbarn med fantasiske hodeplagg laget av deres mor.',
+    'er de avbildet som bursdagsbarn med fantastiske hodeplagg laget av deres mor.',
     bildeUrl: 'img/Trond/pappa og elle påske.jpg',
   }, {
     aar: '2015',
@@ -676,7 +676,7 @@ export const jubilantene = [
     aar: '2015',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Spontane',
-    tekst: 'Med unntak av at både Torunn og Trond er mye opptatt med reising, så er de med på det meste når de først har tid. De er veldig glad i gjøre ting med andre, men også bare seg ' +
+    tekst: 'Med unntak av at både Torunn og Trond er mye opptatt med reising, så er de med på det meste når de først har tid. De er veldig glad i å gjøre ting med andre, men også bare seg ' +
     'i mellom. Trond er stadig vekk hos Torunn for å spise middag, og kanskje få noen "bodler" eller vafler til dessert, og Torunn blir ofte med Trond på kino. De ble også med, uten ' +
     'spesielt mye trening, Mathilde på fjelltur til Store-Ble. Turen ble litt tung, men de kom seg opp på 1000 meter før det sa stopp. De siste 300 meterne gikk Mathilde derfor alene, ' +
     'mens Torunn og Trond fikk god tid til å slappe av med niste.',
@@ -686,7 +686,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'Fantastisk sangstemme',
     tekst: 'Det er kanskje ikke alle som har fått gleden av å høre den, men Trond har en helt fantastisk sangstemme. Både Mathilde og Thomas har vokst opp med pappaen sin sangstemme, ' +
-    'gjennom nattasanger som "Alltid fredig når du går", "Vår gud han er så fast en borg" og tulleverjsonen av "Bæ, bæ, lille lam", og utallige bilturer med musikk på anlegget. I senere tid kjøpte Trond karaokeannlegg, ' +
+    'gjennom nattasanger som "Alltid freidig når du går", "Vår gud han er så fast en borg" og tulleverjsonen av "Bæ, bæ, lille lam", og utallige bilturer med musikk på anlegget. I senere tid kjøpte Trond karaokeannlegg, ' +
     'hvor sanger som "Hello" og "Bridge over troubled water" gjerne blir sunget. Mathilde har alltid vært veldig glad i å høre faren synge, da kanskje spesielt "Deilig er jorden" i ' +
     'kirken på julaften. Her sitter Mathilde og Trond og gauler sammen til "Honesty" i bilen på vei til Danmark.',
     bildeUrl: 'img/Trond/sangstemme.jpg',
@@ -695,7 +695,8 @@ export const jubilantene = [
     jubilant: JUBILANT_BEGGE,
     tittel: 'Jubilantene',
     tekst: '9. april var det 60 år siden lille Torunn kom til verden, mens 2017 for Trond vil være hans siste år i 50-åra. 59 år er ikke akkurat et rundt tall, men vi later som han er ' +
-    'jubilant likevel. Siden vi først skal samles, kan vi liksågodt slå to fluer i en smekk og ha en kjempefest for begge to! Hurra',
+    'jubilant likevel. Siden vi først skal samles, kan vi likså godt slå to fluer i en smekk og ha en kjempefest for begge to! Hurra',
     bildeUrl: 'img/begge/tihtw13.jpg',
   },
 ];
+
