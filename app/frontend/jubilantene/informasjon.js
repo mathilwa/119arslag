@@ -434,8 +434,8 @@ export const jubilantene = [
     tekst: 'De fleste som kjenner Trond vet at han alltid sier stiller opp når man ber om hjelp. Om det skulle være å skru opp en hylle, fikse en bil, eller bli henta på andre siden av ' +
     'landet, Trond sier alltid ja. Et eksempel på dette er en liten historie fra da Torunn i en periode bodde i Horten, mens Trond bodde i Oslo. På en av hjemturene etter ' +
     'et besøk i Horten kjørte Trond forbi noen gutter ved Sandvika som stod med panseret oppe på en gammel BMW. De var på vei sørover, så Trond snudde og spurte hvor de skulle. ' +
-    'Porsgrunn var svaret, og Trond syntes dette var litt langt, så han sa lykke til, snudde og fortsatte turen mot Oslo. Han klarte likevel ikke slutte å tenke på de guttene, og det' +
-    'at de ikke kom til å få hjelp på denne tiden av døgnet, så Trond snudde for tredje gang og tauet dem helt til Porsgrunn. De sa ikke engang takk! Heldigvis finnes det andre ting som er mer' +
+    'Porsgrunn var svaret, og Trond syntes dette var litt langt, så han sa lykke til, snudde og fortsatte turen mot Oslo. Han klarte likevel ikke slutte å tenke på de guttene, og det ' +
+    'at de ikke kom til å få hjelp på denne tiden av døgnet, så Trond snudde for tredje gang og tauet dem helt til Porsgrunn. De sa ikke engang takk! Heldigvis finnes det andre ting som er mer ' +
     'givende å si ja til når det blir spurt, som når Mathilde spør om pappa kan følge henne første skoledag.',
     bildeUrl: 'img/Trond/pappa følger mathilde.jpg',
   }, {
@@ -453,8 +453,8 @@ export const jubilantene = [
     tekst: 'Trond er person med mye humor, og med det følger det ganske mange dumme ord, utsagn og uttrykk som har festet seg. Typiske ord er pørsjgerøsj (=pølse), bodler (=boller) eller ' +
     'pidnatjøt (=pinnekjøtt). Mange andre ord er preget av det Trond mener er vestlandsk, eller "Osisk", som er å legge til noen d-er i ordet, med en fast o på slutten. ' +
     'Eksempler her er skjevo (=brødskive), judlaribbo (=juleribbe) og pedudso (=pusen). Det går ikke an å spise riskrem på julaften uten at Trond entusiastisk later som han får mandelen (dette skjer typisk minst tre ganger), og det går ' +
-    'heller ikke an å åpne en liten pakke uten at Trond skal gjette at det er en fotball. En annen slager er å storme inn i et rom for å alt for høyt si noe som "bllblalblulbulbulb!", hvor alle' +
-    'skvetter til, og han følger opp med "Ble du skremt nå?" Trond er glad i å spille kort, og en superirriterende fakte er at han alltid sier "sooorry" med et fårete smil når han vinner. ' +
+    'heller ikke an å åpne en liten pakke uten at Trond skal gjette at det er en fotball. En annen slager er å storme inn i et rom for å alt for høyt si noe som "bllblalblulbulbulb!", hvor alle ' +
+    'skvetter til, og han følger opp med "Ble du skremt nå?". Trond er glad i å spille kort, og en superirriterende fakte er at han alltid sier "sooorry" med et fårete smil når han vinner. ' +
     'Og alle som kjenner Trond vet hva som kommer om man ser på TV2 eller om restauranten bare har Fanta. Til slutt tar vi med et uttrykk Trond har brukt mye, som kanskje beskrives best i bildet: "å purke"',
     bildeUrl: 'img/Trond/Purking.jpg',
   }, {
@@ -492,9 +492,9 @@ export const jubilantene = [
     aar: '1999',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Det tar slutt. På en måte.',
-    tekst: 'Etter mange år sammen i Horten tar kjæresteforholdet mellom Torunn og Trond slutt. Trond reiser (etter et kort opphold i Tyskland) tilbake til Korea, mens Torunn bli ' +
-    'boende i Horten med barna. Selv om det til tider er vanskelig holder de fortsatt kontakten, mest for barnas skyld. Trond ringer hver dag og spør hvordan det går, og ' +
-    'kommer hjem til de fleste bursdager og ferier, slik at barna skulle få ha hele familien sin. Denne slutten viser seg å være starten på det som etterhvert skal bli et ' +
+    tekst: 'Etter mange år sammen i Horten tok kjæresteforholdet mellom Torunn og Trond slutt. Trond reiste (etter et kort opphold i Tyskland) tilbake til Korea, mens Torunn ble ' +
+    'boende i Horten med barna. Selv om det til tider var vanskelig holdt de fortsatt kontakten, mest for barnas skyld. Trond ringte hver dag og spurte hvordan det gikk, og ' +
+    'kom hjem til de fleste bursdager og ferier, slik at barna skulle få ha hele familien sin. Denne slutten viste seg å være starten på det som etterhvert skulle bli et ' +
     'veldig godt vennskap mellom Torunn og Trond.',
     bildeUrl: 'img/begge/Torunn_Trond_81.JPG',
   }, {
@@ -509,14 +509,15 @@ export const jubilantene = [
     aar: '2001',
     jubilant: JUBILANT_TROND,
     tittel: 'Korea igjen',
-    tekst: 'Etter et kort opphold i Tyskland flytter Trond tilbake til Sør-Korea, og kjøper seg denne gangen leilighet i Ulsan. Vinterferien 2001 inviterte han Thomas og Mathilde på' +
+    tekst: 'Etter et kort opphold i Tyskland flyttet Trond tilbake til Sør-Korea, og kjøpte seg denne gangen leilighet i Ulsan. Vinterferien 2001 inviterte han Thomas og Mathilde på' +
     'besøk, hvor de fikk gjenoppleve mye av det de gjorde da de var der sist. I tillegg ble det mye god mat og den obligatoriske karaoken.',
     bildeUrl: 'img/Trond/besøk.jpg',
   }, {
     aar: '2004',
     jubilant: JUBILANT_TORUNN,
     tittel: 'På to hjul til Bergen',
-    tekst: 'Sommeren 2004 tok Torunn med seg Mathilde og Thomas på den 50 mil lange sykkelturen fra Horten til Bergen. Turen gikk via Kongsberg, Geilo, Hardangervidda og Hardangerfjorden.',
+    tekst: 'Sommeren 2004 tok Torunn med seg Mathilde og Thomas på den 50 mil lange sykkelturen fra Horten til Bergen. Turen gikk via Kongsberg, Geilo, Hardangervidda og Hardangerfjorden, ' + 
+    'i både regn, snø og til slutt fantastisk deilig sommervær. En slitsom, men likevel utrolig spennende og givende tur.',
     bildeUrl: 'img/Torunn/Sykkeltur.JPG',
   }, {
     aar: '2004',
@@ -524,7 +525,7 @@ export const jubilantene = [
     tittel: 'Skifter jobb',
     tekst: 'I løpet av sin jobbkarriere har Trond rukket å være innom en god del forskjellige arbeidsplasser. Det har vært Forsvaret, Norcontrol, Hitec, ABB, Høglund Marine ' +
     'Automasjon (HMA), og noen perioder med freelance, og stedene han har jobbet har vært mange. Mye av arbeidet har foregått i utlandet, gjerne til sjøs. ' +
-    'I 2004, etter perioden i Hitec, begynner han igjen i HMA og flytter til Tønsberg. Selv om Trond nå er bosatt i Norge er han fortsatt mye ute og reiser, både i Norge og i utlandet. ' +
+    'I 2004, etter perioden i Hitec, begynte han igjen i HMA og flyttet til Tønsberg. Selv om Trond nå er bosatt i Norge er han fortsatt mye ute og reiser, både i Norge og i utlandet. ' +
     'Trond jobber med automasjonssystem for båter, hvor han reiser verden rundt for å installere, og fikse feil på, disse systemene. ',
     bildeUrl: 'img/Trond/HMA.jpg',
   }, {
@@ -545,7 +546,7 @@ export const jubilantene = [
     aar: '2008',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Ut i verden - igjen',
-    tekst: 'Etter 22 år hos Simrad, nå Kongsberg Maritime, får Torunn ny stilling i samme firma. Fra å forske på og utvikle ekkolodd, skal Torunn nå holde kurs i ' +
+    tekst: 'Etter 22 år hos Simrad, nå Kongsberg Maritime, fikk Torunn ny stilling i samme firma. Fra å forske på og utvikle ekkolodd, skulle Torunn nå holde kurs i ' +
     'produktene Kongsberg Maritime lager. Mange av kursene holdes i Norge, men det er også kurs som holdes i utlandet - noe som fører til mange reiser til ' +
     'spennende steder. Her er Torunn på kursoppdrag i Oman.',
     bildeUrl: 'img/Torunn/Ny jobb.jpg',
