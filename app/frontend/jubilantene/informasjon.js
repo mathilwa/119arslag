@@ -15,7 +15,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TROND,
     tittel: 'Lille Trond blir født',
     tekst: 'Trond ble født 4. april 1958 på Karolinska Sykehus i Stockholm, Sverige. Han kom ca 10 minutter før sin tvillingsøster Elisabeth (som går under navnet Elle til vanlig). ' +
-    'De ble født i Sverige fordi deres far da gikk på Krigshøgskolan der. Etter kort tid flyttet de til Norge.',
+    'De ble født i Sverige fordi deres far da gikk på Krigshøgskolan der. Etter kort tid flyttet de til Norge. Her er han avbildet med mamma Britt (Babben).',
     bildeUrl: 'img/Trond/nyfødt.jpg',
   }, {
     aar: '1958',
@@ -79,7 +79,7 @@ export const jubilantene = [
     'men Torunn og Tormod prøvde så langt det lot seg gjøre å unngå arbeidsoppgaver. De var aldri med i fjøset, og Torunn husker med gru all ripsen som skulle plukkest til saft. Torunn prøvde ' +
     'også å unngå klesvasken, da det var veldig tungt og kjedsommelig arbeid. Klesvasken foregikk i kjelleren, med koking av klær i diger kjele på den gamle vedovnen, og skovlemaskin med vriapparat. ' +
     'Alt ble skylt i kaldt vann i store stamper og hengt ut på snora. Når klærne var ute var det viktig å følge med på været, og ta inn klærne før regnet kom. Torunn hadde som jobb å vaska ' +
-    'soverom og gang hver fredag, noe hun fikk 10 kr. Det som ble sett frem til av arbeidoppgaver var onnene, fordi det da var fullt av folk på gården.',
+    'soverom og gang hver fredag, noe hun fikk 10 kr for. Det som ble sett frem til av arbeidoppgaver var onnene, fordi det da var fullt av folk på gården.',
     bildeUrl: 'img/Torunn/Oppvokst på gård.jpg',
   }, {
     aar: '1964',
@@ -159,7 +159,7 @@ export const jubilantene = [
     tittel: 'Telegrafalléen',
     tekst: 'Trond og familien flyttet etterhvert til Telegrafalléen 4 i Hønefoss. Det var et kjempestort hus med flere titalls dører, og Trond gikk seg ofte vill i begynnelsen. ' +
     'Huset var fyrt med ved og kull, så om vinteren måtte Trond opp og hugge ved og fyre i ovnene slik at det ikke skulle være så kaldt. Det var likevel ikke mulig å få varmet opp hele huset, ' +
-    'så det var bare vinduene på rommet man kunne se ut av på den årstiden. I resten av huset var det fullt av is - på innsiden! Det var ofte gjerne bare rett over 0 grader ' +
+    'så om morgenen det var bare vinduene på soverommet man kunne se ut av på den årstiden. I resten av huset var det fullt av is på vinduene - på innsiden! Det var ofte gjerne bare rett over 0 grader ' +
     'på rommet til Trond da han stod opp. Dette ble bedre da familien arvet Koleman’en fra bestemoren. Det var en parafinbrenner som klunket og gikk og holdt rommet nogenlunde varmt, og Trond ' +
     'likte godt å stå å varme ryggen mot klebersteinsovnen i stua. Telegrafalléen er fortsatt i familien, hvor Anne og hennes mann Tore er de som bor der den dag i dag.',
     bildeUrl: 'img/Trond/familien.jpg',
@@ -215,14 +215,8 @@ export const jubilantene = [
     aar: '1974',
     jubilant: JUBILANT_TORUNN,
     tittel: 'Bror og søster',
-    tekst: 'Tormodd og Torunn sammen, pyntet, i Tormod sin konfirmasjon.',
+    tekst: 'Tormod og Torunn sammen, pyntet, i Tormod sin konfirmasjon.',
     bildeUrl: 'img/Torunn/torunn og tormod komf.jpg',
-  }, {
-    aar: '1975',
-    jubilant: JUBILANT_TROND,
-    tittel: 'Trond og Burmann',
-    tekst: '',
-    bildeUrl: 'img/Trond/burmann.jpg',
   }, {
     aar: '1975',
     jubilant: JUBILANT_TORUNN,
@@ -382,6 +376,12 @@ export const jubilantene = [
     bildeUrl: 'img/Torunn/TorunnOffisiell.jpg',
   }, {
     aar: '1987',
+    jubilant: JUBILANT_TROND,
+    tittel: 'Trond og Burmann',
+    tekst: 'Det har vært mye hund i livet til Trond, da Babben og Arnulf Odd var veldig glade i hund. Noen av dem var Tyra, Peik, Brom-Brom og Burmann.',
+    bildeUrl: 'img/Trond/burmann.jpg',
+  }, {
+    aar: '1987',
     jubilant: JUBILANT_BEGGE,
     tittel: 'Torunn og Trond blir foreldre',
     tekst: 'Høsten 1987, kun ett år etter at Torunn og Trond flyttet til Horten, ble de foreldre til lille Mathilde.',
@@ -423,7 +423,7 @@ export const jubilantene = [
     aar: '1993',
     jubilant: JUBILANT_BEGGE,
     tittel: 'I bil fra Kirkenes til Horten',
-    tekst: 'Sommeren 1993 sto det Norgesferie på agendaen. Denne startet med Hurtigruta (Kong Håkon) fra Bergen til Kirkenes. Torunn og ungene møtte Trond i Bergen (som jobbet på Kong Håkon på den tiden),' +
+    tekst: 'Sommeren 1993 sto det Norgesferie på agendaen. Denne startet med Hurtigruta (Kong Harald) fra Bergen til Kirkenes. Torunn og ungene møtte Trond i Bergen (som jobbet på Kong Harald på den tiden),' +
     'i en nykjøpt Chevrolet Van som skulle ta dem med gjennom Norge. Turen fra Kirkenes til Horten var spesiell, med mange fine opplevelser. Trond sørget for musikk og at barna hadde ' +
     'nok filmer til det hjemmesnekra kinoanlegget i baksetet, mens Torunn sørget for å fange minnene gjennom tegninger av hendelser og markeringer på kart.',
     bildeUrl: 'img/begge/Kong Harald.jpg',

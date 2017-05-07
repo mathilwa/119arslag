@@ -948,13 +948,16 @@ a.pure-menu-item:hover {
 }
 
 @media (min-width: 620px) {
+  .pure-menu-container {
+    height: auto;
+  }
+
   .pure-menu-item:not(:first-of-type):before {
     margin: 0 1em;
   }
 
   .pure-menu-list {
     position: relative;
-    display: flex;
     visibility: visible;
     justify-content: flex-end;
     align-items: center;
@@ -965,6 +968,14 @@ a.pure-menu-item:hover {
 
   .pure-menu-list.open {
     display: flex;
+  }
+
+  .pure-menu-list {
+    display: inline-block;
+  }
+
+  .pure-menu-list.antall-pameldte {
+    min-width: auto;
   }
 
   .pure-menu-list .pure-menu-item {
