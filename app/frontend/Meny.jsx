@@ -20,6 +20,13 @@ const Meny = React.createClass({
       menyErApen: false,
     };
   },
+  toggleMeny () {
+    this.setState({menyErApen: !this.state.menyErApen});
+  },
+  velgElement (menyElement) {
+    browserHistory.push(menyElement.url);
+    this.toggleMeny();
+  },
   listUtMenyElementer () {
     return menyElementer.map((menyElement, key) => {
       const className = classNames({
@@ -29,13 +36,10 @@ const Meny = React.createClass({
       return (
           <li key={key} className={className}>
             <a className="pure-menu-link"
-               onClick={() => browserHistory.push(menyElement.url)}>{menyElement.menyElementTekst}</a>
+               onClick={() => this.velgElement(menyElement)}>{menyElement.menyElementTekst}</a>
           </li>
       );
     });
-  },
-  toggleMeny () {
-    this.setState({menyErApen: !this.state.menyErApen});
   },
   render () {
     const className = classNames({
