@@ -4,7 +4,8 @@ import { browserHistory } from 'react-router';
 const OvernattingInformasjonForHovedside = () => {
   return (
       <p>
-        Om det er ønskelig med overnatting bør man begynne å tenke på det relativt snart, da dette fort kan bli fullt. For mer informasjon, <a href="" onClick={() => browserHistory.push('/overnatting')}>gå til siden om overnatting.</a>
+        For de som enda ikke har ordnet sted å sove, er dette fortsatt mulig å få til. Ta først en titt på <a href="" onClick={() => browserHistory.push('/overnatting')}>siden om overnatting</a>,
+        og om det skal vise seg å være fullt kan dere ta kontakt med Mathilde, så fikser vi sengeplass og tak over hodet!
       </p>
   );
 };

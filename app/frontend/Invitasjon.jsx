@@ -1,4 +1,5 @@
 import React from 'react';
+import { browserHistory } from 'react-router';
 import OvernattingInformasjonForHovedside from './OvernattingInformasjonForHovedside.jsx';
 
 const Invitasjon = () => {
@@ -13,8 +14,11 @@ const Invitasjon = () => {
               Lørdag 3. juni 2017 vil vi gjerne få invitere dere til å bli med å feire at mamma og pappa fyller 60 år. Alle er invitert med kjæreste/ektefelle/samboer, så spre gjerne ordet videre!
             </p>
             <p>
-              Tanken er å begynne festligheten tidlig på dagen, med litt lek og moro for å kose oss og bli kjent med de man ikke kjenner så godt.
-              Festlighetene vil fortsette utover kvelden med god mat og drikke. Lokalet vi skal være i er <a href="http://www.gamlehortengard.no/">Gamlehorten Gjestegård</a>,
+              Tanken er å begynne festligheten tidlig på dagen, med litt lek og moro for å kose oss og bli kjent med de man ikke kjenner så godt. Festlighetene vil fortsette utover kvelden med god mat og drikke.
+              For mer detaljert informasjon kan dere ta en titt på <a href="" onClick={() => browserHistory.push('/program')}>programmet.</a>
+            </p>
+            <p>
+              Lokalet vi skal være i er <a href="http://www.gamlehortengard.no/">Gamlehorten Gjestegård</a>,
               et koselig sted på <a href="https://goo.gl/maps/9HrfUVYQ1xC2" target="_blank">Karljohansvern i Horten</a>.
             </p>
             <OvernattingInformasjonForHovedside />
