@@ -8,7 +8,7 @@ const Program = () => {
             <h3 className="information-head">Program</h3>
             <div className="program-info">
               <p>
-                Her får dere en oversikt over programmet for dagen. Klokkeslettene er helt skrevet i stein, men vi prøver å ha dette som et utgangspunkt.
+                Her får dere en oversikt over programmet for dagen. Det er ikke helt skrevet i stein, men vi prøver å ha disse klokkeslettene som utgangspunkt.
               </p>
             </div>
             <div className="overnatting-info gamlehorten-overnatting-info">
