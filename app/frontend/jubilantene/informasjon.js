@@ -516,7 +516,7 @@ export const jubilantene = [
     aar: '2004',
     jubilant: JUBILANT_TORUNN,
     tittel: 'På to hjul til Bergen',
-    tekst: 'Sommeren 2004 tok Torunn med seg Mathilde og Thomas på den 50 mil lange sykkelturen fra Horten til Bergen. Turen gikk via Kongsberg, Geilo, Hardangervidda og Hardangerfjorden, ' + 
+    tekst: 'Sommeren 2004 tok Torunn med seg Mathilde og Thomas på den 50 mil lange sykkelturen fra Horten til Bergen. Turen gikk via Kongsberg, Geilo, Hardangervidda og Hardangerfjorden, ' +
     'i både regn, snø og til slutt fantastisk deilig sommervær. En slitsom, men likevel utrolig spennende og givende tur.',
     bildeUrl: 'img/Torunn/Sykkeltur.JPG',
   }, {
@@ -595,7 +595,7 @@ export const jubilantene = [
     tittel: 'Gode venner',
     tekst: 'Det er mange år siden Torunn og Trond var sammen som kjærester, men de er fortsatt veldig gode venner. Kanskje man kan gå så langt som å si at de er hverandres beste venn. ' +
     'Torunn og Trond gjør det meste i fellesskap. De er ofte med hverandre når de har fri, de besøker venner og familie sammen, de hjelper hverandre når det trengs, og de tilbringer det meste ' +
-    'av ferie og høytidsdager sammen. Jul- og påskeferie har for det meste blitt feiret sammen, hele familien. I 2011 dro hele familien, pluss niese Hilde, til USA. Turen varte i 11 dager, og gikk innom' +
+    'av ferie og høytidsdager sammen. Jul- og påskeferie har for det meste blitt feiret sammen, hele familien. I 2011 dro hele familien, pluss niese Hilde, til USA. Turen varte i 11 dager, og gikk innom ' +
     'New York, Boston, snarvisitt hos Kristin og Jean Pierre i Montreal, besøk hos fjern familie i Reno, og avslutning i San Francisco. Her er de avbildet sammen utenfor Alcatraz mens de venter ' +
     'på båten tilbake til San Francisco.',
     bildeUrl: 'img/begge/USAtur.jpg',
@@ -604,7 +604,7 @@ export const jubilantene = [
     jubilant: JUBILANT_TORUNN,
     tittel: 'Countryfestival',
     tekst: 'Et annet høydepunkt for Torunn om somrene er tur til Countryfestivalen i Seljord med kusine Anita. Her er det mye Torunn liker, god musikk, dans, mulighet til å kle seg ut,' +
-    'og et ekstremt godt marked for people watching. Det med å kle seg ut til denne festivalen er litt artig, for Torunn har på seg ca det samme når hun er på ridetur som når hun skal' +
+    'og et ekstremt godt marked for people watching. Det med å kle seg ut til denne festivalen er litt artig, for Torunn har på seg ca det samme når hun er på ridetur som når hun skal ' +
     'på festival. Dere kan jo prøve å gjette selv hva Torunn er på på dette bildet.',
     bildeUrl: 'img/Torunn/cowboy.jpg',
   }, {
@@ -700,4 +700,3 @@ export const jubilantene = [
     bildeUrl: 'img/begge/tihtw13.jpg',
   },
 ];
-

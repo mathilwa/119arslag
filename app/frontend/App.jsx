@@ -5,6 +5,7 @@ import Hovedside from './Hovedside.jsx';
 import Pamelding from './Pamelding.jsx';
 import Overnatting from './Overnatting.jsx';
 import Pameldte from './Pameldte.jsx';
+import Program from './Program.jsx';
 import Jubilantene from './jubilantene/JubilanteneHovedside.jsx';
 import 'babel-polyfill';
 import { polyfill } from 'es6-promise';
@@ -15,6 +16,7 @@ const App = () => {
     <Router history={browserHistory} onUpdate={() => window.scrollTo(0, 0)}>
       <Route path="/" component={AppLayout}>
         <IndexRoute component={Hovedside}/>
+        <Route path="/program" component={Program}/>
         <Route path="/pamelding" component={Pamelding}/>
         <Route path="/overnatting" component={Overnatting}/>
         <Route path="/pameldte" component={Pameldte}/>

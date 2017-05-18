@@ -5,9 +5,10 @@ import MenyIkon from './MenyIkon.jsx';
 
 const menyElementer = [
   { url: '/', menyElementTekst: '119årslag'},
-  { url: '/pamelding', menyElementTekst: 'Påmelding'},
+  { url: '/program', menyElementTekst: 'Program'},
   { url: '/overnatting', menyElementTekst: 'Overnatting'},
   { url: '/jubilantene', menyElementTekst: 'Jubilantene'},
+  { url: '/pamelding', menyElementTekst: 'Påmelding'},
 ];
 
 const Meny = React.createClass({
