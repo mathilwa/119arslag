@@ -7,6 +7,9 @@ import Overnatting from './Overnatting.jsx';
 import Pameldte from './Pameldte.jsx';
 import Program from './Program.jsx';
 import Jubilantene from './jubilantene/JubilanteneHovedside.jsx';
+import Poengoversikt from './konkurranse/Poengoversikt.jsx';
+import Post from './konkurranse/post/Post.jsx';
+import Poster from './konkurranse/VelgPost.jsx';
 import 'babel-polyfill';
 import { polyfill } from 'es6-promise';
 polyfill();
@@ -21,6 +24,9 @@ const App = () => {
         <Route path="/overnatting" component={Overnatting}/>
         <Route path="/pameldte" component={Pameldte}/>
         <Route path="/jubilantene" component={Jubilantene}/>
+        <Route path="/oversikt" component={Poengoversikt}/>
+        <Route path="/poster" component={Poster}/>
+        <Route path="/post/:id" component={Post}/>
       </Route>
     </Router>
   );
