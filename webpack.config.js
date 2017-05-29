@@ -10,7 +10,7 @@ module.exports = {
   ],
   output: {
     path: './app/public/dist',
-    filename: 'app.bundle.js',
+    filename: '/app.bundle.js',
   },
   module: {
     loaders: [
@@ -28,8 +28,8 @@ module.exports = {
       },
       {
         test: /\.jpg$/,
-        loader: "file-loader"
-      }
+        loader: 'file-loader',
+      },
     ],
   },
   plugins: [
@@ -37,15 +37,15 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'app/public/index.html',
       inject: 'body',
-      filename: 'index.html'
+      filename: 'index.html',
     }),
     new CopyWebpackPlugin([
       {
         from: 'app/public/img/',
-        to: 'img/'
+        to: 'img/',
       },
     ]),
-    new ExtractTextPlugin('main.bundle.css', {
+    new ExtractTextPlugin('/main.bundle.css', {
       allChunks: true,
     }),
   ],
