@@ -1,5 +1,5 @@
-export const POENGTYPE_TID = 'TID';
-export const POENGTYPE_POENG = 'POENG';
+export const POENGTYPE_TID = 'Tid';
+export const POENGTYPE_POENG = 'Poeng';
 
 export const postene = [
   {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { isNull, isEmpty } from 'lodash';
 import VelgLag from '../VelgLag.jsx';
+import VisibleIf from './../../VisibleIf.jsx';
 
 const Post = React.createClass({
   propTypes: {
@@ -10,6 +11,8 @@ const Post = React.createClass({
     return {
       antallPoeng: null,
       valgtLag: '',
+      bonusValg: false,
+      feilmelding: '',
     };
   },
   oppdaterPoeng (event) {
@@ -31,11 +34,12 @@ const Post = React.createClass({
           lag: this.state.valgtLag,
           antallPoeng: this.state.antallPoeng,
           post: this.props.post.nummer,
+          bonusValg: this.state.bonusValg,
         }),
       });
       this.setState({antallPoeng: null, valgtLag: ''});
     } else {
-      this.setState({feilmelding: 'Poeng må fylles ut'});
+      this.setState({feilmelding: `${this.props.post.poengtype} må fylles ut`});
     }
   },
   render () {
@@ -48,8 +52,11 @@ const Post = React.createClass({
           <input className="tekstinput" type="text" id="navn" placeholder={post.poengPlaceholder} value={this.state.antallPoeng} onChange={this.oppdaterPoeng} required/>
           <div className="bonuspoeng tekstinput">
             <label htmlFor="epost">Bonuspoeng for godt samarbeid?</label>
-            <input type="checkbox" name="bonus" value="Bonus"/>
+            <input type="checkbox" name="bonus" value="Bonus" onChange={() => this.setState({bonusValg: !this.state.bonusValg})}/>
           </div>
+          <VisibleIf isVisible={!isEmpty(this.state.feilmelding)}>
+            <div className="feilmelding">{this.state.feilmelding}</div>
+          </VisibleIf>
           <button className="pure-button button-large meld-pa" type="submit" onClick={(event) => this.giPoeng(event)}>Registrer poeng</button>
         </fieldset>
       </div>
