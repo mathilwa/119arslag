@@ -49,7 +49,7 @@ const Post = React.createClass({
             <Informasjon informasjon={post.informasjon}/>
             <PoengInfo poenginfo={post.poeng}/>
             <h3 className="information-head">Gi poeng</h3>
-            <GiPoeng post={post}/>
+            <GiPoeng post={post} lagSomAlleredeHarFattPoeng={this.state.poengoversiktForPost}/>
             <VisibleIf isVisible={!isEmpty(this.state.poengoversiktForPost)}>
               <LagSomHarFattPoeng poengoversiktForPost={this.state.poengoversiktForPost} poengLabel={post.poengPlaceholder}/>
             </VisibleIf>

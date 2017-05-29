@@ -6,6 +6,7 @@ import VisibleIf from './../../VisibleIf.jsx';
 const Post = React.createClass({
   propTypes: {
     post: React.PropTypes.object.isRequired,
+    lagSomAlleredeHarFattPoeng: React.PropTypes.array.isRequired,
   },
   getInitialState () {
     return {
@@ -47,7 +48,7 @@ const Post = React.createClass({
     return (
       <div className="pure-form pure-form-stacked">
         <fieldset>
-          <VelgLag velgLag={this.velgLag}/>
+          <VelgLag velgLag={this.velgLag} lagSomAlleredeHarFattPoeng={this.props.lagSomAlleredeHarFattPoeng}/>
           <label htmlFor="navn">{post.poenglabel}</label>
           <input className="tekstinput" type="text" id="navn" placeholder={post.poengPlaceholder} value={this.state.antallPoeng} onChange={this.oppdaterPoeng} required/>
           <div className="bonuspoeng tekstinput">
