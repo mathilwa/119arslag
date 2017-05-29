@@ -4,8 +4,8 @@ import { Table } from 'reactable';
 const LagSomHarFattPoeng = ({poengoversiktForPost, poengLabel}) => {
   const kolonner = [
     {key: 'lag', label: 'Lag'},
-    {key: 'poeng', label: poengLabel},
-    {key: 'bonus', label: 'Bonus?'},
+    {key: 'antallPoeng', label: poengLabel},
+    {key: 'bonusValg', label: 'Bonus?'},
   ];
   return (
     <div>

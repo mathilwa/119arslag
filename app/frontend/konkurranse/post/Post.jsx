@@ -30,13 +30,19 @@ const Post = React.createClass({
       if (poengobjekt.post === this.props.params.id) {
         const poengbjektForVisning = {
           lag: poengobjekt.lag,
-          poeng: poengobjekt.antallPoeng,
+          antallPoeng: poengobjekt.antallPoeng,
           post: poengobjekt.post,
+          bonusValg: poengobjekt.bonusValg,
         };
         poengoversiktVisning.push(poengbjektForVisning);
       }
     });
     this.setState({poengoversiktForPost: poengoversiktVisning});
+  },
+  oppdaterPoengoversikt (poengobjekt) {
+    const poengoversikt = this.state.poengoversiktForPost;
+    poengoversikt.push(poengobjekt);
+    this.setState({poengoversiktForPost: poengoversikt});
   },
   render () {
     const nummerPaPost = this.props.params.id;
@@ -49,7 +55,7 @@ const Post = React.createClass({
             <Informasjon informasjon={post.informasjon}/>
             <PoengInfo poenginfo={post.poeng}/>
             <h3 className="information-head">Gi poeng</h3>
-            <GiPoeng post={post} lagSomAlleredeHarFattPoeng={this.state.poengoversiktForPost}/>
+            <GiPoeng post={post} oppdaterPoengoversikt={this.oppdaterPoengoversikt} lagSomAlleredeHarFattPoeng={this.state.poengoversiktForPost}/>
             <VisibleIf isVisible={!isEmpty(this.state.poengoversiktForPost)}>
               <LagSomHarFattPoeng poengoversiktForPost={this.state.poengoversiktForPost} poengLabel={post.poengPlaceholder}/>
             </VisibleIf>
