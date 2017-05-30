@@ -2,6 +2,7 @@ import React from 'react';
 import { isEmpty } from 'lodash';
 import VelgLag from './VelgLag.jsx';
 import { POENGTYPE_TID, POENGTYPE_POENG } from './../postene.js';
+import { mapPoeng } from './../poengMapping.js';
 import VisibleIf from './../../VisibleIf.jsx';
 
 const Post = React.createClass({
@@ -51,7 +52,8 @@ const Post = React.createClass({
   },
   giPoeng (event) {
     event.preventDefault();
-    const poeng = this.props.post.poengtype === POENGTYPE_POENG ? this.state.antallPoeng : this.kalkulerPoengFraMinutterOgSekunder();
+    const poengtypeErPoeng = this.props.post.poengtype === POENGTYPE_POENG;
+    const poeng = poengtypeErPoeng ? this.state.antallPoeng : this.kalkulerPoengFraMinutterOgSekunder();
     if (!isEmpty(poeng) && !isEmpty(this.state.valgtLag)) {
       const headers = new Headers();
       headers.append('Content-Type', 'application/json');
@@ -74,7 +76,8 @@ const Post = React.createClass({
         antallMinutter: null,
         valgtLag: '',
         suksessmelding: `${this.props.post.poengtype} ble registrert for Lag ${valgtLag}!`});
-      this.props.oppdaterPoengoversikt(poengObjekt);
+      const poengObjektForUmiddelbarVisning = Object.assign({}, poengObjekt, { antallPoeng: poengtypeErPoeng ? poeng : mapPoeng(poeng)})
+      this.props.oppdaterPoengoversikt(poengObjektForUmiddelbarVisning);
     } else {
       this.setState({feilmelding: `${this.props.post.poengtype} må fylles ut`});
     }

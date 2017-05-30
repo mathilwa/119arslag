@@ -1,23 +1,12 @@
 import React from 'react';
-import { forIn, isEmpty, isUndefined } from 'lodash';
-import { postene, POENGTYPE_TID } from '../postene.js';
+import { forIn, isEmpty } from 'lodash';
+import { postene } from '../postene.js';
+import { mapPoeng } from '../poengMapping.js';
 import GiPoeng from './GiPoeng.jsx';
 import Informasjon from './Informasjon.jsx';
 import PoengInfo from './PoengInfo.jsx';
 import LagSomHarFattPoeng from './LagSomHarFattPoeng.jsx';
 import VisibleIf from '../../VisibleIf.jsx';
-
-const mapPoeng = (nummerPaPost, antallPoeng) => {
-  const post = postene.find(post => post.nummer === nummerPaPost);
-  if (isUndefined(antallPoeng)) {
-    return '';
-  } else if (post.poengtype === POENGTYPE_TID) {
-    const antallMinutter = Math.floor(antallPoeng / 60);
-    const antallSekunder = antallPoeng - (antallMinutter * 60);
-    return `${antallSekunder} min ${antallSekunder} sek`;
-  }
-  return antallPoeng.toString();
-};
 
 const Post = React.createClass({
   getInitialState () {
