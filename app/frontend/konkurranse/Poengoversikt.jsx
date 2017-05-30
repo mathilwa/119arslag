@@ -54,11 +54,11 @@ const Poengoversikt = React.createClass({
   },
   render () {
     return (
-        <div className="information pure-g information-container">
+        <div className="information pure-g information-container poengoversikt">
           <div className="pure-u-1">
             <div className="l-box">
               <h1 className="information-head">Poengoversikt</h1>
-              <h3 className="information-head">Team Torunn vs. Team Trond</h3>
+              <h3 className="information-head">Team <span className="torunn">Torunn</span> vs. Team <span className="trond">Trond</span></h3>
               <TorunnVsTrond poengoversiktPerLag={this.state.poengoversiktPerLag}/>
               <h3 className="information-head">Lagoversikt</h3>
               <ul>{this.skrivUtListe()}</ul>
