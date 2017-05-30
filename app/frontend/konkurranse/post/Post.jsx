@@ -1,7 +1,7 @@
 import React from 'react';
 import { forIn, isEmpty } from 'lodash';
 import { postene } from '../postene.js';
-import { mapPoeng } from '../poengMapping.js';
+import { angiPlasseringForLag } from '../sorteringAvLag.js';
 import GiPoeng from './GiPoeng.jsx';
 import Informasjon from './Informasjon.jsx';
 import PoengInfo from './PoengInfo.jsx';
@@ -27,23 +27,40 @@ const Post = React.createClass({
   },
   byggPoengoversiktForPost (poengoversikt) {
     const poengoversiktVisning = [];
-    forIn(poengoversikt, poengobjekt => {
+    forIn(poengoversikt, (poengobjekt, key) => {
       if (poengobjekt.post === this.props.params.id) {
         const poengbjektForVisning = {
+          id: key,
           lag: poengobjekt.lag,
-          antallPoeng: mapPoeng(this.props.params.id, poengobjekt.antallPoeng),
+          antallPoeng: poengobjekt.antallPoeng ? parseInt(poengobjekt.antallPoeng) : null,
           post: poengobjekt.post,
           bonusValg: poengobjekt.bonusValg,
+          plassering: poengobjekt.plassering,
         };
         poengoversiktVisning.push(poengbjektForVisning);
       }
     });
     this.setState({poengoversiktForPost: poengoversiktVisning});
   },
+  oppdaterLag (lag) {
+    const headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+
+    fetch(`https://torunnogtrond.firebaseio.com/konkurranse/${lag.id}.json`, {
+      method: 'put',
+      headers: headers,
+      body: JSON.stringify(lag),
+    });
+  },
+  oppdaterPlasseringForLag () {
+    const oppdatertListe = angiPlasseringForLag(this.state.poengoversiktForPost);
+    oppdatertListe.forEach(lag => this.oppdaterLag(lag));
+  },
   oppdaterPoengoversikt (poengobjekt) {
     const poengoversikt = this.state.poengoversiktForPost;
     poengoversikt.push(poengobjekt);
-    this.setState({poengoversiktForPost: poengoversikt});
+    this.setState({poengoversiktForPost: angiPlasseringForLag(poengoversikt)});
+    this.oppdaterPlasseringForLag();
   },
   render () {
     const nummerPaPost = this.props.params.id;
@@ -56,7 +73,7 @@ const Post = React.createClass({
             <Informasjon informasjon={post.informasjon}/>
             <PoengInfo poenginfo={post.poeng}/>
             <h3 className="information-head">Gi poeng</h3>
-            <GiPoeng post={post} oppdaterPoengoversikt={this.oppdaterPoengoversikt} lagSomAlleredeHarFattPoeng={this.state.poengoversiktForPost}/>
+            <GiPoeng post={post} oppdaterPoengoversikt={this.oppdaterPoengoversikt} oppdaterPlasseringForLag={this.oppdaterPlasseringForLag} lagSomAlleredeHarFattPoeng={this.state.poengoversiktForPost}/>
             <VisibleIf isVisible={!isEmpty(this.state.poengoversiktForPost)}>
               <LagSomHarFattPoeng poengoversiktForPost={this.state.poengoversiktForPost} poengLabel={post.poengPlaceholder}/>
             </VisibleIf>
