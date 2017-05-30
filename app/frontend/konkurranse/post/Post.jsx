@@ -1,6 +1,6 @@
 import React from 'react';
 import { forIn, isEmpty } from 'lodash';
-import { postene } from '../postene.js';
+import { finnPost } from '../postene.js';
 import { angiPlasseringForLag } from '../sorteringAvLag.js';
 import GiPoeng from './GiPoeng.jsx';
 import Informasjon from './Informasjon.jsx';
@@ -43,6 +43,7 @@ const Post = React.createClass({
     this.setState({poengoversiktForPost: poengoversiktVisning});
   },
   oppdaterLag (lag) {
+    console.log('lag', lag);
     const headers = new Headers();
     headers.append('Content-Type', 'application/json');
 
@@ -52,19 +53,19 @@ const Post = React.createClass({
       body: JSON.stringify(lag),
     });
   },
-  oppdaterPlasseringForLag () {
-    const oppdatertListe = angiPlasseringForLag(this.state.poengoversiktForPost);
+  oppdaterPlasseringForLag (oppdatertListe) {
     oppdatertListe.forEach(lag => this.oppdaterLag(lag));
   },
   oppdaterPoengoversikt (poengobjekt) {
     const poengoversikt = this.state.poengoversiktForPost;
     poengoversikt.push(poengobjekt);
-    this.setState({poengoversiktForPost: angiPlasseringForLag(poengoversikt)});
-    this.oppdaterPlasseringForLag();
+    const oppdatertListe = angiPlasseringForLag(poengoversikt, this.props.params.id);
+    this.setState({poengoversiktForPost: oppdatertListe});
+    this.oppdaterPlasseringForLag(oppdatertListe);
   },
   render () {
     const nummerPaPost = this.props.params.id;
-    const post = postene.find(post => post.nummer === nummerPaPost);
+    const post = finnPost(nummerPaPost);
     return (
       <div className="information pure-g information-container">
         <div className="pure-u-1">
@@ -75,7 +76,7 @@ const Post = React.createClass({
             <h3 className="information-head">Gi poeng</h3>
             <GiPoeng post={post} oppdaterPoengoversikt={this.oppdaterPoengoversikt} oppdaterPlasseringForLag={this.oppdaterPlasseringForLag} lagSomAlleredeHarFattPoeng={this.state.poengoversiktForPost}/>
             <VisibleIf isVisible={!isEmpty(this.state.poengoversiktForPost)}>
-              <LagSomHarFattPoeng poengoversiktForPost={this.state.poengoversiktForPost} poengLabel={post.poengPlaceholder}/>
+              <LagSomHarFattPoeng poengoversiktForPost={this.state.poengoversiktForPost} poengLabel={post.poenglabel}/>
             </VisibleIf>
           </div>
         </div>

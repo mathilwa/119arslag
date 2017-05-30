@@ -108,3 +108,5 @@ export const postene = [
     hvor: '',
   },
 ];
+
+export const finnPost = (nummerPaPost) => postene.find(post => post.nummer === nummerPaPost);

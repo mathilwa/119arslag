@@ -10,9 +10,8 @@ const LagSomHarFattPoeng = ({poengoversiktForPost, poengLabel}) => {
     {key: 'antallPoeng', label: poengLabel},
     {key: 'bonusValg', label: 'Bonus?'},
   ];
-
   const poengoversiktMedPoengmapping = poengoversiktForPost.map(oversikt => {
-    return Object.assign({}, oversikt, {antallPoeng: mapPoeng(oversikt.post, oversikt.antallPoeng) });
+    return Object.assign({}, oversikt, {antallPoeng: mapPoeng(oversikt.post, oversikt.antallPoeng), bonusValg: oversikt.bonusValg ? 'Ja' : '-'});
   });
 
   const sortertPaPoeng = sortBy(poengoversiktMedPoengmapping, 'plassering');

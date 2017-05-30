@@ -35,3 +35,5 @@ export const lagene = [
     tilhorer: JUBILANT_TORUNN,
   },
 ];
+
+export const finnLag = (nummerPaLag) => lagene.find(lag => lag.nummer === nummerPaLag);

@@ -67,15 +67,19 @@ const Post = React.createClass({
         method: 'post',
         headers: headers,
         body: JSON.stringify(poengObjekt),
+      })
+      .then(response => response.json())
+      .then(key => {
+        const valgtLag = this.state.valgtLag;
+        this.setState({
+          antallPoeng: null,
+          antallSekunder: null,
+          antallMinutter: null,
+          valgtLag: '',
+          suksessmelding: `${this.props.post.poengtype} ble registrert for Lag ${valgtLag}!`,
+        });
+        this.props.oppdaterPoengoversikt(Object.assign({}, poengObjekt, {id: key.name}));
       });
-      const valgtLag = this.state.valgtLag;
-      this.setState({
-        antallPoeng: null,
-        antallSekunder: null,
-        antallMinutter: null,
-        valgtLag: '',
-        suksessmelding: `${this.props.post.poengtype} ble registrert for Lag ${valgtLag}!`});
-      this.props.oppdaterPoengoversikt(poengObjekt);
     } else {
       this.setState({feilmelding: `${this.props.post.poengtype} må fylles ut`});
     }

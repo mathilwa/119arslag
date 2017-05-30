@@ -8,7 +8,7 @@ export const mapPoeng = (nummerPaPost, antallPoeng) => {
   } else if (post.poengtype === POENGTYPE_TID) {
     const antallMinutter = Math.floor(antallPoeng / 60);
     const antallSekunder = antallPoeng - (antallMinutter * 60);
-    return `${antallSekunder} min ${antallSekunder} sek`;
+    return `${antallMinutter} min ${antallSekunder} sek`;
   }
   return antallPoeng.toString();
 };
