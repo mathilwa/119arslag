@@ -3,6 +3,7 @@ import { forIn, groupBy, orderBy } from 'lodash';
 import { lagene } from './lagene.js';
 import TorunnVsTrond from './TorunnVsTrond.jsx';
 
+const ANTALL_MULIGE_PLASSER = 9;
 
 const Poengoversikt = React.createClass({
   getInitialState () {
@@ -11,6 +12,13 @@ const Poengoversikt = React.createClass({
     };
   },
   componentDidMount () {
+    this.hentData();
+    this.startIntervall();
+  },
+  startIntervall () {
+    setInterval(() => this.hentData(), 60000);
+  },
+  hentData () {
     fetch('https://torunnogtrond.firebaseio.com/konkurranse.json').then(response => {
       if (response.ok) {
         response.json().then(poengoversikt => {
@@ -26,7 +34,7 @@ const Poengoversikt = React.createClass({
     const poengoversiktSomListe = [];
     forIn(grupperingPaLag, (lag, key) => {
       const plassering = [];
-      forIn(lag, deltakelse => plassering.push(deltakelse.plassering));
+      forIn(lag, deltakelse => plassering.push(ANTALL_MULIGE_PLASSER - deltakelse.plassering));
       const sum = plassering.reduce((acc, value) => {
         return acc + value;
       }, 0);

@@ -5,7 +5,6 @@ import { finnLag } from './lagene.js';
 import { isEmpty } from 'lodash';
 
 const hentPoengFor = (jubilant, poengoversiktPerLag) => {
-  console.log(poengoversiktPerLag);
   const sum = poengoversiktPerLag.reduce((acc, lagOversikt) => {
     const lag = finnLag(lagOversikt.nummer);
     if (lag.tilhorer === jubilant) {
@@ -13,8 +12,6 @@ const hentPoengFor = (jubilant, poengoversiktPerLag) => {
     }
     return acc;
   }, 0);
-
-  console.log(sum);
   return sum;
 };
 

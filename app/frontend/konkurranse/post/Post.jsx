@@ -43,7 +43,6 @@ const Post = React.createClass({
     this.setState({poengoversiktForPost: poengoversiktVisning});
   },
   oppdaterLag (lag) {
-    console.log('lag', lag);
     const headers = new Headers();
     headers.append('Content-Type', 'application/json');
 
