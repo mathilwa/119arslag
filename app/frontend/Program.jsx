@@ -15,8 +15,8 @@ const Program = () => {
               Plan for dagen:
               <ul>
                 <li>kl 14:00 - Oppmøte på Gamlehorten Gjestegård</li>
-                <li>kl 15:00 - Vi har leker og konkurranser for å bli bedre kjent, og for å finne den sterkeste og smarteste jubilanten</li>
-                <li>kl 15:00-16:00 - Enkel servering i løpet av konkurransen. Frukt, noe som fyller magen litt og diverse drikke</li>
+                <li>kl 14:30 - Vi har leker og konkurranser for å bli bedre kjent, og for å finne den sterkeste og smarteste jubilanten</li>
+                <li>kl 14:30-16:00 - Enkel servering i løpet av konkurransen. Frukt, noe som fyller magen litt og diverse drikke</li>
                 <li>kl 17:00 - Kåring av vinnerlag og den seirende jubilanten</li>
                 <li>kl 17:30-19:00 - Tid til å skifte, slappe av og snakke</li>
                 <li>kl 19:00 - Vi setter oss til bords</li>
@@ -25,6 +25,15 @@ const Program = () => {
               Middagen vil være en treretters med tilhørende drikke. Her tar vi den tiden vi trenger. Etter middagen blir det kaffe/avec, kaker, og muligens litt mer på programmet.
               Når det gjelder drikke er det ikke mulig å ta med medbrakt, men jubilantene stiller med drikke til maten og to drikkebonger til hver. Utover dette kan man selv
               kjøpe det man ønsker i baren.
+
+            </div>
+
+            <div className="overnatting-info gamlehorten-overnatting-info">
+              Søndagen:
+              <ul>
+                <li>kl 10:00-11:00 - Felles (gratis) frokost på Gamlehorten Gjestegård, for de som ønsker dette </li>
+                <li>kl 11:00-utover - Torunn inviterer de som vil til videre selskap, sosialisering og kakespising hjemme i Horten </li>
+              </ul>
 
             </div>
             <p>
