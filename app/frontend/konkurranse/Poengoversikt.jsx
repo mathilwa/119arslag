@@ -57,7 +57,7 @@ const Poengoversikt = React.createClass({
     const sortertListe = orderBy(poengoversiktListe, 'plassering', 'desc');
     return sortertListe.map((lagOversikt, key) => {
       const lagObjekt = lagene.find(lag => lag.nummer === lagOversikt.nummer);
-      return <li key={key}>Lag {lagOversikt.nummer} - {lagObjekt.navn} - {lagOversikt.plassering}</li>;
+      return <li key={key}>Lag {lagObjekt.navn} - {lagOversikt.plassering} poeng</li>;
     });
   },
   render () {
