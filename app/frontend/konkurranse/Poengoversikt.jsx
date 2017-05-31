@@ -1,5 +1,6 @@
 import React from 'react';
 import { forIn, groupBy, orderBy } from 'lodash';
+import { Table } from 'reactable';
 import { lagene } from './lagene.js';
 import TorunnVsTrond from './TorunnVsTrond.jsx';
 
@@ -57,18 +58,30 @@ const Poengoversikt = React.createClass({
     const sortertListe = orderBy(poengoversiktListe, 'plassering', 'desc');
     return sortertListe.map((lagOversikt, key) => {
       const lagObjekt = lagene.find(lag => lag.nummer === lagOversikt.nummer);
-      return <li key={key}>Lag {lagObjekt.navn} - {lagOversikt.plassering} poeng</li>;
+      return {
+        plassering: key + 1,
+        lag: `Lag ${lagObjekt.navn}`,
+        antallPoeng: `${lagOversikt.plassering} poeng`,
+      };
     });
   },
   render () {
+    const kolonner = [
+      {key: 'plassering', label: 'Plassering'},
+      {key: 'lag', label: 'Lag'},
+      {key: 'antallPoeng', label: 'Poeng'},
+    ];
+
     return (
         <div className="information pure-g information-container poengoversikt">
           <div className="pure-u-1">
             <div className="l-box">
-              <h1 className="information-head">Poengoversikt</h1>
-              <h3 className="information-head">Team <span className="torunn">Torunn</span> vs. Team <span className="trond">Trond</span></h3>
+              <h3 className="information-head tittel">Poengoversikt</h3>
+              <p className="oversikt-info">På denne siden får dere hele tiden ferske oppdateringer på hvordan de forskjellige lagene gjør det i løpet av konkurransen</p>
+              <h3 className="information-head team-h3">Team <span className="torunn">Torunn</span> vs. Team <span className="trond">Trond</span></h3>
               <TorunnVsTrond poengoversiktPerLag={this.state.poengoversiktPerLag}/>
               <h3 className="information-head">Lagoversikt</h3>
+              <Table className="pameldte" columns={kolonner} data={this.skrivUtListe()}/>
               <ul>{this.skrivUtListe()}</ul>
             </div>
           </div>
