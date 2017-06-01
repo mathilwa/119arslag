@@ -5,7 +5,7 @@ export const postene = [
   {
     nummer: '1',
     tittel: 'Midt i blinken',
-    informasjon: 'Her skal lagene skyte med pil og bue. Hvert lag får skyte 6 piler/ganger, slik at alle på laget får skutt en gang hver.',
+    informasjon: 'Her skal lagene skyte med pil og bue (hvis fint vær, dart hvis dårlig vær). Hvert lag får skyte 6 piler/ganger, slik at alle på laget får skutt en gang hver.',
     poeng: 'Poeng skal registreres umiddelbart etter at laget er ferdig. Det som skal registreres på denne posten er total poengsum på de pilene som treffer blink. Om pilene må gjenbrukes må du summere opp underveis. ' +
     'Om du synes laget samarbeider spesielt godt, ved at de har god tone, mye engasjement, eller bare at alle blir inkludert, så kan du velge å huke av ' +
     'for ekstrapoeng. Når du gir poeng velger du hvilket lag du skal registrere for, fyller inn antall poeng laget klarte, og eventuelt huker av ' +
@@ -84,7 +84,7 @@ export const postene = [
     nummer: '7',
     tittel: 'Ordbonanza',
     informasjon: 'På denne posten skal laget sette sammen bokstaver og lage så mange ord som mulig. Bokstavene som brukes er disse i denne setningen \"Jubilantene. Torunn og Trond\". ' +
-    'Bokstavene skal ligge klart slik at de former denne setningen før hvert lag kommer til posten. Om et lag nærmer seg før du er klar så be dem om å vente. Ordene må være på tre bokstaver ' +
+    'Bokstavene skal ligge klart slik at de former denne setningen før hvert lag kommer til posten. Om et lag nærmer seg før du er klar så be dem om å vente. Ordene må være på fire bokstaver ' +
     'eller flere, og de må finnes i bokmålsordboka. Laget får 6 minutter til å sette sammen ordene.',
     poeng: 'Poeng skal registreres umiddelbart etter at laget er ferdig. Poeng gis etter hvor mange ord man klarer. 10 godkjente ord gir 10 poeng. Om du synes laget samarbeider spesielt godt, ved at de har god tone, mye engasjement, eller bare at' +
     'alle blir inkludert, så kan du velge å huke av for ekstrapoeng. Når du gir poeng velger du hvilket lag du skal registrere for, fyller inn antall ord laget klarte, og eventuelt huker av ' +
@@ -95,10 +95,8 @@ export const postene = [
     hvor: 'Blabla',
   }, {
     nummer: '8',
-    tittel: 'Klarer du gåten?',
-    informasjon: 'På denne posten skal lagene gjennom en serie med små gåter for å til slutt åpne en boks med en ringeklokke oppi. Du starter tiden og stopper den når laget plinger på ' +
-    'ringeklokka. Du skal få presentert gåtene på forhånd, og du har også mulighet til å gi hint underveis. Lagene har mulighet til å få 4 hint, men det kan minimum 2 minutter mellom hvert ' +
-    'hint. Et hint vil gi en tilleggstid på 30 sekunder. Laget får maks 12 minutter på oppgaven.',
+    tittel: 'Føler du spenningen?',
+    informasjon: 'På denne posten skal lagene få bryne seg på et elektrisk puslespill. Hensikten her er å plasser "ledningsbitene" på brettet, hvor alle hull og koblingsbiter skal brukes. Når alle er plassert rett skal lampen lyse.',
     poeng: 'Poeng skal registreres umiddelbart etter at laget er ferdig. Det som skal registeres av poeng på denne posten er totalt tid brukt på posten, pluss eventuell straffetid. Om du synes laget samarbeider spesielt godt, ved at de har god tone, mye engasjement, eller bare at' +
     'alle blir inkludert, så kan du velge å huke av for ekstrapoeng. Når du gir poeng velger du hvilket lag du skal registrere for, fyller inn hvor lang tid laget brukte, og eventuelt huker av ' +
     'for godt teamarbeid.',
