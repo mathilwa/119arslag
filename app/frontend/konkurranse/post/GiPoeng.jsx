@@ -93,14 +93,14 @@ const Post = React.createClass({
           <VisibleIf isVisible={post.poengtype === POENGTYPE_POENG}>
             <span>
               <label htmlFor="navn">{post.poenglabel}</label>
-              <input className="tekstinput" type="number" id="navn" placeholder={post.poengPlaceholder} value={this.state.antallPoeng} onChange={(event) => this.oppdaterPoeng(event)} required/>
+              <input className="tekstinput" type="number" id="navn" placeholder={post.poengPlaceholder} value={this.state.antallPoeng === null ? '' : this.state.antallPoeng} onChange={(event) => this.oppdaterPoeng(event)} required/>
             </span>
           </VisibleIf>
           <VisibleIf isVisible={post.poengtype === POENGTYPE_TID}>
             <span>
               <label htmlFor="minutter">{post.poenglabel}</label>
-              <input className="tekstinput tidsinput" type="number" id="minutter" placeholder="Minutter" value={this.state.antallMinutter} onChange={(event) => this.oppdaterMinutter(event)} required/>
-              <input className="tekstinput tidsinput" type="number" id="sekunder" placeholder="Sekunder" value={this.state.antallSekunder} onChange={(event) => this.oppdaterSekunder(event)} required/>
+              <input className="tekstinput tidsinput" type="number" id="minutter" placeholder="Minutter" value={this.state.antallMinutter === null ? '' : this.state.antallMinutter} onChange={(event) => this.oppdaterMinutter(event)} required/>
+              <input className="tekstinput tidsinput" type="number" id="sekunder" placeholder="Sekunder" value={this.state.antallSekunder === null ? '' : this.state.antallSekunder} onChange={(event) => this.oppdaterSekunder(event)} required/>
             </span>
           </VisibleIf>
           <div className="bonuspoeng tekstinput">
