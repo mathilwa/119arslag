@@ -36,6 +36,26 @@ p {
   margin-bottom: 1em;
 }
 
+.post-nedtrekksliste.skjerm {
+  display: none;
+}
+
+.post-nedtrekksliste.mobil {
+  display: block;
+}
+
+.team-h3.mobil {
+  display: block;
+}
+
+.team-h3.skjerm {
+  display: none;
+}
+
+.pameldte.postoversikt-skjerm {
+  display: none;
+}
+
 .pure-form .bonuspoeng label {
   display: inline-block;
   margin-right: 1em;
@@ -68,6 +88,10 @@ p {
 
 .poengoversikt .tittel {
   font-size: 2em;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .torunn-vs-trond {
@@ -741,6 +765,38 @@ img {
     width: 80%;
     align-content: center;
   }
+
+  .post-nedtrekksliste.mobil {
+    display: none;
+  }
+
+  .post-nedtrekksliste.skjerm {
+    display: block;
+  }
+
+  .team-h3.mobil {
+    display: none;
+  }
+
+  .team-h3.skjerm {
+    display: block;
+  }
+}
+
+@media (min-width: 608px) {
+  .pameldte.postoversikt-skjerm {
+    display: block;
+  }
+
+  .pameldte.postoversikt-mobil {
+    display: none;
+  }
+}
+
+@media (max-width: 535px) {
+  .torunn-vs-trond {
+    width: 88%;
+  }
 }
 
 @media (min-width: 800px) {
@@ -757,9 +813,9 @@ img {
   }
 }
 
-@media (max-width: 535px) {
-  .ga-til-pamelding {
-    font-size: 3.5em;
+@media (max-width: 410px) {
+  .ga-til-pamelding-table {
+    font-size: 0.75em;
   }
 }
 

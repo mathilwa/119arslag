@@ -35,6 +35,5 @@ export const angiPlasseringForLag = (alleRegistrerteLag, nummerPaPost) => {
 
   const sorteringstype = post.poengtype === POENGTYPE_TID ? 'asc' : 'desc';
   const lagSortertEtterPoeng = orderBy(poenglisteMedPoengInkludertBonus, 'poengMedBonus', sorteringstype);
-  console.log(oppdaterListeMedLagplassering(lagSortertEtterPoeng));
   return oppdaterListeMedLagplassering(lagSortertEtterPoeng);
 };

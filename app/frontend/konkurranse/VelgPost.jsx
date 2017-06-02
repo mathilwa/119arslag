@@ -14,6 +14,10 @@ const VelgPost = React.createClass({
     const sortertListe = sortBy(postene, 'nummer');
     return sortertListe.map((post, index) => <option key={index} value={post.nummer}>Post {post.nummer} - {post.tittel}</option>);
   },
+  skrivUtOptionsForMobil () {
+    const sortertListe = sortBy(postene, 'nummer');
+    return sortertListe.map((post, index) => <option key={index} value={post.nummer}>Post {post.nummer}</option>);
+  },
   render () {
     return (
       <div className="information pure-g information-container">
@@ -26,9 +30,13 @@ const VelgPost = React.createClass({
             </p>
             <h3 className="information-head">Velg post</h3>
             <form>
-              <select className="post-nedtrekksliste input-select" id="post" name="post" onChange={(event) => this.setState({valgtPost: event.target.value})}>
+              <select className="post-nedtrekksliste skjerm input-select" id="post" name="post" onChange={(event) => this.setState({valgtPost: event.target.value})}>
                 <option value="">Velg post</option>
                 {this.skrivUtOptions()}
+              </select>
+              <select className="post-nedtrekksliste mobil input-select" id="post" name="post" onChange={(event) => this.setState({valgtPost: event.target.value})}>
+                <option value="">Velg post</option>
+                {this.skrivUtOptionsForMobil()}
               </select>
               <VisibleIf isVisible={!isEmpty(this.state.valgtPost)}>
                 <div>
