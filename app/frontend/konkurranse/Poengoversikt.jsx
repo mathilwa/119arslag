@@ -1,9 +1,8 @@
 import React from 'react';
 import { forIn, groupBy, orderBy } from 'lodash';
 import { Table } from 'reactable';
-import { lagene } from './lagene.js';
+import { finnLag } from './lagene.js';
 import TorunnVsTrond from './TorunnVsTrond.jsx';
-import createFragment from 'react-addons-create-fragment';
 
 const ANTALL_MULIGE_PLASSER = 9;
 
@@ -54,16 +53,28 @@ const Poengoversikt = React.createClass({
     });
     this.setState({poengoversiktPerLag: this.byggOversiktEtterLagOgPoeng(poengoversiktVisning)});
   },
+  oppdaterListeMedPlassering (sortertListe) {
+    const oppdatertListeMedPlassering = [];
+    sortertListe.map((lagOversikt, index) => {
+      const lagObjekt = finnLag(lagOversikt.nummer);
+      if (index === 0) {
+        oppdatertListeMedPlassering.push(Object.assign({lag: `Lag ${lagObjekt.navn}`, plassering: 1}));
+        return;
+      }
+      const forrigePoeng = oppdatertListeMedPlassering[index - 1];
+
+      if (lagOversikt.plassering === forrigePoeng.plassering) {
+        oppdatertListeMedPlassering.push(Object.assign({lag: `Lag ${lagObjekt.navn}`, plassering: forrigePoeng.plassering}));
+      } else {
+        oppdatertListeMedPlassering.push(Object.assign({lag: `Lag ${lagObjekt.navn}`, plassering: index + 1}));
+      }
+    });
+    return oppdatertListeMedPlassering;
+  },
   skrivUtListe () {
     const poengoversiktListe = this.state.poengoversiktPerLag;
     const sortertListe = orderBy(poengoversiktListe, 'plassering', 'desc');
-    return sortertListe.map((lagOversikt, key) => {
-      const lagObjekt = lagene.find(lag => lag.nummer === lagOversikt.nummer);
-      return Object.assign({
-        plassering: key + 1,
-        lag: `Lag ${lagObjekt.navn}`,
-      });
-    });
+    return this.oppdaterListeMedPlassering(sortertListe);
   },
   render () {
     const kolonner = [
