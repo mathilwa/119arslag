@@ -9,6 +9,7 @@ const menyElementer = [
   { url: '/overnatting', menyElementTekst: 'Overnatting'},
   { url: '/jubilantene', menyElementTekst: 'Jubilantene'},
   { url: '/pamelding', menyElementTekst: 'Påmelding'},
+  { url: '/lag', menyElementTekst: 'Lagoversikt'},
 ];
 
 const Meny = React.createClass({

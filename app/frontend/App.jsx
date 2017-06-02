@@ -8,6 +8,7 @@ import Pameldte from './Pameldte.jsx';
 import Program from './Program.jsx';
 import Jubilantene from './jubilantene/JubilanteneHovedside.jsx';
 import Poengoversikt from './konkurranse/Poengoversikt.jsx';
+import Lagoversikt from './konkurranse/Lagoversikt.jsx';
 import Post from './konkurranse/post/Post.jsx';
 import Poster from './konkurranse/VelgPost.jsx';
 import 'babel-polyfill';
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/pameldte" component={Pameldte}/>
         <Route path="/jubilantene" component={Jubilantene}/>
         <Route path="/oversikt" component={Poengoversikt}/>
+        <Route path="/lag" component={Lagoversikt}/>
         <Route path="/poster" component={Poster}/>
         <Route path="/post/:id" component={Post}/>
       </Route>
