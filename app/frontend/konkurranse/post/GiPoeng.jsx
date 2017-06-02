@@ -4,7 +4,7 @@ import VelgLag from './VelgLag.jsx';
 import { POENGTYPE_TID, POENGTYPE_POENG } from './../postene.js';
 import VisibleIf from './../../VisibleIf.jsx';
 
-const Post = React.createClass({
+const GiPoeng = React.createClass({
   propTypes: {
     post: React.PropTypes.object.isRequired,
     lagSomAlleredeHarFattPoeng: React.PropTypes.array.isRequired,
@@ -52,7 +52,8 @@ const Post = React.createClass({
   giPoeng (event) {
     event.preventDefault();
     const poengtypeErPoeng = this.props.post.poengtype === POENGTYPE_POENG;
-    const poeng = poengtypeErPoeng ? this.state.antallPoeng : this.kalkulerPoengFraMinutterOgSekunder();
+    const antallPoeng = this.state.antallPoeng ? parseInt(this.state.antallPoeng) : null;
+    const poeng = poengtypeErPoeng ? antallPoeng : this.kalkulerPoengFraMinutterOgSekunder();
     if (!isNull(poeng) && !isEmpty(this.state.valgtLag)) {
       const headers = new Headers();
       headers.append('Content-Type', 'application/json');
@@ -76,6 +77,7 @@ const Post = React.createClass({
           antallSekunder: null,
           antallMinutter: null,
           valgtLag: '',
+          bonusValg: false,
           suksessmelding: `${this.props.post.poengtype} ble registrert for Lag ${valgtLag}!`,
         });
         this.props.oppdaterPoengoversikt(Object.assign({}, poengObjekt, {id: key.name}));
@@ -120,4 +122,4 @@ const Post = React.createClass({
   },
 });
 
-export default Post;
+export default GiPoeng;

@@ -1,19 +1,19 @@
-import { orderBy, clone } from 'lodash';
+import { orderBy } from 'lodash';
 import { POENGTYPE_TID, finnPost } from './postene.js';
 
 const oppdaterListeMedLagplassering = (laglisteMedPoeng) => {
-  const laglisteMedPlasseringer = clone(laglisteMedPoeng);
-  laglisteMedPlasseringer.forEach((lag, index) => {
+  const laglisteMedPlasseringer = [];
+  laglisteMedPoeng.forEach((lag, index) => {
     if (index === 0) {
-      laglisteMedPlasseringer[index] = Object.assign(lag, {plassering: 1});
+      laglisteMedPlasseringer.push(Object.assign(lag, {plassering: 1}));
       return;
     }
-    const forrigePoeng = laglisteMedPlasseringer[index - 1];
+    const forrigePoeng = laglisteMedPoeng[index - 1];
 
     if (lag.poengMedBonus === forrigePoeng.poengMedBonus) {
-      Object.assign(lag, {plassering: forrigePoeng.plassering});
+      laglisteMedPlasseringer.push(Object.assign(lag, {plassering: forrigePoeng.plassering}));
     } else {
-      Object.assign(lag, {plassering: index + 1});
+      laglisteMedPlasseringer.push(Object.assign(lag, {plassering: index + 1}));
     }
   });
   return laglisteMedPlasseringer;
