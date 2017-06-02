@@ -29,7 +29,7 @@ export const postene = [
   }, {
     nummer: '3',
     tittel: 'Hva er dette?',
-    informasjon: 'På denne posten blir laget presentert for diverse ord, sitater, bilder og musikk, hvor de skal gjengjenne hva dette er, eller hva det hører til. Laget får 10 minutter på ' +
+    informasjon: 'På denne posten blir laget presentert for lydklipp, sitater, uttrykk og bilder, hvor de skal gjenkjenne hva dette er, eller hva det hører til. Laget får 10 minutter på ' +
     'oppgaven.',
     poeng: 'Poeng skal registreres umiddelbart etter at laget er ferdig. Det som skal registeres av poeng på denne posten er hvor mange av spørsmålene laget klarer. Om du synes laget samarbeider spesielt godt, ved at de har god tone, mye engasjement, eller bare at' +
     'alle blir inkludert, så kan du velge å huke av for ekstrapoeng. Når du gir poeng velger du hvilket lag du skal registrere for, fyller inn antall poeng laget klarte, og eventuelt huker av ' +
@@ -96,7 +96,7 @@ export const postene = [
   }, {
     nummer: '8',
     tittel: 'Føler du spenningen?',
-    informasjon: 'På denne posten skal lagene få bryne seg på et elektrisk puslespill. Hensikten her er å plasser "ledningsbitene" på brettet, hvor alle hull og koblingsbiter skal brukes. Når alle er plassert rett skal lampen lyse.',
+    informasjon: 'På denne posten skal lagene få bryne seg på et elektrisk puslespill. Hensikten her er å plasser "ledningsbitene" på brettet, hvor alle hull og koblingsbiter skal brukes. Når alle er plassert rett skal lampen lyse. Laget får MAKS bruke 10 minutter.',
     poeng: 'Poeng skal registreres umiddelbart etter at laget er ferdig. Det som skal registeres av poeng på denne posten er totalt tid brukt på posten, pluss eventuell straffetid. Om du synes laget samarbeider spesielt godt, ved at de har god tone, mye engasjement, eller bare at' +
     'alle blir inkludert, så kan du velge å huke av for ekstrapoeng. Når du gir poeng velger du hvilket lag du skal registrere for, fyller inn hvor lang tid laget brukte, og eventuelt huker av ' +
     'for godt teamarbeid.',

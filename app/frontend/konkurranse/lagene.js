@@ -3,7 +3,7 @@ import { JUBILANT_TROND, JUBILANT_TORUNN } from './../jubilantene/informasjon.js
 export const lagene = [
   {
     nummer: '1',
-    navn: 'Blå',
+    navn: 'Mørkeblå',
     tilhorer: JUBILANT_TROND,
   }, {
     nummer: '2',
@@ -19,7 +19,7 @@ export const lagene = [
     tilhorer: JUBILANT_TORUNN,
   }, {
     nummer: '5',
-    navn: 'Svart',
+    navn: 'Burgunder',
     tilhorer: JUBILANT_TROND,
   }, {
     nummer: '6',
@@ -27,11 +27,11 @@ export const lagene = [
     tilhorer: JUBILANT_TORUNN,
   }, {
     nummer: '7',
-    navn: 'Hvit',
+    navn: 'Lyseblå',
     tilhorer: JUBILANT_TROND,
   }, {
     nummer: '8',
-    navn: 'Oransje',
+    navn: 'Lilla',
     tilhorer: JUBILANT_TORUNN,
   },
 ];

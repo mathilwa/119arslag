@@ -1,4 +1,11 @@
 import React from 'react';
+import { lagene } from './lagene.js';
+import { JUBILANT_TORUNN, JUBILANT_TROND } from './../jubilantene/informasjon.js';
+
+const skrivUtFargeForJubilant = (jubilant) => {
+  const lagForJubilant = lagene.filter(lag => lag.tilhorer === jubilant);
+  return lagForJubilant.map(lag => <span>{lag.navn}<br/></span>);
+};
 
 const Lagoversikt = () => {
   return (
@@ -72,17 +79,11 @@ const Lagoversikt = () => {
           </p>
           <p className="oversikt-info">
             <span className="torunn">Team Torunn</span><br/>
-            Rosa<br/>
-            Rød<br/>
-            Gul<br/>
-            Oransje<br/>
+            {skrivUtFargeForJubilant(JUBILANT_TORUNN)}
           </p>
           <p className="oversikt-info">
             <span className="trond">Team Trond</span><br/>
-            Blå<br/>
-            Grønn<br/>
-            Svart<br/>
-            Hvit<br/>
+            {skrivUtFargeForJubilant(JUBILANT_TROND)}
           </p>
         </div>
       </div>
