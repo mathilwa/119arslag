@@ -10,6 +10,7 @@ const menyElementer = [
   { url: '/jubilantene', menyElementTekst: 'Jubilantene'},
   { url: '/pamelding', menyElementTekst: 'Påmelding'},
   { url: '/lag', menyElementTekst: 'Lagoversikt'},
+  { url: '/oversikt', menyElementTekst: 'Poengoversikt'},
 ];
 
 const Meny = React.createClass({
